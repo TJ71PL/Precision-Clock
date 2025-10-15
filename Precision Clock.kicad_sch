@@ -13,6 +13,48 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 203.2 88.9)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1cc06101-8b2f-46d2-8ecc-e38dbfbe5cc0")
+		(property "Sheetname" "TCXO"
+			(at 203.2 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tcxo.kicad_sch"
+			(at 203.2 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 88.9 165.1)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
@@ -59,7 +101,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "10")
+					(page "11")
 				)
 			)
 		)
@@ -238,7 +280,49 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "8")
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 127)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d59ddc0-7f70-4428-aa76-da270ab2f125")
+		(property "Sheetname" "Flash"
+			(at 203.2 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flash.kicad_sch"
+			(at 203.2 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
+					(page "7")
 				)
 			)
 		)
@@ -320,14 +404,14 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 215.9 139.7)
-		(size 13.97 12.7)
+		(at 241.3 88.9)
+		(size 12.7 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -340,9 +424,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "8bd3e991-c290-4a90-b31e-2e7431829076")
+		(uuid "8ce44042-2af7-42d8-9728-8ac0b976522a")
 		(property "Sheetname" "Power"
-			(at 215.9 138.9884 0)
+			(at 241.3 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +435,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 215.9 152.9846 0)
+			(at 241.3 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +446,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "5")
+					(page "12")
 				)
 			)
 		)
@@ -547,6 +631,48 @@
 		)
 	)
 	(sheet
+		(at 152.4 127)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9aca4cc8-38de-4388-9e71-17c26876d83c")
+		(property "Sheetname" "Secondary MCU"
+			(at 152.4 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "secondary_mcu.kicad_sch"
+			(at 152.4 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 88.9 139.7)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
@@ -613,7 +739,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "4")
+					(page "9")
 				)
 			)
 		)
@@ -675,7 +801,49 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "9")
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 88.9)
+		(size 38.1 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0d8c9aa-9e46-4cf3-a690-ff272eec1168")
+		(property "Sheetname" "Primary MCU"
+			(at 152.4 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "primary_mcu.kicad_sch"
+			(at 152.4 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
+					(page "5")
 				)
 			)
 		)
@@ -884,7 +1052,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "9")
+					(page "4")
 				)
 			)
 		)
@@ -1063,7 +1231,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "7")
+					(page "2")
 				)
 			)
 		)

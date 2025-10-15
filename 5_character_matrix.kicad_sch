@@ -829,27 +829,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "precision_clock:LSHD-5503"
+		(symbol "precision_clock:SC10-21SURKWA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 10.922 19.304 0)
+				(at 0 21.844 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "LSHD-5503"
-				(at 7.112 17.272 0)
+			(property "Value" "SC10-21SURKWA"
+				(at 0 19.812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "precision_clock:SC10-21SURKWA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -858,7 +858,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1027/LSHD-5503.pdf"
+			(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/SC10-21SURKWA.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -867,7 +867,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DISPLAY 7SEG 0.56\" SGL RED 10DIP"
+			(property "Description" "25.4 mm (1.0 inch) Single Digit Numeric Display"
 				(at 0 0 0)
 				(effects
 					(font
@@ -885,7 +885,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LSHD-5503_0_1"
+			(symbol "SC10-21SURKWA_0_1"
 				(polyline
 					(pts
 						(xy -7.62 -8.89) (xy -6.35 -7.62)
@@ -1138,7 +1138,7 @@
 					)
 				)
 			)
-			(symbol "LSHD-5503_1_1"
+			(symbol "SC10-21SURKWA_1_1"
 				(rectangle
 					(start -12.7 15.9543)
 					(end 12.7 -15.9544)
@@ -1335,6 +1335,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "KingBright forwards voltage is above the 3.3V drive voltage of the buffers\ntake a look at this buffer chip MC74VHC541"
+		(exclude_from_sim no)
+		(at 125.73 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "555a736f-c1ae-461f-befb-7e17ab2d6d7c")
+	)
 	(junction
 		(at 191.77 152.4)
 		(diameter 0)
@@ -1352,12 +1363,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cd1e109-6dd1-42ad-a788-772f9f11347f")
-	)
-	(junction
-		(at 78.74 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33fc8bc7-784d-46e2-9283-1420ed9fb2d5")
 	)
 	(junction
 		(at 209.55 134.62)
@@ -1430,12 +1435,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca2f6040-fc95-4a3f-857c-0a223c9b3c95")
-	)
-	(junction
-		(at 180.34 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9e1bd9f-e98e-490a-8ad7-fe91e959a1a0")
 	)
 	(junction
 		(at 90.17 152.4)
@@ -2528,16 +2527,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 92.71) (xy 67.31 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4888cfad-802c-4edd-ba76-a67599742848")
-	)
-	(wire
-		(pts
 			(xy 110.49 121.92) (xy 110.49 114.3)
 		)
 		(stroke
@@ -2838,16 +2827,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 92.71) (xy 78.74 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "642fc49e-7b80-4c6e-b74f-7a5a13aa674d")
-	)
-	(wire
-		(pts
 			(xy 175.26 134.62) (xy 175.26 132.08)
 		)
 		(stroke
@@ -2895,16 +2874,6 @@
 			(type default)
 		)
 		(uuid "66765427-a7a6-404e-ac33-d089bad58d88")
-	)
-	(wire
-		(pts
-			(xy 168.91 92.71) (xy 168.91 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67c9d705-5436-46cb-a6a3-2621f3ccbbec")
 	)
 	(wire
 		(pts
@@ -3488,16 +3457,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 92.71) (xy 180.34 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ec7b81-2742-45af-858f-eeaed6405881")
-	)
-	(wire
-		(pts
 			(xy 102.87 119.38) (xy 109.22 119.38)
 		)
 		(stroke
@@ -3705,16 +3664,6 @@
 			(type default)
 		)
 		(uuid "cc7c17d9-ac3f-4be4-8d86-bb80e0ac8339")
-	)
-	(wire
-		(pts
-			(xy 168.91 102.87) (xy 168.91 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd2a8ceb-9202-447d-8a22-b70015772b7b")
 	)
 	(bus
 		(pts
@@ -4115,16 +4064,6 @@
 			(type default)
 		)
 		(uuid "fda520f5-a328-43c9-9817-7e7cc982795f")
-	)
-	(wire
-		(pts
-			(xy 67.31 102.87) (xy 67.31 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdcb3e8c-6524-4658-90d4-4b6fa97ac2a8")
 	)
 	(wire
 		(pts
@@ -5050,7 +4989,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R29")
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
@@ -5058,207 +4997,7 @@
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision_clock:LSHD-5503")
-		(at 49.53 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "10fe54bf-05c2-4d67-95a3-87a91ddec0df")
-		(property "Reference" "U1"
-			(at 49.53 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LSHD-5503"
-			(at 49.53 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1027/LSHD-5503.pdf"
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DISPLAY 7SEG 0.56\" SGL RED 10DIP"
-			(at 49.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7159e067-2050-454d-a149-9422ab49faaf")
-		)
-		(pin "3"
-			(uuid "b3e12c05-d42a-4b87-a6b9-49250b1d7794")
-		)
-		(pin "7"
-			(uuid "3e5ff0cd-1347-4262-8d96-54b372a73a70")
-		)
-		(pin "10"
-			(uuid "1b27aef0-93db-4ea4-97bd-92a40c78baf4")
-		)
-		(pin "4"
-			(uuid "4e70a9fa-d929-46a3-ac59-1ff13b730056")
-		)
-		(pin "9"
-			(uuid "09360f2b-58a6-466c-b256-cf491352ac88")
-		)
-		(pin "1"
-			(uuid "1029a35a-73b0-4bfc-81b7-76abf9784d29")
-		)
-		(pin "2"
-			(uuid "265d9f82-5f8b-46ce-9510-b20542f60bbf")
-		)
-		(pin "8"
-			(uuid "3be12088-8313-450b-ae73-eb80686e8f86")
-		)
-		(pin "5"
-			(uuid "3fb7e355-088e-4f85-824d-9f9f06cb40e2")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U18")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "U1")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision_clock:LSHD-5503")
-		(at 100.33 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "115e653f-f093-4299-8dd0-c7280d13e8b7")
-		(property "Reference" "U2"
-			(at 100.33 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LSHD-5503"
-			(at 100.33 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1027/LSHD-5503.pdf"
-			(at 100.33 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DISPLAY 7SEG 0.56\" SGL RED 10DIP"
-			(at 100.33 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "57393ad2-516e-408a-ae95-b940b58af4ba")
-		)
-		(pin "3"
-			(uuid "c0550cb5-9321-4241-acda-0a8e16f7d93d")
-		)
-		(pin "7"
-			(uuid "2d704be1-9914-4acc-9bde-ece839c2a9ac")
-		)
-		(pin "10"
-			(uuid "0ff9c9c9-51f9-46c9-8c2c-4d46ff746ddc")
-		)
-		(pin "4"
-			(uuid "5be12395-b832-4406-b3b0-2ad2af2dcdf0")
-		)
-		(pin "9"
-			(uuid "740ab509-682c-42f0-8ea2-b9f2ce471b1b")
-		)
-		(pin "1"
-			(uuid "e5fcc4ca-bb3d-48ad-999d-17312fcb61c7")
-		)
-		(pin "2"
-			(uuid "dd578dc7-9b45-4a4e-913f-8a9ddf62b244")
-		)
-		(pin "8"
-			(uuid "555e9590-0028-4f05-b770-cf5a8a50192b")
-		)
-		(pin "5"
-			(uuid "31d3ecb4-61d2-409b-9af9-0c3088404177")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U20")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "U2")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "U13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5325,7 +5064,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R31")
+					(reference "R22")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
@@ -5333,7 +5072,107 @@
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "R23")
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "precision_clock:SC10-21SURKWA")
+		(at 252.73 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37a548d1-c783-4b88-9b3e-f505f604d354")
+		(property "Reference" "U18"
+			(at 252.73 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SC10-21SURKWA"
+			(at 252.73 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "precision_clock:SC10-21SURKWA"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/SC10-21SURKWA.pdf"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25.4 mm (1.0 inch) Single Digit Numeric Display"
+			(at 252.73 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "14b269e6-8c53-4c58-9262-943037497a8e")
+		)
+		(pin "7"
+			(uuid "0544aa5b-f842-415a-b90d-fa99e6f2006f")
+		)
+		(pin "4"
+			(uuid "6e80d641-b166-4498-8044-76a8def174e8")
+		)
+		(pin "10"
+			(uuid "cbb72d31-a3d8-4c96-ae7a-bd6a7dcb79d4")
+		)
+		(pin "5"
+			(uuid "2842006d-102f-4af9-83b7-aff1e53b8cbd")
+		)
+		(pin "9"
+			(uuid "1bb8e701-3916-4e75-8c07-32a80593f33f")
+		)
+		(pin "3"
+			(uuid "b0ac126f-97ee-4fe5-95a9-78b375e77de3")
+		)
+		(pin "2"
+			(uuid "186a075b-bbae-4d18-aeed-38859be22627")
+		)
+		(pin "8"
+			(uuid "7f8424d4-40b9-4725-9389-b01bd53b4b5f")
+		)
+		(pin "1"
+			(uuid "62b8f9e2-1070-4508-9268-4461c091388a")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
+					(reference "U21")
+					(unit 1)
+				)
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
+					(reference "U18")
+					(unit 1)
+				)
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -5349,7 +5188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db99f62-c578-4f16-8769-082e05d30e54")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 82.55 97.7899 0)
 			(effects
 				(font
@@ -5403,15 +5242,15 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "C15")
+					(reference "C5")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "C11")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5427,7 +5266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47307cc2-b64c-470b-a93d-00dd6aa13454")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 184.15 97.7899 0)
 			(effects
 				(font
@@ -5481,15 +5320,15 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "C17")
+					(reference "C6")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "C13")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5505,7 +5344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "539f91e0-26ba-4f53-a2de-a9b33e7a7132")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR01"
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -5555,15 +5394,115 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR040")
+					(reference "#PWR09")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "#PWR0102")
+					(reference "#PWR01")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "#PWR032")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "precision_clock:SC10-21SURKWA")
+		(at 49.53 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63fb7703-dbed-4825-a9e3-417d155cb652")
+		(property "Reference" "U1"
+			(at 49.53 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SC10-21SURKWA"
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "precision_clock:SC10-21SURKWA"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/SC10-21SURKWA.pdf"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25.4 mm (1.0 inch) Single Digit Numeric Display"
+			(at 49.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "3e9b0c50-7469-4a21-b89e-314027c0a939")
+		)
+		(pin "8"
+			(uuid "37aa368a-52aa-410e-b809-62b5219d5a58")
+		)
+		(pin "3"
+			(uuid "32e67684-4172-4329-9046-5781e883861e")
+		)
+		(pin "4"
+			(uuid "17563d2c-431e-4512-b166-37b35c040b4a")
+		)
+		(pin "10"
+			(uuid "58adebb3-e567-4859-a3ad-e761871c5e91")
+		)
+		(pin "9"
+			(uuid "a837d852-d2e6-47a5-82f5-04ceb8a0b47c")
+		)
+		(pin "1"
+			(uuid "fd7e89d1-213d-4057-9647-dfccee6c94e4")
+		)
+		(pin "5"
+			(uuid "05f3ea30-79c9-4676-b345-4a63378e714f")
+		)
+		(pin "6"
+			(uuid "a7329bd4-732c-4f1c-b829-2496b4544639")
+		)
+		(pin "2"
+			(uuid "c40150f1-8e9c-488b-9255-ac745cb1aec1")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
+					(reference "U1")
+					(unit 1)
+				)
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5630,7 +5569,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R27")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
@@ -5638,107 +5577,7 @@
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision_clock:LSHD-5503")
-		(at 151.13 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "855d2c16-98dc-44b6-a087-dfd6343b0e1d")
-		(property "Reference" "U3"
-			(at 151.13 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LSHD-5503"
-			(at 151.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1027/LSHD-5503.pdf"
-			(at 151.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DISPLAY 7SEG 0.56\" SGL RED 10DIP"
-			(at 151.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "3e20f1e2-df51-4d6f-bd13-27569c8d75b1")
-		)
-		(pin "3"
-			(uuid "4db599c8-9b09-4e32-9e71-c4feb800da78")
-		)
-		(pin "7"
-			(uuid "a07a4c02-afc0-439a-af6e-b8273c72d98c")
-		)
-		(pin "10"
-			(uuid "4b6ad243-c4b6-431b-a3fc-55e8067a1495")
-		)
-		(pin "4"
-			(uuid "4d5f24a9-f4be-4d68-8752-d9f9e8d08968")
-		)
-		(pin "9"
-			(uuid "431d5b68-b9fd-4d93-8e3d-39b357557933")
-		)
-		(pin "1"
-			(uuid "fbdedd22-e8ee-4f63-820d-e8568aa0048f")
-		)
-		(pin "2"
-			(uuid "5447e932-e23b-40bd-a38f-f7d77343fe10")
-		)
-		(pin "8"
-			(uuid "f081d61c-1d95-4c38-bc85-1143dd7a02a6")
-		)
-		(pin "5"
-			(uuid "6247ff93-8bb2-49f4-a408-d0abe133ada5")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U21")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "U3")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "U14")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5753,7 +5592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "871ba990-b80d-4317-b7a6-8fa9cf57be7d")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 92.456 107.188 0)
 			(effects
 				(font
@@ -5771,7 +5610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 90.17 129.54 0)
 			(effects
 				(font
@@ -5780,7 +5619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf?ts=1760082678277&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fja-jp%252FSN74LVC244A"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf"
 			(at 90.17 129.54 0)
 			(effects
 				(font
@@ -5872,15 +5711,15 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U19")
+					(reference "U16")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "U12")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -5896,7 +5735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95448265-e615-44a2-a84f-d887f9a16ecb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 180.34 111.76 0)
 			(effects
 				(font
@@ -5946,15 +5785,15 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR044")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "#PWR036")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6021,7 +5860,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R33")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
@@ -6029,7 +5868,7 @@
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "R25")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6044,7 +5883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f8b2f4c-bfd4-4e35-add8-4f747aec2629")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 195.326 107.442 0)
 			(effects
 				(font
@@ -6062,7 +5901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 191.77 129.54 0)
 			(effects
 				(font
@@ -6071,7 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc244a.pdf?ts=1760082678277&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252Fja-jp%252FSN74LVC244A"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74AHC_AHCT244.pdf"
 			(at 191.77 129.54 0)
 			(effects
 				(font
@@ -6163,15 +6002,15 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U22")
+					(reference "U19")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "U15")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6077,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R32")
+					(reference "R23")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
@@ -6246,7 +6085,107 @@
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "R24")
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "precision_clock:SC10-21SURKWA")
+		(at 151.13 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a314ffb5-ba8a-4757-a254-5e6adc35cba5")
+		(property "Reference" "U10"
+			(at 151.13 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SC10-21SURKWA"
+			(at 151.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "precision_clock:SC10-21SURKWA"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/SC10-21SURKWA.pdf"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25.4 mm (1.0 inch) Single Digit Numeric Display"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "cfd8d7ac-3460-43f4-8f73-2050d60571ed")
+		)
+		(pin "7"
+			(uuid "081096d4-2cc4-4200-a1c8-2764a9a204e2")
+		)
+		(pin "8"
+			(uuid "394c8c3a-517f-4a72-9516-ca44d03f80a6")
+		)
+		(pin "1"
+			(uuid "94b95ff7-5051-4e79-9e8d-e4613d5cfd39")
+		)
+		(pin "5"
+			(uuid "ec321803-4819-4376-add5-de2659b7cf99")
+		)
+		(pin "10"
+			(uuid "40dbe564-5012-4af1-996a-bea59e5285f1")
+		)
+		(pin "4"
+			(uuid "c56ae8d1-6eba-4b47-b069-052ee5ba2144")
+		)
+		(pin "6"
+			(uuid "7b152d76-29aa-4053-8c8e-8a3e9a18fade")
+		)
+		(pin "3"
+			(uuid "aa4d7ed8-b89b-44a1-b784-d8ed1cf3d507")
+		)
+		(pin "2"
+			(uuid "cced3c92-5bb0-4110-82a3-4b8a0b4a751a")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
+					(reference "U10")
+					(unit 1)
+				)
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6262,7 +6201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9550a85-833c-42d4-bc43-e7e02fc18fc1")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR02"
 			(at 90.17 161.29 0)
 			(effects
 				(font
@@ -6312,89 +6251,15 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR042")
+					(reference "#PWR010")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "#PWR0103")
+					(reference "#PWR02")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 67.31 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afadce05-0c4f-4204-bf4d-e69cff1436ce")
-		(property "Reference" "#PWR04"
-			(at 67.31 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a072ce2f-77b5-40c9-84db-d15ff1f19da0")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "#PWR04")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "#PWR031")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6461,7 +6326,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R30")
+					(reference "R21")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
@@ -6469,7 +6334,7 @@
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "R22")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6485,7 +6350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "babd5a37-7c35-4e98-a453-c06b482c18e3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 191.77 161.29 0)
 			(effects
 				(font
@@ -6535,115 +6400,15 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR046")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision_clock:LSHD-5503")
-		(at 252.73 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfc12b15-eaaf-4f10-b1e9-854804490ddb")
-		(property "Reference" "U6"
-			(at 252.73 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LSHD-5503"
-			(at 252.73 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1027/LSHD-5503.pdf"
-			(at 252.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DISPLAY 7SEG 0.56\" SGL RED 10DIP"
-			(at 252.73 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "e8463f47-7e3f-4bdb-83f9-ba93433552e8")
-		)
-		(pin "3"
-			(uuid "af57c089-a2ae-4f51-9ff9-755b4b529a05")
-		)
-		(pin "7"
-			(uuid "8738446b-567e-4a93-b449-a516d01fc41c")
-		)
-		(pin "10"
-			(uuid "879f1c56-903e-4f1d-8326-b4659d01ba1e")
-		)
-		(pin "4"
-			(uuid "9886a562-7ab8-4b98-84b0-1f04a8c72ee5")
-		)
-		(pin "9"
-			(uuid "e12d0612-dd51-4e5e-93a4-d3e0a131728b")
-		)
-		(pin "1"
-			(uuid "f8972027-22de-4aef-b186-adb60d02c2ba")
-		)
-		(pin "2"
-			(uuid "0a308496-9d46-4dc9-8dd7-32885d583993")
-		)
-		(pin "8"
-			(uuid "3afefb25-26df-4a3e-ab0e-d3f7e55f0ce7")
-		)
-		(pin "5"
-			(uuid "571e4a32-1290-49d7-a8fe-61c9fc6784ee")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U24")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "U17")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6658,7 +6423,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5945b88-bef5-45eb-ab7b-06a7403e3e61")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 116.84 94.488 90)
 			(effects
 				(font
@@ -6710,93 +6475,15 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R26")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 168.91 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cea64377-d6e1-40e8-a743-bdcf3a134fd2")
-		(property "Reference" "C3"
-			(at 172.72 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 172.72 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.8752 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "923b885a-b1cc-48a7-8121-ab7de0e53b9c")
-		)
-		(pin "1"
-			(uuid "0cc27efb-8409-4548-b977-96ad50f1ec72")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "C16")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "C3")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "C12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6863,7 +6550,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R28")
+					(reference "R19")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
@@ -6871,14 +6558,14 @@
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "R20")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "precision_clock:LSHD-5503")
+		(lib_id "precision_clock:SC10-21SURKWA")
 		(at 201.93 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6886,8 +6573,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd62014b-e6b1-4bc9-96e1-b465e049892c")
-		(property "Reference" "U4"
+		(uuid "e61dac78-67fd-414c-83ad-4794de6c5dc1")
+		(property "Reference" "U14"
 			(at 201.93 34.29 0)
 			(effects
 				(font
@@ -6895,7 +6582,7 @@
 				)
 			)
 		)
-		(property "Value" "LSHD-5503"
+		(property "Value" "SC10-21SURKWA"
 			(at 201.93 36.83 0)
 			(effects
 				(font
@@ -6903,7 +6590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "precision_clock:SC10-21SURKWA"
 			(at 201.93 54.61 0)
 			(effects
 				(font
@@ -6912,7 +6599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1027/LSHD-5503.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/SC10-21SURKWA.pdf"
 			(at 201.93 54.61 0)
 			(effects
 				(font
@@ -6921,8 +6608,108 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DISPLAY 7SEG 0.56\" SGL RED 10DIP"
+		(property "Description" "25.4 mm (1.0 inch) Single Digit Numeric Display"
 			(at 201.93 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2b3fbedc-e47c-474d-923c-88d67616b0d4")
+		)
+		(pin "7"
+			(uuid "3dd85604-9f5f-47d2-85dc-d305a8500f73")
+		)
+		(pin "6"
+			(uuid "f291e623-ad91-4a80-bd06-c79cb31b28ae")
+		)
+		(pin "9"
+			(uuid "34994ec2-b4c6-4ab8-a5aa-11d0fa696153")
+		)
+		(pin "10"
+			(uuid "69b7b022-def2-41a5-ae8a-6bcbe556f45a")
+		)
+		(pin "5"
+			(uuid "04e4e07c-0996-4bbc-a208-15484164125d")
+		)
+		(pin "1"
+			(uuid "e55083bf-251c-4604-9775-07c2179cdfef")
+		)
+		(pin "3"
+			(uuid "4a905fd8-a456-4d58-b8c0-d949f3e19f02")
+		)
+		(pin "2"
+			(uuid "ef69241e-0188-480a-a233-bde8473fb711")
+		)
+		(pin "8"
+			(uuid "4d9b736f-db3b-4f62-9bb1-e632bd077384")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
+					(reference "U17")
+					(unit 1)
+				)
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "precision_clock:SC10-21SURKWA")
+		(at 100.33 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef038728-c5ae-43e1-9bde-e24d844e59d0")
+		(property "Reference" "U6"
+			(at 100.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SC10-21SURKWA"
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "precision_clock:SC10-21SURKWA"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/SC10-21SURKWA.pdf"
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25.4 mm (1.0 inch) Single Digit Numeric Display"
+			(at 100.33 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,199 +6718,47 @@
 			)
 		)
 		(pin "6"
-			(uuid "5378361b-4425-4fc5-ba16-6ab820c87b09")
-		)
-		(pin "3"
-			(uuid "c772afc8-d77a-46b1-a27e-1f0c7eea224e")
+			(uuid "920a2faa-bebb-47a7-85f2-c29c6bbb7921")
 		)
 		(pin "7"
-			(uuid "e3860522-a909-4885-81d4-7ee9b8d36c72")
+			(uuid "2d569542-554d-4d49-a8b6-1945f1b05822")
 		)
 		(pin "10"
-			(uuid "11dcef09-8991-47e1-92e0-501496d5414e")
+			(uuid "9da96875-107b-4933-8b77-2cddc7871058")
 		)
 		(pin "4"
-			(uuid "1f8c7f89-a864-413b-80b2-d52ad83e59be")
+			(uuid "c349aa87-7019-4fe9-a61a-6f604201be72")
 		)
 		(pin "9"
-			(uuid "4b397450-4557-464c-9abd-481977ec7e85")
-		)
-		(pin "1"
-			(uuid "0b443d6d-b66a-4831-8dd6-4ba0c4284089")
-		)
-		(pin "2"
-			(uuid "0f2f17f1-c803-40af-8010-94fb5509ef66")
-		)
-		(pin "8"
-			(uuid "7f95414a-bd4e-417b-a8c4-ea86a9a19480")
+			(uuid "6db48fd2-4c72-4966-88f5-9c387713453c")
 		)
 		(pin "5"
-			(uuid "9e65deee-dc85-4386-8f73-5e4642adaa0e")
+			(uuid "be9c7d95-f74d-416d-b18b-2c8c5df4474a")
 		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U23")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "U16")
-					(unit 1)
-				)
-			)
+		(pin "8"
+			(uuid "2fc0300d-d995-48d9-8c83-e46a51268ddb")
 		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 67.31 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df91998f-662c-494a-9feb-618982991a18")
-		(property "Reference" "C2"
-			(at 71.12 97.7899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 71.12 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.2752 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 67.31 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "2a6b4065-9c8c-43fa-a774-9c05f8e1a383")
 		)
 		(pin "2"
-			(uuid "45749e5b-d7cc-4d26-a9e1-88e260854ecb")
+			(uuid "cd9a6e73-e08e-4250-9967-9d3c385e5225")
 		)
 		(pin "1"
-			(uuid "0c3fd9e0-e9cc-4557-9395-769e883b0a83")
+			(uuid "27bbda42-6211-42f0-bff5-ebbc0e02d3bf")
 		)
 		(instances
-			(project "Precision Clock"
+			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "C14")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "C2")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e38132bc-44df-4480-b234-b4dae79ce572")
-		(property "Reference" "#PWR06"
-			(at 168.91 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f08bd228-358c-4c88-87ec-42e75930f636")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR043")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
-					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/e0daf664-e239-498f-ad2e-96c4213a6fbd"
-					(reference "#PWR035")
+					(reference "U7")
 					(unit 1)
 				)
 			)
