@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "0aa13fc1-470a-4d8c-9348-e90324c2ea69")
 	(paper "A3")
+	(title_block
+		(date "2025-10-16")
+	)
 	(lib_symbols
 		(symbol "MCU_ST_STM32L5:STM32L562RETx"
 			(exclude_from_sim no)
@@ -2287,7 +2290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f99f70b-14f2-4478-a83f-586fa0ba868a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 91.44 196.85 0)
 			(effects
 				(font
@@ -2337,7 +2340,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d0d8c9aa-9e46-4cf3-a690-ff272eec1168"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2353,7 +2356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa6e90b9-6a95-40c5-80f4-a0b1f1c73033")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 91.44 82.55 0)
 			(effects
 				(font
@@ -2403,7 +2406,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d0d8c9aa-9e46-4cf3-a690-ff272eec1168"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
