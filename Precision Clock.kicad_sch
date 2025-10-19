@@ -6,54 +6,12 @@
 	(paper "A3")
 	(title_block
 		(title "Precision Clock")
-		(date "2025-10-16")
+		(date "2025-10-19")
 		(rev "v0.0")
 		(company "Rajath Katker")
 		(comment 4 "Final verification pending")
 	)
 	(lib_symbols)
-	(sheet
-		(at 203.2 88.9)
-		(size 25.4 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1cc06101-8b2f-46d2-8ecc-e38dbfbe5cc0")
-		(property "Sheetname" "TCXO"
-			(at 203.2 88.1884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "tcxo.kicad_sch"
-			(at 203.2 114.8846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "6")
-				)
-			)
-		)
-	)
 	(sheet
 		(at 341.63 133.35)
 		(size 38.1 12.7)
@@ -281,48 +239,6 @@
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 203.2 127)
-		(size 25.4 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7d59ddc0-7f70-4428-aa76-da270ab2f125")
-		(property "Sheetname" "Flash"
-			(at 203.2 126.2884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "flash.kicad_sch"
-			(at 203.2 152.9846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "7")
 				)
 			)
 		)
@@ -1232,6 +1148,48 @@
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 127)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ead21e2e-9b8b-4d49-a3fa-32cfb91708e2")
+		(property "Sheetname" "Speaker"
+			(at 241.3 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "speaker.kicad_sch"
+			(at 241.3 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
+					(page "13")
 				)
 			)
 		)
