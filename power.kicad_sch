@@ -290,9 +290,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 38.1 38.1)
+		(end 76.2 88.9)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 194 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 960d472d-9c7f-4b11-b9c2-4c6b225ea93a)
+	)
 	(wire
 		(pts
-			(xy 96.52 69.85) (xy 96.52 73.66)
+			(xy 57.15 67.31) (xy 57.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -302,7 +315,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 57.15) (xy 96.52 62.23)
+			(xy 57.15 54.61) (xy 57.15 59.69)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +325,7 @@
 	)
 	(global_label "VBAT"
 		(shape input)
-		(at 96.52 57.15 90)
+		(at 57.15 54.61 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -322,7 +335,7 @@
 		)
 		(uuid "f37ccf88-9b6f-4f3b-8d3a-2f09f1ea4d36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 49.75 90)
+			(at 57.15 47.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -334,7 +347,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 96.52 67.31 0)
+		(at 57.15 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -343,7 +356,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b40c3b3-c400-4c26-9498-2c7a00e8a624")
 		(property "Reference" "BT1"
-			(at 100.33 64.1984 0)
+			(at 60.96 61.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -352,7 +365,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 100.33 66.7384 0)
+			(at 60.96 64.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -361,7 +374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 65.786 90)
+			(at 57.15 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -370,7 +383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 65.786 90)
+			(at 57.15 63.246 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -379,7 +392,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 96.52 67.31 0)
+			(at 57.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,7 +417,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 73.66 0)
+		(at 57.15 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -412,8 +425,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dce6608e-3ab1-4a5e-aa11-6fb5196f3bf9")
-		(property "Reference" "#PWR050"
-			(at 96.52 80.01 0)
+		(property "Reference" "#PWR062"
+			(at 57.15 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,7 +435,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 78.74 0)
+			(at 57.15 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 73.66 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -439,7 +452,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 73.66 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -448,7 +461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 73.66 0)
+			(at 57.15 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +475,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR050")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
