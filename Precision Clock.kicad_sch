@@ -13,58 +13,6 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 341.63 133.35)
-		(size 38.1 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2347aac3-442d-482b-8fbc-6e1d41c86b79")
-		(property "Sheetname" "Ambient light sensor"
-			(at 341.63 132.6384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ambient_light_sensor.kicad_sch"
-			(at 341.63 146.6346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "AML_ADC" output
-			(at 379.73 139.7 0)
-			(uuid "213eb83b-c246-42e0-8fbf-db2453068cb8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 50.8 152.4)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
@@ -1148,48 +1096,6 @@
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 368.3 219.71)
-		(size 12.7 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ead21e2e-9b8b-4d49-a3fa-32cfb91708e2")
-		(property "Sheetname" "Speaker"
-			(at 368.3 218.9984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "speaker.kicad_sch"
-			(at 368.3 232.9946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "13")
 				)
 			)
 		)

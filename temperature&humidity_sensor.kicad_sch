@@ -12,6 +12,113 @@
 		(comment 4 "Final verification pending")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -716,7 +823,7 @@
 	)
 	(rectangle
 		(start 101.6 50.8)
-		(end 203.2 139.7)
+		(end 215.9 139.7)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -756,6 +863,12 @@
 		(uuid "e0513cbc-e556-4615-aa33-e6e32ae6f2ab")
 	)
 	(junction
+		(at 190.5 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d6320f-6771-458e-bff5-23e5cc3622ae")
+	)
+	(junction
 		(at 167.64 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -766,6 +879,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47b47651-cf67-4839-a741-db4fd313db54")
+	)
+	(junction
+		(at 177.8 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c7eeae2-1ce2-4247-b477-2e074f734bd3")
 	)
 	(junction
 		(at 142.24 76.2)
@@ -801,6 +920,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 97.79) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35478fe8-8d47-4ac5-af5d-5c081d61be15")
+	)
+	(wire
+		(pts
 			(xy 127 78.74) (xy 127 76.2)
 		)
 		(stroke
@@ -808,6 +937,16 @@
 			(type default)
 		)
 		(uuid "395738b5-729e-41fa-be80-7daa01e050f5")
+	)
+	(wire
+		(pts
+			(xy 177.8 100.33) (xy 196.85 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "455acf69-4233-4061-93aa-536d13fd4d9b")
 	)
 	(wire
 		(pts
@@ -861,6 +1000,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 92.71) (xy 190.5 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c97180f-53e4-4a25-ba43-cb9e6173a63b")
+	)
+	(wire
+		(pts
 			(xy 127 86.36) (xy 127 88.9)
 		)
 		(stroke
@@ -901,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 177.8 97.79)
+			(xy 157.48 97.79) (xy 190.5 97.79)
 		)
 		(stroke
 			(width 0)
@@ -931,6 +1080,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 92.71) (xy 177.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df69e1a8-1bb1-4983-a047-995c8706c0d0")
+	)
+	(wire
+		(pts
 			(xy 162.56 77.47) (xy 162.56 80.01)
 		)
 		(stroke
@@ -951,7 +1110,7 @@
 	)
 	(hierarchical_label "T_SCL"
 		(shape input)
-		(at 177.8 97.79 0)
+		(at 196.85 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -962,7 +1121,7 @@
 	)
 	(hierarchical_label "T_SDA"
 		(shape bidirectional)
-		(at 177.8 100.33 0)
+		(at 196.85 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1056,7 +1215,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 170.18 90.1699 0)
 			(effects
 				(font
@@ -1262,7 +1421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "3.3K"
 			(at 160.02 90.1699 0)
 			(effects
 				(font
@@ -1410,6 +1569,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.8 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7816eec-f6ea-45e2-bc5d-512d32d7e80e")
+		(property "Reference" "TP9"
+			(at 180.34 88.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T_SDA"
+			(at 180.34 90.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cb4944d-d186-4a1f-baf2-66dbb1f159f7")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 88.9 0)
 		(unit 1)
@@ -1470,6 +1696,73 @@
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce098de2-4418-4e76-a452-4f0a3522b35c")
+		(property "Reference" "TP10"
+			(at 193.04 88.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T_SCL"
+			(at 193.04 90.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6de4670-014e-4037-9cc9-78f9b19aaa86")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
