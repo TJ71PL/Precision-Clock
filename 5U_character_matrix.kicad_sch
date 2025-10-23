@@ -1338,13 +1338,13 @@
 	)
 	(text "Sink/Cathode "
 		(exclude_from_sim no)
-		(at 76.2 114.3 0)
+		(at 78.74 113.538 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 				(thickness 0.2381)
 				(italic yes)
-				(color 194 0 0 1)
+				(color 132 0 0 1)
 			)
 		)
 		(uuid "5da0e157-bce3-49b7-a92a-b65a8e01ab05")
@@ -1377,13 +1377,13 @@
 	)
 	(text "Source/Anode"
 		(exclude_from_sim no)
-		(at 135.89 114.3 0)
+		(at 136.906 113.538 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 				(thickness 0.2381)
 				(italic yes)
-				(color 194 0 0 1)
+				(color 132 0 0 1)
 			)
 		)
 		(uuid "d103f9be-7a5c-47c2-86a9-90c7a636b55f")
@@ -4719,7 +4719,7 @@
 		)
 		(uuid "fa80096a-b343-4550-bf85-09146ab0b408")
 	)
-	(global_label "VDIS1"
+	(global_label "VDU"
 		(shape input)
 		(at 113.03 113.03 0)
 		(fields_autoplaced yes)
@@ -4731,7 +4731,7 @@
 		)
 		(uuid "3a1ab8ad-57eb-45cc-b711-79caba4f9ae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.3976 113.03 0)
+			(at 119.7043 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +4741,7 @@
 			)
 		)
 	)
-	(global_label "VDIS1"
+	(global_label "VDU"
 		(shape input)
 		(at 53.34 113.03 0)
 		(fields_autoplaced yes)
@@ -4753,7 +4753,7 @@
 		)
 		(uuid "b536787e-c785-4014-b1a7-227964df65a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.7076 113.03 0)
+			(at 60.0143 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +4895,7 @@
 		)
 		(uuid "d669c969-cb3c-4c6b-a3f0-68496693db43")
 	)
-	(hierarchical_label "A5"
+	(hierarchical_label "A4"
 		(shape input)
 		(at 91.44 147.32 180)
 		(effects
@@ -4966,10 +4966,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R14")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "R4")
 					(unit 1)
@@ -5073,10 +5069,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U17")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "U3")
 					(unit 1)
@@ -5151,10 +5143,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "C5")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "C1")
 					(unit 1)
@@ -5229,10 +5217,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "C6")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "C2")
 					(unit 1)
@@ -5336,10 +5320,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U20")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "U6")
 					(unit 1)
@@ -5410,10 +5390,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR09")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "#PWR01")
 					(unit 1)
@@ -5485,10 +5461,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R12")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "R2")
 					(unit 1)
@@ -5592,10 +5564,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U19")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "U5")
 					(unit 1)
@@ -5733,10 +5701,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U15")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "U1")
 					(unit 1)
@@ -5807,10 +5771,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR011")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "#PWR03")
 					(unit 1)
@@ -5948,10 +5908,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U18")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "U4")
 					(unit 1)
@@ -6022,10 +5978,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR010")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "#PWR02")
 					(unit 1)
@@ -6204,10 +6156,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R15")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "R5")
 					(unit 1)
@@ -6278,10 +6226,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "#PWR012")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "#PWR04")
 					(unit 1)
@@ -6385,10 +6329,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "U21")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "U7")
 					(unit 1)
@@ -6460,10 +6400,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R11")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "R1")
 					(unit 1)
@@ -6535,10 +6471,6 @@
 		)
 		(instances
 			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/61b252ee-6ab4-4417-a4ad-7fc052d7ca20"
-					(reference "R13")
-					(unit 1)
-				)
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/95a63663-b2f9-448f-a4dd-b71321e8f379"
 					(reference "R3")
 					(unit 1)
