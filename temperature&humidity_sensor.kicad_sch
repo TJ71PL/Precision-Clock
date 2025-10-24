@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Temperature & Humidity Sensor")
-		(date "2025-10-19")
+		(date "2025-10-24")
 		(rev "v0.0")
 		(company "Rajath Katker")
 		(comment 4 "Final verification pending")
@@ -928,7 +928,7 @@
 	)
 	(text "Should be placed away from any \nheat generating components"
 		(exclude_from_sim no)
-		(at 152.4 114.3 0)
+		(at 144.78 114.3 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -941,32 +941,60 @@
 		(uuid "e0513cbc-e556-4615-aa33-e6e32ae6f2ab")
 	)
 	(junction
-		(at 162.56 76.2)
+		(at 160.02 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b44b5b7-3909-4b56-8988-a1d2d730130c")
+	)
+	(junction
+		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47b47651-cf67-4839-a741-db4fd313db54")
 	)
 	(junction
-		(at 167.64 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49183456-cb4e-4ede-ad5b-d07d279f39ba")
-	)
-	(junction
-		(at 142.24 76.2)
+		(at 134.62 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c144ea11-3408-4521-a432-edeffb0f36ca")
 	)
 	(junction
-		(at 157.48 93.98)
+		(at 149.86 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea75acd5-ee9b-49e7-a668-de41899358b9")
 	)
+	(bus_entry
+		(at 191.77 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9f9e6e-434c-4a2f-a1db-e360fb31ac4b")
+	)
+	(bus_entry
+		(at 191.77 101.6)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3122a146-193d-47a6-906c-388b6d59e270")
+	)
 	(wire
 		(pts
-			(xy 152.4 97.79) (xy 157.48 97.79)
+			(xy 177.8 104.14) (xy 189.23 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb4dfe6-43b7-4df5-82bc-3c4a4ab1a8c0")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 149.86 97.79)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +1004,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 104.14) (xy 177.8 104.14)
+			(xy 160.02 104.14) (xy 170.18 104.14)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +1014,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 142.24 76.2)
+			(xy 134.62 73.66) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +1024,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 78.74) (xy 127 76.2)
+			(xy 119.38 78.74) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1034,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 142.24 76.2)
+			(xy 119.38 76.2) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1044,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 167.64 81.28)
+			(xy 160.02 76.2) (xy 160.02 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1054,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 177.8 93.98)
+			(xy 149.86 100.33) (xy 144.78 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541d1688-d182-4b50-a23f-467b8d074468")
+	)
+	(wire
+		(pts
+			(xy 149.86 93.98) (xy 170.18 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1074,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 167.64 76.2)
+			(xy 177.8 93.98) (xy 189.23 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6269ec10-fe62-48bb-9f2a-88f59ea213a7")
+	)
+	(wire
+		(pts
+			(xy 154.94 76.2) (xy 160.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1046,17 +1094,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 93.98) (xy 190.5 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dfaa1e1-5074-4377-9654-8cd9cd2dc379")
-	)
-	(wire
-		(pts
-			(xy 142.24 76.2) (xy 142.24 92.71)
+			(xy 134.62 76.2) (xy 134.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1104,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 86.36) (xy 127 88.9)
+			(xy 119.38 86.36) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1114,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 81.28) (xy 157.48 76.2)
+			(xy 149.86 104.14) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94de779f-5117-4698-a948-df8ccadcf45f")
+	)
+	(bus
+		(pts
+			(xy 191.77 88.9) (xy 191.77 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b840044-8a4b-4396-87a0-56cf50a5899c")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 149.86 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1144,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 100.33) (xy 167.64 100.33)
+			(xy 149.86 104.14) (xy 160.02 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1096,17 +1154,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 100.33) (xy 167.64 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1168e36-298a-4bac-a6e3-aeb764819aad")
-	)
-	(wire
-		(pts
-			(xy 157.48 76.2) (xy 162.56 76.2)
+			(xy 149.86 76.2) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1116,7 +1164,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 157.48 97.79)
+			(xy 149.86 93.98) (xy 149.86 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1126,17 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 88.9) (xy 167.64 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf3a7bdd-7407-4a3c-90f6-cf45ea2e7565")
-	)
-	(wire
-		(pts
-			(xy 157.48 88.9) (xy 157.48 93.98)
+			(xy 149.86 88.9) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1144,19 +1182,29 @@
 		)
 		(uuid "d870f796-8916-4a71-bbd7-57e3725047a4")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 190.5 104.14) (xy 185.42 104.14)
+			(xy 191.77 91.44) (xy 191.77 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e569d229-3705-430a-9adf-cd5adfc8275e")
+		(uuid "df490765-741a-4d6c-a239-5cc21b90eaf4")
+	)
+	(bus
+		(pts
+			(xy 191.77 88.9) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5532625-d5b0-4549-883d-f307b3eecde1")
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 162.56 76.2)
+			(xy 154.94 73.66) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1166,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 107.95) (xy 142.24 113.03)
+			(xy 134.62 107.95) (xy 134.62 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1174,31 +1222,50 @@
 		)
 		(uuid "f6d902a1-582f-4694-931f-93ff42d6cf6a")
 	)
-	(hierarchical_label "T_SCL"
-		(shape input)
-		(at 190.5 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 160.02 104.14)
 		)
-		(uuid "2acb63aa-3ead-4564-94da-3b254493a65a")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc868149-9abb-4701-9f6c-0a2da5fbf474")
 	)
-	(hierarchical_label "T_SDA"
+	(label "TH.SCL"
+		(at 180.34 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72ddb4e6-f1b8-4e1a-a94f-34c29f1ddc84")
+	)
+	(label "TH.SDA"
+		(at 180.34 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d7b743b-5f35-45a4-9e80-f28fe822c79a")
+	)
+	(hierarchical_label "TH{SCL, SDA}"
 		(shape bidirectional)
-		(at 190.5 104.14 0)
+		(at 194.31 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ee66588f-a9fd-4492-97c9-12e0cd8fd209")
+		(uuid "77e1416c-7620-49bf-a903-583b2de765b0")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 142.24 73.66 0)
+		(at 134.62 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1206,8 +1273,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01419685-127e-4f71-a2ca-bbe5123f454b")
-		(property "Reference" "#PWR059"
-			(at 142.24 77.47 0)
+		(property "Reference" "#PWR064"
+			(at 134.62 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1283,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 142.24 68.58 0)
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 73.66 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 73.66 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1309,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 142.24 73.66 0)
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1323,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR059")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -1264,7 +1331,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 167.64 85.09 0)
+		(at 160.02 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1272,8 +1339,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "084e9963-7dab-4871-aed1-05dd53d01295")
-		(property "Reference" "R29"
-			(at 170.18 83.8199 0)
+		(property "Reference" "R35"
+			(at 162.56 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1282,7 +1349,7 @@
 			)
 		)
 		(property "Value" "3.3K"
-			(at 170.18 86.3599 0)
+			(at 162.56 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.862 85.09 90)
+			(at 158.242 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1300,7 +1367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 85.09 0)
+			(at 160.02 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1376,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 167.64 85.09 0)
+			(at 160.02 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1393,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "R29")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -1334,7 +1401,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 181.61 93.98 0)
+		(at 173.99 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1342,8 +1409,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19c11f2b-e1ce-4ae5-a2d9-7cc38be1aef0")
-		(property "Reference" "JP8"
-			(at 181.61 87.63 0)
+		(property "Reference" "JP7"
+			(at 173.99 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1418,7 @@
 			)
 		)
 		(property "Value" "T_SCL"
-			(at 181.61 90.17 0)
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1426,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 181.61 93.98 0)
+			(at 173.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +1435,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 93.98 0)
+			(at 173.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1444,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 181.61 93.98 0)
+			(at 173.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1461,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "JP8")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -1402,7 +1469,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 181.61 104.14 0)
+		(at 173.99 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1410,16 +1477,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f91cf33-35bb-46d5-85a2-8af77cbd8c61")
-		(property "Reference" "JP9"
-			(at 181.61 97.79 0)
+		(property "Reference" "JP8"
+			(at 173.99 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "T_SCL"
-			(at 181.61 100.33 0)
+		(property "Value" "T_SDA"
+			(at 173.99 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,7 +1494,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 181.61 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +1512,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 181.61 104.14 0)
+			(at 173.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1529,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "JP9")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -1470,7 +1537,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 73.66 0)
+		(at 154.94 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1478,8 +1545,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4188e280-cff2-425d-a060-673604537b7b")
-		(property "Reference" "#PWR061"
-			(at 162.56 77.47 0)
+		(property "Reference" "#PWR066"
+			(at 154.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1555,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 162.56 68.58 0)
+			(at 154.94 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 73.66 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 73.66 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 73.66 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1595,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR061")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -1536,7 +1603,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 82.55 0)
+		(at 119.38 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1545,7 +1612,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a7b6cf3-27df-4ea8-ba2f-6230cc6c38b5")
 		(property "Reference" "C33"
-			(at 130.81 81.2799 0)
+			(at 123.19 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1621,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 130.81 83.8199 0)
+			(at 123.19 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +1630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.9652 86.36 0)
+			(at 120.3452 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1572,7 +1639,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 82.55 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +1648,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 82.55 0)
+			(at 119.38 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +1673,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 85.09 0)
+		(at 149.86 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1614,8 +1681,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75a83347-19c7-4bed-9115-eec7654c6869")
-		(property "Reference" "R28"
-			(at 160.02 83.8199 0)
+		(property "Reference" "R34"
+			(at 152.4 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1691,7 @@
 			)
 		)
 		(property "Value" "3.3K"
-			(at 160.02 86.3599 0)
+			(at 152.4 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1633,7 +1700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.702 85.09 90)
+			(at 148.082 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1642,7 +1709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 85.09 0)
+			(at 149.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +1718,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 85.09 0)
+			(at 149.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1735,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "R28")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -1676,15 +1743,15 @@
 	)
 	(symbol
 		(lib_id "Sensor_Humidity:HDC1080")
-		(at 144.78 100.33 0)
+		(at 137.16 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "764305f5-03f7-43a9-baba-53ef272eb2b3")
-		(property "Reference" "U35"
-			(at 135.89 97.79 0)
+		(property "Reference" "U36"
+			(at 128.27 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1760,7 @@
 			)
 		)
 		(property "Value" "HDC1080"
-			(at 135.89 100.33 0)
+			(at 128.27 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1769,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:Texas_PWSON-N6"
-			(at 143.51 106.68 0)
+			(at 135.89 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1779,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
-			(at 134.62 93.98 0)
+			(at 127 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1788,7 @@
 			)
 		)
 		(property "Description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"
-			(at 144.78 100.33 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1730,7 +1797,7 @@
 			)
 		)
 		(property "LCSC" "C82227"
-			(at 135.89 102.8701 0)
+			(at 128.27 102.8701 0)
 			(show_name yes)
 			(effects
 				(font
@@ -1764,7 +1831,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "U35")
+					(reference "U36")
 					(unit 1)
 				)
 			)
@@ -1772,7 +1839,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 88.9 0)
+		(at 119.38 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1780,8 +1847,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0f01786-dc7c-4127-af90-e819f85d2852")
-		(property "Reference" "#PWR058"
-			(at 127 95.25 0)
+		(property "Reference" "#PWR063"
+			(at 119.38 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1857,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 93.98 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 88.9 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +1874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 88.9 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 88.9 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1897,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1838,7 +1905,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 113.03 0)
+		(at 134.62 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1846,8 +1913,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d577183a-c557-4748-99f4-a4640141fccc")
-		(property "Reference" "#PWR060"
-			(at 142.24 119.38 0)
+		(property "Reference" "#PWR065"
+			(at 134.62 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1856,7 +1923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 118.11 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1864,7 +1931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 113.03 0)
+			(at 134.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 113.03 0)
+			(at 134.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,7 +1949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 113.03 0)
+			(at 134.62 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,7 +1963,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR060")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
