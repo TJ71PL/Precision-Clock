@@ -939,192 +939,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RF_GPS:MAX-M10S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1814,7 +1628,7 @@
 	)
 	(text "Timepulse net should be\nas short as possible "
 		(exclude_from_sim no)
-		(at 210.82 106.68 0)
+		(at 196.85 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1904,7 +1718,7 @@
 		(uuid "f43dceeb-4bf8-488b-bed2-55ffbacd4413")
 	)
 	(bus_entry
-		(at 67.31 92.71)
+		(at 77.47 92.71)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1913,7 +1727,7 @@
 		(uuid "138d732e-bb8e-41ae-a68e-3e97ba75dc77")
 	)
 	(bus_entry
-		(at 212.09 113.03)
+		(at 198.12 113.03)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -1922,7 +1736,7 @@
 		(uuid "7cf21139-0ff6-4e21-bbda-61dddc1f7628")
 	)
 	(bus_entry
-		(at 67.31 80.01)
+		(at 77.47 80.01)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1932,7 +1746,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 82.55 95.25)
+			(xy 80.01 95.25) (xy 96.52 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1982,7 +1796,7 @@
 	)
 	(bus
 		(pts
-			(xy 67.31 73.66) (xy 64.77 73.66)
+			(xy 77.47 77.47) (xy 74.93 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2012,33 +1826,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 110.49) (xy 209.55 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39731e8b-af79-4c51-bf39-139dc9b94f18")
-	)
-	(wire
-		(pts
-			(xy 69.85 82.55) (xy 82.55 82.55)
+			(xy 80.01 82.55) (xy 96.52 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3da09deb-23dc-46af-90a7-9bd1d30ae7a0")
-	)
-	(wire
-		(pts
-			(xy 90.17 82.55) (xy 96.52 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ddcb944-d61d-4b9b-89f0-cfe9e3482ecf")
 	)
 	(wire
 		(pts
@@ -2102,7 +1896,7 @@
 	)
 	(bus
 		(pts
-			(xy 67.31 73.66) (xy 67.31 80.01)
+			(xy 77.47 77.47) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +1926,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 110.49) (xy 189.23 110.49)
+			(xy 173.99 110.49) (xy 195.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +1996,7 @@
 	)
 	(bus
 		(pts
-			(xy 67.31 80.01) (xy 67.31 92.71)
+			(xy 77.47 80.01) (xy 77.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2362,16 +2156,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 95.25) (xy 96.52 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc9c243c-fbba-425a-8582-cd1ac761d4af")
-	)
-	(wire
-		(pts
 			(xy 173.99 110.49) (xy 173.99 124.46)
 		)
 		(stroke
@@ -2382,7 +2166,7 @@
 	)
 	(bus
 		(pts
-			(xy 212.09 113.03) (xy 214.63 113.03)
+			(xy 198.12 113.03) (xy 200.66 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2401,7 +2185,7 @@
 		(uuid "f570e63c-b5f0-49a8-aeed-5dc9e28dac7c")
 	)
 	(label "GPS.RX"
-		(at 72.39 95.25 0)
+		(at 82.55 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2411,7 +2195,7 @@
 		(uuid "2edff27f-ef9f-426c-93e3-121c80d64f49")
 	)
 	(label "GPS.TX"
-		(at 72.39 82.55 0)
+		(at 82.55 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2421,7 +2205,7 @@
 		(uuid "8fadf52b-111b-4ccb-afad-bccf750d0ead")
 	)
 	(label "GPS.TPLS"
-		(at 199.39 110.49 0)
+		(at 184.15 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2454,7 +2238,7 @@
 	)
 	(hierarchical_label "GPS{TX, RX, TPLS}"
 		(shape bidirectional)
-		(at 64.77 73.66 180)
+		(at 74.93 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2465,7 +2249,7 @@
 	)
 	(hierarchical_label "GPS{TX, RX, TPLS}"
 		(shape bidirectional)
-		(at 214.63 113.03 0)
+		(at 200.66 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2621,74 +2405,6 @@
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 193.04 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2769e1f1-32f0-4775-8946-08d917adfb51")
-		(property "Reference" "JP6"
-			(at 193.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPS_TX"
-			(at 193.04 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 193.04 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 193.04 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2a81c68-aaa5-47e2-937c-2ceb58ae47e1")
-		)
-		(pin "2"
-			(uuid "9de1cd56-856c-4e8f-a94c-997a79ee1dfc")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
-					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -2897,74 +2613,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 86.36 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "628ed8ef-1e1e-426f-90f9-bf268f75edc6")
-		(property "Reference" "JP4"
-			(at 86.36 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPS_RX"
-			(at 86.36 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 86.36 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 86.36 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f743cfd4-58b0-4ce3-9d8d-0e3da8e3046f")
-		)
-		(pin "2"
-			(uuid "77354238-38b5-493d-97e7-84b1bd726791")
-		)
-		(instances
-			(project ""
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 115.57 77.47 0)
 		(unit 1)
@@ -3025,74 +2673,6 @@
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 86.36 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76e2da8d-1517-488f-b7d4-f103d23ac2cf")
-		(property "Reference" "JP5"
-			(at 86.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPS_TX"
-			(at 86.36 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 86.36 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 86.36 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c19b8d20-282b-419d-b740-f73832a1a833")
-		)
-		(pin "2"
-			(uuid "5c3e22c9-6bf6-4eba-bcf5-6b47f8c7ef90")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
-					(reference "JP5")
 					(unit 1)
 				)
 			)
