@@ -6,25 +6,15 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock")
-		(date "2025-10-24")
+		(date "2025-10-31")
 		(rev "v0.0")
 		(company "Rajath Katker")
 		(comment 4 "Final verification pending")
 	)
 	(lib_symbols)
-	(text "Buzzer to be added"
-		(exclude_from_sim no)
-		(at 146.304 152.146 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "f62882dd-38f5-4d22-a2ed-0f706a6fa099")
-	)
 	(bus
 		(pts
-			(xy 209.55 63.5) (xy 203.2 63.5)
+			(xy 209.55 76.2) (xy 203.2 76.2)
 		)
 		(stroke
 			(width 0)
@@ -34,7 +24,7 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 44.45) (xy 88.9 44.45)
+			(xy 76.2 57.15) (xy 88.9 57.15)
 		)
 		(stroke
 			(width 0)
@@ -44,7 +34,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 44.45) (xy 127 44.45)
+			(xy 139.7 57.15) (xy 127 57.15)
 		)
 		(stroke
 			(width 0)
@@ -54,7 +44,7 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 82.55) (xy 158.75 63.5)
+			(xy 158.75 95.25) (xy 158.75 76.2)
 		)
 		(stroke
 			(width 0)
@@ -64,7 +54,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 88.9) (xy 152.4 44.45)
+			(xy 152.4 101.6) (xy 152.4 38.1)
 		)
 		(stroke
 			(width 0)
@@ -74,7 +64,17 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 63.5) (xy 127 63.5)
+			(xy 203.2 57.15) (xy 213.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406fb6a2-a61e-4929-95c6-2390845ade84")
+	)
+	(bus
+		(pts
+			(xy 133.35 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
@@ -82,19 +82,9 @@
 		)
 		(uuid "4bbc3862-5d1a-49f3-8fa2-75409f0a6833")
 	)
-	(wire
-		(pts
-			(xy 69.85 116.84) (xy 88.9 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62b77dda-9eba-4733-a4d3-1e87af335db4")
-	)
 	(bus
 		(pts
-			(xy 158.75 63.5) (xy 165.1 63.5)
+			(xy 158.75 76.2) (xy 165.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -104,7 +94,7 @@
 	)
 	(bus
 		(pts
-			(xy 82.55 82.55) (xy 82.55 63.5)
+			(xy 82.55 95.25) (xy 82.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -114,17 +104,7 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 114.3) (xy 165.1 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2355b0-5f32-43b5-97e8-b1d10328ed67")
-	)
-	(bus
-		(pts
-			(xy 215.9 44.45) (xy 203.2 44.45)
+			(xy 217.17 38.1) (xy 203.2 38.1)
 		)
 		(stroke
 			(width 0)
@@ -134,7 +114,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 82.55) (xy 82.55 82.55)
+			(xy 88.9 95.25) (xy 82.55 95.25)
 		)
 		(stroke
 			(width 0)
@@ -142,9 +122,19 @@
 		)
 		(uuid "84ec1c8d-c031-4a23-8646-97b3539e1843")
 	)
+	(bus
+		(pts
+			(xy 203.2 99.06) (xy 213.36 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858348d6-4456-4e2a-af4c-e026acc4072f")
+	)
 	(wire
 		(pts
-			(xy 158.75 135.89) (xy 165.1 135.89)
+			(xy 158.75 148.59) (xy 165.1 148.59)
 		)
 		(stroke
 			(width 0)
@@ -154,7 +144,7 @@
 	)
 	(bus
 		(pts
-			(xy 76.2 88.9) (xy 76.2 44.45)
+			(xy 76.2 101.6) (xy 76.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -164,7 +154,7 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 82.55) (xy 209.55 63.5)
+			(xy 209.55 95.25) (xy 209.55 76.2)
 		)
 		(stroke
 			(width 0)
@@ -174,7 +164,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 82.55) (xy 133.35 82.55)
+			(xy 127 95.25) (xy 133.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -184,7 +174,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 44.45) (xy 165.1 44.45)
+			(xy 152.4 38.1) (xy 165.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -194,7 +184,7 @@
 	)
 	(bus
 		(pts
-			(xy 215.9 88.9) (xy 215.9 44.45)
+			(xy 217.17 102.87) (xy 217.17 38.1)
 		)
 		(stroke
 			(width 0)
@@ -204,7 +194,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 111.76) (xy 88.9 111.76)
+			(xy 69.85 146.05) (xy 88.9 146.05)
 		)
 		(stroke
 			(width 0)
@@ -214,7 +204,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 82.55) (xy 158.75 82.55)
+			(xy 165.1 95.25) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -224,7 +214,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 88.9) (xy 215.9 88.9)
+			(xy 203.2 102.87) (xy 217.17 102.87)
 		)
 		(stroke
 			(width 0)
@@ -232,19 +222,9 @@
 		)
 		(uuid "b37f9845-212f-4086-afc5-033557f861c9")
 	)
-	(wire
-		(pts
-			(xy 127 135.89) (xy 133.35 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb51c9b7-6217-49d6-908a-ed5d59e75ab4")
-	)
 	(bus
 		(pts
-			(xy 69.85 95.25) (xy 88.9 95.25)
+			(xy 69.85 127) (xy 88.9 127)
 		)
 		(stroke
 			(width 0)
@@ -254,7 +234,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 88.9) (xy 139.7 88.9)
+			(xy 127 101.6) (xy 139.7 101.6)
 		)
 		(stroke
 			(width 0)
@@ -264,7 +244,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 82.55) (xy 209.55 82.55)
+			(xy 203.2 95.25) (xy 209.55 95.25)
 		)
 		(stroke
 			(width 0)
@@ -274,7 +254,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 82.55) (xy 133.35 63.5)
+			(xy 133.35 95.25) (xy 133.35 76.2)
 		)
 		(stroke
 			(width 0)
@@ -284,7 +264,7 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 88.9) (xy 139.7 44.45)
+			(xy 139.7 101.6) (xy 139.7 57.15)
 		)
 		(stroke
 			(width 0)
@@ -294,7 +274,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 114.3) (xy 215.9 114.3)
+			(xy 203.2 127) (xy 215.9 127)
 		)
 		(stroke
 			(width 0)
@@ -304,7 +284,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 88.9) (xy 152.4 88.9)
+			(xy 165.1 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -314,7 +294,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 88.9) (xy 76.2 88.9)
+			(xy 88.9 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
@@ -324,7 +304,7 @@
 	)
 	(bus
 		(pts
-			(xy 82.55 63.5) (xy 88.9 63.5)
+			(xy 82.55 76.2) (xy 88.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -334,7 +314,27 @@
 	)
 	(bus
 		(pts
-			(xy 127 101.6) (xy 165.1 101.6)
+			(xy 213.36 99.06) (xy 213.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee349fcd-a7fe-410a-b3a6-6a6293e679d6")
+	)
+	(wire
+		(pts
+			(xy 127 148.59) (xy 133.35 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d3b72a-d2bd-456f-b736-fcb4a9b19e3a")
+	)
+	(bus
+		(pts
+			(xy 127 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -343,7 +343,7 @@
 		(uuid "f98f9029-fc10-4d1c-b5c7-717d898d34e2")
 	)
 	(sheet
-		(at 165.1 57.15)
+		(at 165.1 69.85)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -358,7 +358,7 @@
 		)
 		(uuid "61b252ee-6ab4-4417-a4ad-7fc052d7ca20")
 		(property "Sheetname" "SSsss Character matrix"
-			(at 165.1 56.4384 0)
+			(at 165.1 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -367,7 +367,7 @@
 			)
 		)
 		(property "Sheetfile" "SSsss_character_matrix.kicad_sch"
-			(at 165.1 83.1346 0)
+			(at 165.1 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,7 +377,7 @@
 			)
 		)
 		(pin "M4A[0..4]" input
-			(at 165.1 63.5 180)
+			(at 165.1 76.2 180)
 			(uuid "7f88cc8d-15a1-4672-813c-fbbab616d56f")
 			(effects
 				(font
@@ -387,7 +387,7 @@
 			)
 		)
 		(pin "M4K[0..7]" input
-			(at 203.2 63.5 0)
+			(at 203.2 76.2 0)
 			(uuid "037e4d3a-8360-4d1b-b8fb-5e26651a6604")
 			(effects
 				(font
@@ -405,7 +405,7 @@
 		)
 	)
 	(sheet
-		(at 44.45 88.9)
+		(at 44.45 120.65)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -421,7 +421,7 @@
 		)
 		(uuid "83e9a93f-b32e-4175-81a6-6f58261db903")
 		(property "Sheetname" "Accelerometer & Gyroscope"
-			(at 44.45 88.1376 0)
+			(at 44.45 119.8876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -430,7 +430,7 @@
 			)
 		)
 		(property "Sheetfile" "acclerometer&gyroscope.kicad_sch"
-			(at 44.45 102.2354 0)
+			(at 44.45 133.9854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +440,7 @@
 			)
 		)
 		(pin "AG{INT, SCL, SDA}" bidirectional
-			(at 69.85 95.25 0)
+			(at 69.85 127 0)
 			(uuid "97323035-c6d6-498e-94d2-4c08b4ce8cea")
 			(effects
 				(font
@@ -459,7 +459,7 @@
 	)
 	(sheet
 		(at 133.35 127)
-		(size 25.4 12.7)
+		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -474,7 +474,7 @@
 		)
 		(uuid "8ce44042-2af7-42d8-9728-8ac0b976522a")
 		(property "Sheetname" "Power"
-			(at 133.35 126.2884 0)
+			(at 133.35 126.2376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -483,7 +483,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 133.35 140.2846 0)
+			(at 133.35 153.0354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -493,7 +493,7 @@
 			)
 		)
 		(pin "VBUS1" input
-			(at 158.75 135.89 0)
+			(at 158.75 148.59 0)
 			(uuid "c558daee-7a61-4276-ac2f-952cc6807f23")
 			(effects
 				(font
@@ -503,7 +503,7 @@
 			)
 		)
 		(pin "VBUS2" input
-			(at 133.35 135.89 180)
+			(at 133.35 148.59 180)
 			(uuid "9be4b92d-1f71-404e-9042-174bbefbe928")
 			(effects
 				(font
@@ -521,7 +521,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 38.1)
+		(at 88.9 50.8)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -536,7 +536,7 @@
 		)
 		(uuid "95a63663-b2f9-448f-a4dd-b71321e8f379")
 		(property "Sheetname" "YYYY- Character matrix"
-			(at 88.9 37.3884 0)
+			(at 88.9 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +545,7 @@
 			)
 		)
 		(property "Sheetfile" "YYYY-_character_matrix.kicad_sch"
-			(at 88.9 64.0846 0)
+			(at 88.9 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -555,7 +555,7 @@
 			)
 		)
 		(pin "M1A[0..4]" input
-			(at 88.9 44.45 180)
+			(at 88.9 57.15 180)
 			(uuid "ecd3ea37-8a3d-4aa5-b708-6864fa92555e")
 			(effects
 				(font
@@ -565,7 +565,7 @@
 			)
 		)
 		(pin "M1K[0..7]" input
-			(at 127 44.45 0)
+			(at 127 57.15 0)
 			(uuid "711d2515-eb78-4f00-a3d0-1b84d6f317e0")
 			(effects
 				(font
@@ -583,7 +583,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 76.2)
+		(at 88.9 88.9)
 		(size 38.1 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -599,7 +599,7 @@
 		)
 		(uuid "9aca4cc8-38de-4388-9e71-17c26876d83c")
 		(property "Sheetname" "Secondary MCU"
-			(at 88.9 75.4376 0)
+			(at 88.9 88.1376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +608,7 @@
 			)
 		)
 		(property "Sheetfile" "secondary_mcu.kicad_sch"
-			(at 88.9 140.3354 0)
+			(at 88.9 153.0354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +618,7 @@
 			)
 		)
 		(pin "M2A[0..4]" output
-			(at 88.9 82.55 180)
+			(at 88.9 95.25 180)
 			(uuid "02fabb17-c59d-487a-8652-e0ecb9cbb132")
 			(effects
 				(font
@@ -628,7 +628,7 @@
 			)
 		)
 		(pin "M1A[0..4]" output
-			(at 88.9 88.9 180)
+			(at 88.9 101.6 180)
 			(uuid "507e153e-8fc6-411c-b284-882835aed276")
 			(effects
 				(font
@@ -638,7 +638,7 @@
 			)
 		)
 		(pin "M2K[0..7]" output
-			(at 127 82.55 0)
+			(at 127 95.25 0)
 			(uuid "d5b271f3-aa98-4bae-93ec-8082fc4b32ae")
 			(effects
 				(font
@@ -648,7 +648,7 @@
 			)
 		)
 		(pin "M1K[0..7]" output
-			(at 127 88.9 0)
+			(at 127 101.6 0)
 			(uuid "a64a1d8c-079b-4431-a540-e8575d2f36e7")
 			(effects
 				(font
@@ -658,7 +658,7 @@
 			)
 		)
 		(pin "TH{SCL, SDA}" bidirectional
-			(at 88.9 111.76 180)
+			(at 88.9 146.05 180)
 			(uuid "5b7483a5-3ff5-483a-a592-9216cadbf9bc")
 			(effects
 				(font
@@ -668,7 +668,7 @@
 			)
 		)
 		(pin "AG{INT, SCL, SDA}" bidirectional
-			(at 88.9 95.25 180)
+			(at 88.9 127 180)
 			(uuid "c2c0371d-5407-4960-a478-e9f501d156b2")
 			(effects
 				(font
@@ -678,7 +678,7 @@
 			)
 		)
 		(pin "MCU{TX, RX, OSC}" bidirectional
-			(at 127 101.6 0)
+			(at 127 114.3 0)
 			(uuid "1e0fa0f7-46c2-4661-bf2e-8b1b1cff3b44")
 			(effects
 				(font
@@ -688,7 +688,7 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 127 135.89 0)
+			(at 127 148.59 0)
 			(uuid "68e251c5-f654-490b-a223-7bab8e6c509c")
 			(effects
 				(font
@@ -697,18 +697,8 @@
 				(justify right)
 			)
 		)
-		(pin "ADC" input
-			(at 88.9 116.84 180)
-			(uuid "8007a6d1-4a79-41a4-9bba-5efc4fe20cb3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VFB.UP" output
-			(at 127 130.81 0)
+			(at 127 143.51 0)
 			(uuid "56f64778-be7c-42e6-88b3-80e166ea6404")
 			(effects
 				(font
@@ -726,8 +716,8 @@
 		)
 	)
 	(sheet
-		(at 133.35 107.95)
-		(size 25.4 12.7)
+		(at 165.1 50.8)
+		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -742,7 +732,7 @@
 		)
 		(uuid "9ee9cf55-854a-46a7-9bd0-7970985d5955")
 		(property "Sheetname" "Colon"
-			(at 133.35 107.1876 0)
+			(at 165.1 50.0376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +741,7 @@
 			)
 		)
 		(property "Sheetfile" "colon.kicad_sch"
-			(at 133.35 121.2854 0)
+			(at 165.1 64.1354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -761,7 +751,7 @@
 			)
 		)
 		(pin "COL[0..1]" input
-			(at 158.75 114.3 0)
+			(at 203.2 57.15 0)
 			(uuid "4a7caa5f-3fde-43de-9141-8d6b6ae26c16")
 			(effects
 				(font
@@ -779,7 +769,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 107.95)
+		(at 215.9 120.65)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -795,7 +785,7 @@
 		)
 		(uuid "adbcdd61-c016-4293-925d-555ee31f0e50")
 		(property "Sheetname" "GPS"
-			(at 215.9 107.1876 0)
+			(at 215.9 119.8876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -804,7 +794,7 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 215.9 121.2854 0)
+			(at 215.9 133.9854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -814,7 +804,7 @@
 			)
 		)
 		(pin "GPS{TX, RX, TPLS}" bidirectional
-			(at 215.9 114.3 180)
+			(at 215.9 127 180)
 			(uuid "bc76ab33-b902-4f76-91e0-0205afbca366")
 			(effects
 				(font
@@ -832,7 +822,7 @@
 		)
 	)
 	(sheet
-		(at 44.45 107.95)
+		(at 44.45 139.7)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -848,7 +838,7 @@
 		)
 		(uuid "cc882cab-fb20-4552-b867-43569dfc2d06")
 		(property "Sheetname" "Temperature & Humidity Sensor"
-			(at 44.45 107.1876 0)
+			(at 44.45 138.9376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +847,7 @@
 			)
 		)
 		(property "Sheetfile" "temperature&humidity_sensor.kicad_sch"
-			(at 44.45 121.2854 0)
+			(at 44.45 153.0354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -867,18 +857,8 @@
 			)
 		)
 		(pin "TH{SCL, SDA}" bidirectional
-			(at 69.85 111.76 0)
+			(at 69.85 146.05 0)
 			(uuid "39e8cc9d-996b-470a-869f-d13aa6eab565")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AMB" output
-			(at 69.85 116.84 0)
-			(uuid "4bfac501-acd9-4ed2-80d5-a5d5e5728481")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +875,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 76.2)
+		(at 165.1 88.9)
 		(size 38.1 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -911,7 +891,7 @@
 		)
 		(uuid "d0d8c9aa-9e46-4cf3-a690-ff272eec1168")
 		(property "Sheetname" "Primary MCU"
-			(at 165.1 75.4376 0)
+			(at 165.1 88.1376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,7 +900,7 @@
 			)
 		)
 		(property "Sheetfile" "primary_mcu.kicad_sch"
-			(at 165.1 140.3354 0)
+			(at 165.1 153.0354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +910,7 @@
 			)
 		)
 		(pin "MCU{TX, RX, OSC}" bidirectional
-			(at 165.1 101.6 180)
+			(at 165.1 114.3 180)
 			(uuid "67482904-bb5b-4f61-a0da-26b78e8ef39c")
 			(effects
 				(font
@@ -940,7 +920,7 @@
 			)
 		)
 		(pin "M4K[0..7]" output
-			(at 203.2 82.55 0)
+			(at 203.2 95.25 0)
 			(uuid "130e51a5-70d4-4779-9337-298d77627941")
 			(effects
 				(font
@@ -950,7 +930,7 @@
 			)
 		)
 		(pin "M3K[0..7]" output
-			(at 203.2 88.9 0)
+			(at 203.2 102.87 0)
 			(uuid "17b44a32-ff88-49e6-aaeb-0a2e1318bde6")
 			(effects
 				(font
@@ -960,7 +940,7 @@
 			)
 		)
 		(pin "M4A[0..4]" output
-			(at 165.1 82.55 180)
+			(at 165.1 95.25 180)
 			(uuid "16040a87-d836-4ab8-a5b1-4b58bffcfd98")
 			(effects
 				(font
@@ -970,7 +950,7 @@
 			)
 		)
 		(pin "M3A[0..3]" output
-			(at 165.1 88.9 180)
+			(at 165.1 101.6 180)
 			(uuid "73f5e8ae-9601-4428-874c-f836ec90a43c")
 			(effects
 				(font
@@ -980,7 +960,7 @@
 			)
 		)
 		(pin "GPS{TX, RX, TPLS}" bidirectional
-			(at 203.2 114.3 0)
+			(at 203.2 127 0)
 			(uuid "11f0eb62-9f45-4c0a-b4a2-c7cb406a0705")
 			(effects
 				(font
@@ -990,7 +970,7 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 165.1 135.89 180)
+			(at 165.1 148.59 180)
 			(uuid "f902e904-ff6d-4c63-a785-7e2b4875eb80")
 			(effects
 				(font
@@ -999,9 +979,9 @@
 				(justify left)
 			)
 		)
-		(pin "COL[0..1]" output
-			(at 165.1 114.3 180)
-			(uuid "c262b4c2-b441-4190-9805-5fd886e65941")
+		(pin "VFB{LOW,COL}" output
+			(at 165.1 143.51 180)
+			(uuid "1aa0f8ea-680d-4234-bdf3-b135cf712b58")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,14 +989,14 @@
 				(justify left)
 			)
 		)
-		(pin "VFB{LOW,COL}" output
-			(at 165.1 132.08 180)
-			(uuid "1aa0f8ea-680d-4234-bdf3-b135cf712b58")
+		(pin "COL[0..1]" output
+			(at 203.2 99.06 0)
+			(uuid "1fe773e3-1de2-45e5-9f2f-4ea8e3169271")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1028,7 +1008,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 38.1)
+		(at 165.1 31.75)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1043,7 +1023,7 @@
 		)
 		(uuid "d3af2bc2-13e8-43c1-8a6d-735ddffde2e2")
 		(property "Sheetname" "HHmm Character matrix"
-			(at 165.1 37.3884 0)
+			(at 165.1 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1032,7 @@
 			)
 		)
 		(property "Sheetfile" "HHmm_character_matrix.kicad_sch"
-			(at 165.1 64.0846 0)
+			(at 165.1 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1042,7 @@
 			)
 		)
 		(pin "M3A[0..3]" input
-			(at 165.1 44.45 180)
+			(at 165.1 38.1 180)
 			(uuid "48555f5b-52db-42cd-92ce-456d0281f791")
 			(effects
 				(font
@@ -1072,7 +1052,7 @@
 			)
 		)
 		(pin "M3K[0..7]" input
-			(at 203.2 44.45 0)
+			(at 203.2 38.1 0)
 			(uuid "22bd5153-b786-4d4e-b520-fbd96151dcac")
 			(effects
 				(font
@@ -1090,7 +1070,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 57.15)
+		(at 88.9 69.85)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1105,7 +1085,7 @@
 		)
 		(uuid "e0daf664-e239-498f-ad2e-96c4213a6fbd")
 		(property "Sheetname" "MM-DD Character matrix"
-			(at 88.9 56.4384 0)
+			(at 88.9 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1094,7 @@
 			)
 		)
 		(property "Sheetfile" "MM-DD_character_matrix.kicad_sch"
-			(at 88.9 83.1346 0)
+			(at 88.9 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1104,7 @@
 			)
 		)
 		(pin "M2A[0..4]" input
-			(at 88.9 63.5 180)
+			(at 88.9 76.2 180)
 			(uuid "3fb0c0c1-064d-49cc-9c65-e225937d52d1")
 			(effects
 				(font
@@ -1134,7 +1114,7 @@
 			)
 		)
 		(pin "M2K[0..7]" input
-			(at 127 63.5 0)
+			(at 127 76.2 0)
 			(uuid "1924a977-0f1b-4d4d-8c23-11493f4b6a4d")
 			(effects
 				(font
