@@ -1013,27 +1013,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Current limiting resistors should be changed"
-		(exclude_from_sim no)
-		(at 170.18 129.54 0)
-		(size 12.7 12.7)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 0 255 255 1)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "0c7d3093-3981-4d24-98dd-7a1bbd8ccd34")
-	)
 	(junction
 		(at 106.68 96.52)
 		(diameter 0)
@@ -1161,6 +1140,16 @@
 			(type default)
 		)
 		(uuid "09b933d5-5141-40b5-ba46-3e3e9f015992")
+	)
+	(bus
+		(pts
+			(xy 95.25 88.9) (xy 95.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15448bf1-7378-47db-a34a-6c3bf2ebc59a")
 	)
 	(wire
 		(pts
@@ -1584,7 +1573,7 @@
 	)
 	(bus
 		(pts
-			(xy 92.71 88.9) (xy 95.25 88.9)
+			(xy 92.71 86.36) (xy 95.25 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1743,7 @@
 	)
 	(bus
 		(pts
-			(xy 95.25 88.9) (xy 95.25 93.98)
+			(xy 95.25 86.36) (xy 95.25 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1816,7 +1805,7 @@
 	)
 	(hierarchical_label "COL[0..1]"
 		(shape input)
-		(at 92.71 88.9 180)
+		(at 92.71 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
