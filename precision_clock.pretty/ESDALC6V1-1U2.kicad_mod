@@ -1,0 +1,229 @@
+(footprint "ESDALC6V1-1U2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ESD protection TVS diode")
+	(tags "ESD protection TVS diode")
+	(property "Reference" "REF**"
+		(at 0 -0.85 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e70c90e5-c229-403d-bf42-7c23f442bddb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ESDALC6V1-1U2"
+		(at 0 0.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a8b9950-756e-4a38-b062-5ce34799047b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588901542774910976"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55908ace-5092-4f9d-a666-8cf8bd3cc013")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "ESD protection TVS diode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c950a4b7-bf11-42e9-b7ad-5c1169c041b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.35)
+		(end -0.7 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf403ca8-6afc-41e2-85e6-b56b16404c06")
+	)
+	(fp_line
+		(start -0.7 0.35)
+		(end 0 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f935432-7ab6-41bc-ac9e-d654193f54e8")
+	)
+	(fp_line
+		(start 0 -0.35)
+		(end -0.7 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60040a00-4981-4df3-9dce-b63b18027749")
+	)
+	(fp_rect
+		(start 0.75 0.4)
+		(end -0.75 -0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fa649bff-ae34-4b0f-994c-ee6242e25b34")
+	)
+	(fp_line
+		(start -0.4 -0.25)
+		(end -0.4 0.25)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bead9420-a14f-4725-bba9-bbab839e36bc")
+	)
+	(fp_line
+		(start -0.4 -0.25)
+		(end 0.45 -0.25)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8df303e-a1be-462b-9e19-407de7dc4c01")
+	)
+	(fp_line
+		(start -0.1 -0.15)
+		(end -0.1 0.15)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "57681bc6-ec4d-48e3-a116-78a8b18742a9")
+	)
+	(fp_line
+		(start -0.1 0)
+		(end -0.25 0)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db6397bd-3ea0-4fc3-aafa-3efe668ce5f9")
+	)
+	(fp_line
+		(start -0.1 0)
+		(end 0.1 0.15)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6192c993-e33e-49a5-acc9-85fd06a5d9a8")
+	)
+	(fp_line
+		(start 0.1 -0.15)
+		(end -0.1 0)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69c35691-5af3-4008-86fd-c5f943fb5fe2")
+	)
+	(fp_line
+		(start 0.1 -0.15)
+		(end 0.1 0.15)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5d78c2d-7d54-4572-908f-9156de6d34f3")
+	)
+	(fp_line
+		(start 0.1 0)
+		(end 0.25 0)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dce1f493-5339-4fc1-8580-6e3954270071")
+	)
+	(fp_line
+		(start 0.45 -0.25)
+		(end 0.45 0.25)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acd03c17-1fb0-4fe3-a6b3-d0f960034fd4")
+	)
+	(fp_line
+		(start 0.45 0.25)
+		(end -0.4 0.25)
+		(stroke
+			(width 0.07)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "852652d2-3937-45ab-b6e4-6d4b00108447")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "623dcf7a-2290-436c-9f9d-fb099ec62448")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.4125 0)
+		(size 0.425 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "65e7553d-a19d-463f-a8ae-0cabb742bb8c")
+	)
+	(pad "2" smd roundrect
+		(at 0.4125 0)
+		(size 0.425 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "65e52600-1554-4faa-8057-6c9b0aa03c7e")
+	)
+	(embedded_fonts no)
+)

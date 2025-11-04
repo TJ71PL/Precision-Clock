@@ -6,12 +6,25 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock")
-		(date "2025-10-31")
+		(date "2025-11-04")
 		(rev "v0.0")
 		(company "Rajath Katker")
 		(comment 4 "Final verification pending")
 	)
 	(lib_symbols)
+	(text "Heavily inspired from Precison Clock MK4\nhttps://mitxela.com/shop/clock4"
+		(exclude_from_sim no)
+		(at 84.836 184.404 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(italic yes)
+				(color 194 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "91390e7a-3f52-49b6-bfd6-b87d78e96cd3")
+	)
 	(bus
 		(pts
 			(xy 209.55 76.2) (xy 203.2 76.2)
