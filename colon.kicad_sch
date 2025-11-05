@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Colon matrix & Driver")
-		(date "2025-11-04")
+		(date "2025-09-05")
 		(rev "v0.0")
-		(company "Rajath Katker")
+		(company "TJ71PL")
+		(comment 1 "天計")
 		(comment 4 "Final verification pending")
 	)
 	(lib_symbols
@@ -1114,12 +1115,6 @@
 		(uuid "094bfa11-99a5-4fbc-8e4d-d32681cf43cd")
 	)
 	(junction
-		(at 137.16 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49dfca9f-5693-4031-a8e9-5e24173bf7c6")
-	)
-	(junction
 		(at 186.69 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1142,12 +1137,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81214590-dcbd-42a0-a996-8894c79fe303")
-	)
-	(junction
-		(at 137.16 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "951b6187-2f66-4180-af0a-0d720f032b0b")
 	)
 	(junction
 		(at 106.68 104.14)
@@ -1185,11 +1174,21 @@
 		(color 0 0 0 0)
 		(uuid "eb7dcd3b-68a1-48da-8e4e-b81881530656")
 	)
-	(junction
-		(at 137.16 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f088d985-49d1-4b4a-a54a-4d845843486c")
+	(no_connect
+		(at 134.62 109.22)
+		(uuid "07d6de42-aaa6-4dab-ac0a-509ef719ed07")
+	)
+	(no_connect
+		(at 134.62 101.6)
+		(uuid "4e23a48b-8ad8-4137-a514-c0cf0967c171")
+	)
+	(no_connect
+		(at 134.62 106.68)
+		(uuid "6c09531b-0bac-4ccc-85f9-0b6b6b731af1")
+	)
+	(no_connect
+		(at 134.62 104.14)
+		(uuid "c6ef5f31-076a-4bfd-8cf8-ca253c88cd3c")
 	)
 	(bus_entry
 		(at 95.25 88.9)
@@ -1251,26 +1250,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 104.14) (xy 137.16 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e33353b-33cf-475a-a659-a4dee2cf606f")
-	)
-	(wire
-		(pts
-			(xy 134.62 101.6) (xy 137.16 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b5d3b5-6d44-406f-853a-ed609162b218")
-	)
-	(wire
-		(pts
 			(xy 106.68 104.14) (xy 106.68 106.68)
 		)
 		(stroke
@@ -1321,16 +1300,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 106.68) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2e557f-49ee-4f3a-a45b-7c49294525ab")
-	)
-	(wire
-		(pts
 			(xy 109.22 114.3) (xy 106.68 114.3)
 		)
 		(stroke
@@ -1371,16 +1340,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 109.22) (xy 137.16 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a3bb93c-83d8-4f4e-ab70-bd495581f2b0")
-	)
-	(wire
-		(pts
 			(xy 106.68 116.84) (xy 109.22 116.84)
 		)
 		(stroke
@@ -1408,16 +1367,6 @@
 			(type default)
 		)
 		(uuid "4e5070f1-f9b4-4050-b0e6-8afc5a6ea82f")
-	)
-	(wire
-		(pts
-			(xy 121.92 127) (xy 137.16 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5279d043-4391-407d-bb13-e207797ace81")
 	)
 	(wire
 		(pts
@@ -1511,16 +1460,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 137.16 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7200786a-5d3e-4a29-a2f0-ea9df01b9f22")
-	)
-	(wire
-		(pts
 			(xy 144.78 87.63) (xy 152.4 87.63)
 		)
 		(stroke
@@ -1561,16 +1500,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 106.68) (xy 137.16 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80880c22-b84b-4e8a-ad91-ced8d02c8904")
-	)
-	(wire
-		(pts
 			(xy 106.68 91.44) (xy 106.68 93.98)
 		)
 		(stroke
@@ -1588,16 +1517,6 @@
 			(type default)
 		)
 		(uuid "829ed3b2-ee29-40bd-a32c-71d5f7ffd376")
-	)
-	(wire
-		(pts
-			(xy 137.16 109.22) (xy 137.16 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "836c87c3-a046-4ac4-a054-5214d2b83e2e")
 	)
 	(wire
 		(pts
@@ -1819,16 +1738,6 @@
 		)
 		(uuid "f4d81002-4521-4838-9ec2-c17d2ca937a1")
 	)
-	(wire
-		(pts
-			(xy 137.16 104.14) (xy 137.16 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f50e2607-2699-4b5b-8393-a76c5ed79097")
-	)
 	(bus
 		(pts
 			(xy 95.25 86.36) (xy 95.25 88.9)
@@ -1985,7 +1894,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 156.21 85.344 90)
 			(effects
 				(font
@@ -2423,7 +2332,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 156.21 114.554 90)
 			(effects
 				(font
@@ -2640,7 +2549,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 156.21 100.584 90)
 			(effects
 				(font
@@ -2707,7 +2616,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 156.21 71.374 90)
 			(effects
 				(font

@@ -5,10 +5,11 @@
 	(uuid "c9a8ff63-a0d1-4125-9dd1-40fb53daf536")
 	(paper "A4")
 	(title_block
-		(title "Precision Clock")
-		(date "2025-11-04")
+		(title "Precision Clock　")
+		(date "2025-09-05")
 		(rev "v0.0")
-		(company "Rajath Katker")
+		(company "TJ71PL")
+		(comment 1 "天計")
 		(comment 4 "Final verification pending")
 	)
 	(lib_symbols)
@@ -18,16 +19,35 @@
 		(effects
 			(font
 				(size 2.54 2.54)
+				(thickness 0.3175)
 				(italic yes)
-				(color 194 0 0 1)
+				(color 132 0 0 1)
 			)
 			(justify left)
 		)
 		(uuid "91390e7a-3f52-49b6-bfd6-b87d78e96cd3")
 	)
+	(bus_entry
+		(at 175.26 140.97)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eaa6cbc-a945-44f2-a619-0bd1f2b962a1")
+	)
+	(bus_entry
+		(at 175.26 143.51)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4f6b7a-7015-4d56-aeca-d558c2cb1f0e")
+	)
 	(bus
 		(pts
-			(xy 209.55 76.2) (xy 203.2 76.2)
+			(xy 222.25 76.2) (xy 215.9 76.2)
 		)
 		(stroke
 			(width 0)
@@ -45,6 +65,16 @@
 		)
 		(uuid "11ed355d-f1cd-4d77-aae4-638d285e9d0a")
 	)
+	(wire
+		(pts
+			(xy 160.02 143.51) (xy 172.72 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146ceeea-5c53-4353-8410-ae9b16b36f4a")
+	)
 	(bus
 		(pts
 			(xy 139.7 57.15) (xy 127 57.15)
@@ -57,7 +87,7 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 95.25) (xy 158.75 76.2)
+			(xy 171.45 95.25) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +97,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 101.6) (xy 152.4 38.1)
+			(xy 165.1 101.6) (xy 165.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -77,13 +107,33 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 57.15) (xy 213.36 57.15)
+			(xy 215.9 57.15) (xy 226.06 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "406fb6a2-a61e-4929-95c6-2390845ade84")
+	)
+	(wire
+		(pts
+			(xy 160.02 146.05) (xy 172.72 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419443cb-ca1c-45d7-bbd3-a61406cb0d7f")
+	)
+	(wire
+		(pts
+			(xy 160.02 148.59) (xy 177.8 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4488561a-543c-48d2-af71-5f19d4f00db7")
 	)
 	(bus
 		(pts
@@ -97,7 +147,17 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 76.2) (xy 165.1 76.2)
+			(xy 175.26 139.7) (xy 175.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5158baac-af2a-465c-81a0-af9edf5ab864")
+	)
+	(bus
+		(pts
+			(xy 171.45 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +177,7 @@
 	)
 	(bus
 		(pts
-			(xy 217.17 38.1) (xy 203.2 38.1)
+			(xy 229.87 38.1) (xy 215.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +197,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 99.06) (xy 213.36 99.06)
+			(xy 215.9 99.06) (xy 226.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -145,15 +205,15 @@
 		)
 		(uuid "858348d6-4456-4e2a-af4c-e026acc4072f")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 158.75 148.59) (xy 165.1 148.59)
+			(xy 177.8 139.7) (xy 175.26 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8c7e09b7-d6fe-45c4-a152-719aa7605e95")
+		(uuid "8727d8ae-4864-466c-b22f-1f3c37702788")
 	)
 	(bus
 		(pts
@@ -167,7 +227,7 @@
 	)
 	(bus
 		(pts
-			(xy 209.55 95.25) (xy 209.55 76.2)
+			(xy 222.25 95.25) (xy 222.25 76.2)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +247,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 38.1) (xy 165.1 38.1)
+			(xy 165.1 38.1) (xy 177.8 38.1)
 		)
 		(stroke
 			(width 0)
@@ -197,7 +257,7 @@
 	)
 	(bus
 		(pts
-			(xy 217.17 102.87) (xy 217.17 38.1)
+			(xy 229.87 102.87) (xy 229.87 38.1)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +267,7 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 146.05) (xy 88.9 146.05)
+			(xy 76.2 146.05) (xy 88.9 146.05)
 		)
 		(stroke
 			(width 0)
@@ -215,9 +275,19 @@
 		)
 		(uuid "a942f1bb-8d71-47bf-953f-d6186708461d")
 	)
+	(wire
+		(pts
+			(xy 127 143.51) (xy 134.62 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9d1f02-9e29-4391-bfd9-1c5ebb9fe814")
+	)
 	(bus
 		(pts
-			(xy 165.1 95.25) (xy 158.75 95.25)
+			(xy 177.8 95.25) (xy 171.45 95.25)
 		)
 		(stroke
 			(width 0)
@@ -227,7 +297,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 102.87) (xy 217.17 102.87)
+			(xy 215.9 102.87) (xy 229.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -237,13 +307,23 @@
 	)
 	(bus
 		(pts
-			(xy 69.85 127) (xy 88.9 127)
+			(xy 76.2 127) (xy 88.9 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bbc15d66-c516-4e52-8f3e-18d118d36446")
+	)
+	(bus
+		(pts
+			(xy 175.26 140.97) (xy 175.26 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8f054e-2577-41f0-9b78-02c7c22ba8f1")
 	)
 	(bus
 		(pts
@@ -257,7 +337,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 95.25) (xy 209.55 95.25)
+			(xy 215.9 95.25) (xy 222.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +367,7 @@
 	)
 	(bus
 		(pts
-			(xy 203.2 127) (xy 215.9 127)
+			(xy 215.9 127) (xy 228.6 127)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +377,7 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 101.6) (xy 152.4 101.6)
+			(xy 177.8 101.6) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
@@ -327,7 +407,7 @@
 	)
 	(bus
 		(pts
-			(xy 213.36 99.06) (xy 213.36 57.15)
+			(xy 226.06 99.06) (xy 226.06 57.15)
 		)
 		(stroke
 			(width 0)
@@ -337,7 +417,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 148.59) (xy 133.35 148.59)
+			(xy 127 148.59) (xy 134.62 148.59)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +427,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 114.3) (xy 165.1 114.3)
+			(xy 127 114.3) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -355,8 +435,28 @@
 		)
 		(uuid "f98f9029-fc10-4d1c-b5c7-717d898d34e2")
 	)
+	(label "VFB.COL"
+		(at 162.56 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a411c401-9e9d-471a-85c4-198521ad47d1")
+	)
+	(label "VFB.LOW"
+		(at 162.56 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6c61091-4918-4df8-844d-26e8a3a1e254")
+	)
 	(sheet
-		(at 165.1 69.85)
+		(at 177.8 69.85)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -371,7 +471,7 @@
 		)
 		(uuid "61b252ee-6ab4-4417-a4ad-7fc052d7ca20")
 		(property "Sheetname" "SSsss Character matrix"
-			(at 165.1 69.1384 0)
+			(at 177.8 69.1384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -380,7 +480,7 @@
 			)
 		)
 		(property "Sheetfile" "SSsss_character_matrix.kicad_sch"
-			(at 165.1 95.8346 0)
+			(at 177.8 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +490,7 @@
 			)
 		)
 		(pin "M4A[0..4]" input
-			(at 165.1 76.2 180)
+			(at 177.8 76.2 180)
 			(uuid "7f88cc8d-15a1-4672-813c-fbbab616d56f")
 			(effects
 				(font
@@ -400,7 +500,7 @@
 			)
 		)
 		(pin "M4K[0..7]" input
-			(at 203.2 76.2 0)
+			(at 215.9 76.2 0)
 			(uuid "037e4d3a-8360-4d1b-b8fb-5e26651a6604")
 			(effects
 				(font
@@ -412,13 +512,13 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "3")
+					(page "11")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 44.45 120.65)
+		(at 50.8 120.65)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -434,7 +534,7 @@
 		)
 		(uuid "83e9a93f-b32e-4175-81a6-6f58261db903")
 		(property "Sheetname" "Accelerometer & Gyroscope"
-			(at 44.45 119.8876 0)
+			(at 50.8 119.8876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +543,7 @@
 			)
 		)
 		(property "Sheetfile" "acclerometer&gyroscope.kicad_sch"
-			(at 44.45 133.9854 0)
+			(at 50.8 133.9854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -453,7 +553,7 @@
 			)
 		)
 		(pin "AG{INT, SCL, SDA}" bidirectional
-			(at 69.85 127 0)
+			(at 76.2 127 0)
 			(uuid "97323035-c6d6-498e-94d2-4c08b4ce8cea")
 			(effects
 				(font
@@ -465,14 +565,14 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 133.35 127)
-		(size 25.4 25.4)
+		(at 134.62 139.7)
+		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -487,7 +587,7 @@
 		)
 		(uuid "8ce44042-2af7-42d8-9728-8ac0b976522a")
 		(property "Sheetname" "Power"
-			(at 133.35 126.2376 0)
+			(at 134.62 138.9376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -496,7 +596,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 133.35 153.0354 0)
+			(at 134.62 153.0354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,7 +606,7 @@
 			)
 		)
 		(pin "VBUS1" input
-			(at 158.75 148.59 0)
+			(at 160.02 148.59 0)
 			(uuid "c558daee-7a61-4276-ac2f-952cc6807f23")
 			(effects
 				(font
@@ -516,8 +616,38 @@
 			)
 		)
 		(pin "VBUS2" input
-			(at 133.35 148.59 180)
+			(at 134.62 148.59 180)
 			(uuid "9be4b92d-1f71-404e-9042-174bbefbe928")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DAC_VDC" input
+			(at 160.02 143.51 0)
+			(uuid "669cf55c-d76e-4dc3-a30c-61ba6f066f49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_VDL" input
+			(at 160.02 146.05 0)
+			(uuid "b53a0de8-aefb-4f5e-ad93-d2d09348c0e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_VDU" input
+			(at 134.62 143.51 180)
+			(uuid "06486cb0-fe70-4e25-9eb5-8d7acaf64538")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,7 +658,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "12")
+					(page "2")
 				)
 			)
 		)
@@ -590,7 +720,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "2")
+					(page "8")
 				)
 			)
 		)
@@ -710,16 +840,26 @@
 				(justify right)
 			)
 		)
+		(pin "VFB.UP" output
+			(at 127 143.51 0)
+			(uuid "256f88a0-6cd1-474f-b044-7fdaed2949d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "8")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 165.1 50.8)
+		(at 177.8 50.8)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -735,7 +875,7 @@
 		)
 		(uuid "9ee9cf55-854a-46a7-9bd0-7970985d5955")
 		(property "Sheetname" "Colon"
-			(at 165.1 50.0376 0)
+			(at 177.8 50.0376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +884,7 @@
 			)
 		)
 		(property "Sheetfile" "colon.kicad_sch"
-			(at 165.1 64.1354 0)
+			(at 177.8 64.1354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,7 +894,7 @@
 			)
 		)
 		(pin "COL[0..1]" input
-			(at 203.2 57.15 0)
+			(at 215.9 57.15 0)
 			(uuid "4a7caa5f-3fde-43de-9141-8d6b6ae26c16")
 			(effects
 				(font
@@ -772,7 +912,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 120.65)
+		(at 228.6 120.65)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -788,7 +928,7 @@
 		)
 		(uuid "adbcdd61-c016-4293-925d-555ee31f0e50")
 		(property "Sheetname" "GPS"
-			(at 215.9 119.8876 0)
+			(at 228.6 119.8876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -797,7 +937,7 @@
 			)
 		)
 		(property "Sheetfile" "gps.kicad_sch"
-			(at 215.9 133.9854 0)
+			(at 228.6 133.9854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +947,7 @@
 			)
 		)
 		(pin "GPS{TX, RX, TPLS}" bidirectional
-			(at 215.9 127 180)
+			(at 228.6 127 180)
 			(uuid "bc76ab33-b902-4f76-91e0-0205afbca366")
 			(effects
 				(font
@@ -819,13 +959,13 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "9")
+					(page "5")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 44.45 139.7)
+		(at 50.8 139.7)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -841,7 +981,7 @@
 		)
 		(uuid "cc882cab-fb20-4552-b867-43569dfc2d06")
 		(property "Sheetname" "Temperature & Humidity Sensor"
-			(at 44.45 138.9376 0)
+			(at 50.8 138.9376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,7 +990,7 @@
 			)
 		)
 		(property "Sheetfile" "temperature&humidity_sensor.kicad_sch"
-			(at 44.45 153.0354 0)
+			(at 50.8 153.0354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +1000,7 @@
 			)
 		)
 		(pin "TH{SCL, SDA}" bidirectional
-			(at 69.85 146.05 0)
+			(at 76.2 146.05 0)
 			(uuid "39e8cc9d-996b-470a-869f-d13aa6eab565")
 			(effects
 				(font
@@ -872,13 +1012,13 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "10")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 165.1 88.9)
+		(at 177.8 88.9)
 		(size 38.1 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -894,7 +1034,7 @@
 		)
 		(uuid "d0d8c9aa-9e46-4cf3-a690-ff272eec1168")
 		(property "Sheetname" "Primary MCU"
-			(at 165.1 88.1376 0)
+			(at 177.8 88.1376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -903,7 +1043,7 @@
 			)
 		)
 		(property "Sheetfile" "primary_mcu.kicad_sch"
-			(at 165.1 153.0354 0)
+			(at 177.8 153.0354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +1053,7 @@
 			)
 		)
 		(pin "MCU{TX, RX, OSC}" bidirectional
-			(at 165.1 114.3 180)
+			(at 177.8 114.3 180)
 			(uuid "67482904-bb5b-4f61-a0da-26b78e8ef39c")
 			(effects
 				(font
@@ -923,7 +1063,7 @@
 			)
 		)
 		(pin "M4K[0..7]" output
-			(at 203.2 95.25 0)
+			(at 215.9 95.25 0)
 			(uuid "130e51a5-70d4-4779-9337-298d77627941")
 			(effects
 				(font
@@ -933,7 +1073,7 @@
 			)
 		)
 		(pin "M3K[0..7]" output
-			(at 203.2 102.87 0)
+			(at 215.9 102.87 0)
 			(uuid "17b44a32-ff88-49e6-aaeb-0a2e1318bde6")
 			(effects
 				(font
@@ -943,7 +1083,7 @@
 			)
 		)
 		(pin "M4A[0..4]" output
-			(at 165.1 95.25 180)
+			(at 177.8 95.25 180)
 			(uuid "16040a87-d836-4ab8-a5b1-4b58bffcfd98")
 			(effects
 				(font
@@ -953,7 +1093,7 @@
 			)
 		)
 		(pin "M3A[0..3]" output
-			(at 165.1 101.6 180)
+			(at 177.8 101.6 180)
 			(uuid "73f5e8ae-9601-4428-874c-f836ec90a43c")
 			(effects
 				(font
@@ -963,7 +1103,7 @@
 			)
 		)
 		(pin "GPS{TX, RX, TPLS}" bidirectional
-			(at 203.2 127 0)
+			(at 215.9 127 0)
 			(uuid "11f0eb62-9f45-4c0a-b4a2-c7cb406a0705")
 			(effects
 				(font
@@ -973,7 +1113,7 @@
 			)
 		)
 		(pin "VBUS" output
-			(at 165.1 148.59 180)
+			(at 177.8 148.59 180)
 			(uuid "f902e904-ff6d-4c63-a785-7e2b4875eb80")
 			(effects
 				(font
@@ -983,7 +1123,7 @@
 			)
 		)
 		(pin "VFB{LOW,COL}" output
-			(at 165.1 143.51 180)
+			(at 177.8 139.7 180)
 			(uuid "1aa0f8ea-680d-4234-bdf3-b135cf712b58")
 			(effects
 				(font
@@ -993,7 +1133,7 @@
 			)
 		)
 		(pin "COL[0..1]" output
-			(at 203.2 99.06 0)
+			(at 215.9 99.06 0)
 			(uuid "1fe773e3-1de2-45e5-9f2f-4ea8e3169271")
 			(effects
 				(font
@@ -1005,13 +1145,13 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "5")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 165.1 31.75)
+		(at 177.8 31.75)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1026,7 +1166,7 @@
 		)
 		(uuid "d3af2bc2-13e8-43c1-8a6d-735ddffde2e2")
 		(property "Sheetname" "HHmm Character matrix"
-			(at 165.1 31.0384 0)
+			(at 177.8 31.0384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1175,7 @@
 			)
 		)
 		(property "Sheetfile" "HHmm_character_matrix.kicad_sch"
-			(at 165.1 57.7346 0)
+			(at 177.8 57.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1185,7 @@
 			)
 		)
 		(pin "M3A[0..3]" input
-			(at 165.1 38.1 180)
+			(at 177.8 38.1 180)
 			(uuid "48555f5b-52db-42cd-92ce-456d0281f791")
 			(effects
 				(font
@@ -1055,7 +1195,7 @@
 			)
 		)
 		(pin "M3K[0..7]" input
-			(at 203.2 38.1 0)
+			(at 215.9 38.1 0)
 			(uuid "22bd5153-b786-4d4e-b520-fbd96151dcac")
 			(effects
 				(font
@@ -1067,7 +1207,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "4")
+					(page "10")
 				)
 			)
 		)
@@ -1129,7 +1269,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "2")
+					(page "9")
 				)
 			)
 		)

@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "MM-DD Character Matrix & Drivers ")
-		(date "2025-11-04")
+		(date "2025-09-05")
 		(rev "v0.0")
-		(company "Rajath Katker")
+		(company "TJ71PL")
+		(comment 1 "天計")
 		(comment 4 "Final verification pending")
 	)
 	(lib_symbols
@@ -1351,7 +1352,7 @@
 	)
 	(text "MM-DD Character matrix"
 		(exclude_from_sim no)
-		(at 17.78 95.25 0)
+		(at 16.51 96.52 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1364,7 +1365,7 @@
 	)
 	(text "MM-DD Character matrix drivers "
 		(exclude_from_sim no)
-		(at 16.51 191.77 0)
+		(at 15.24 193.548 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1437,18 +1438,6 @@
 		(uuid "b201c6e3-b713-4fc3-af1b-4c8d639fb012")
 	)
 	(junction
-		(at 161.29 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b30ad4c0-f0f9-43c8-8d66-04319132c08c")
-	)
-	(junction
-		(at 161.29 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7693e09-f641-429c-9c6b-912945b2de23")
-	)
-	(junction
 		(at 130.81 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1489,6 +1478,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb95a4db-01e0-42ac-bcec-c1ee6979c764")
+	)
+	(no_connect
+		(at 158.75 154.94)
+		(uuid "6b9d8ead-b6e1-4396-b622-156022e63506")
+	)
+	(no_connect
+		(at 158.75 149.86)
+		(uuid "785ea2c6-bbea-4a93-a58e-128a24a70c2f")
+	)
+	(no_connect
+		(at 158.75 152.4)
+		(uuid "99bc5d40-1262-4672-8d24-555992b8e289")
 	)
 	(bus_entry
 		(at 168.91 134.62)
@@ -2906,16 +2907,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 149.86) (xy 161.29 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fa2a556-be2e-41f2-aa01-465304b0520c")
-	)
-	(wire
-		(pts
 			(xy 158.75 147.32) (xy 166.37 147.32)
 		)
 		(stroke
@@ -3404,16 +3395,6 @@
 		)
 		(uuid "8c92773d-e848-4c68-bb2e-9d78b26837c5")
 	)
-	(wire
-		(pts
-			(xy 161.29 172.72) (xy 146.05 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ea81394-597f-4afa-b306-ce3e549bb32f")
-	)
 	(bus
 		(pts
 			(xy 172.72 49.53) (xy 172.72 52.07)
@@ -3484,16 +3465,6 @@
 			(type default)
 		)
 		(uuid "93eb4cc8-d337-42cb-acf8-b41749f11646")
-	)
-	(wire
-		(pts
-			(xy 161.29 154.94) (xy 161.29 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95d2020a-042f-4968-83be-4b125b70a343")
 	)
 	(wire
 		(pts
@@ -3747,16 +3718,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 154.94) (xy 161.29 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac16f3a7-f26c-4552-bda4-49fb2b65f206")
-	)
-	(wire
-		(pts
 			(xy 91.44 149.86) (xy 99.06 149.86)
 		)
 		(stroke
@@ -3835,16 +3796,6 @@
 			(type default)
 		)
 		(uuid "b4a48e36-0b79-467b-8ef1-913cc7464803")
-	)
-	(wire
-		(pts
-			(xy 158.75 149.86) (xy 161.29 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b4d7a8-9e17-4b3b-bf5a-72cb7b44c0c1")
 	)
 	(bus
 		(pts
@@ -3995,16 +3946,6 @@
 			(type default)
 		)
 		(uuid "c5ea426e-3a00-4b8c-864d-fb54c292c052")
-	)
-	(wire
-		(pts
-			(xy 161.29 152.4) (xy 161.29 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c964cea7-2893-466d-a28c-16d1c8455f30")
 	)
 	(bus
 		(pts
@@ -4375,16 +4316,6 @@
 			(type default)
 		)
 		(uuid "f7eb44e3-37c1-4a0b-87bb-e020a01c3250")
-	)
-	(wire
-		(pts
-			(xy 158.75 152.4) (xy 161.29 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f07f7c-ac5b-407e-83ff-546255c1a8a7")
 	)
 	(bus
 		(pts
@@ -5611,7 +5542,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 87.63 170.434 90)
 			(effects
 				(font
@@ -5811,7 +5742,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 87.63 147.574 90)
 			(effects
 				(font
@@ -6076,7 +6007,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 87.63 162.814 90)
 			(effects
 				(font
@@ -6209,7 +6140,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 87.63 155.194 90)
 			(effects
 				(font
@@ -6346,7 +6277,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 87.63 117.094 90)
 			(effects
 				(font
@@ -6479,7 +6410,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 87.63 132.334 90)
 			(effects
 				(font
@@ -6645,7 +6576,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 87.63 124.714 90)
 			(effects
 				(font
@@ -6877,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "10R"
 			(at 87.63 139.954 90)
 			(effects
 				(font

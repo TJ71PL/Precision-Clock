@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Temperature & Humidity Sensor")
-		(date "2025-11-04")
+		(date "2025-09-05")
 		(rev "v0.0")
-		(company "Rajath Katker")
-		(comment 4 "Final verification pending")
+		(company "TJ71PL")
+		(comment 1 "天計")
+		(comment 4 "Final verification complete")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -729,7 +730,7 @@
 	)
 	(text "Temperature & Humidity Sensor"
 		(exclude_from_sim no)
-		(at 87.63 140.97 0)
+		(at 85.09 142.24 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -995,6 +996,167 @@
 			(type default)
 		)
 		(uuid "fc868149-9abb-4701-9f6c-0a2da5fbf474")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.2032)
+				(type solid)
+				(color 132 0 0 1)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0.2032)
+				(type solid)
+				(color 132 0 0 1)
+			)
+		)
+		(column_widths 17.78 12.7)
+		(row_heights 3.81 3.81 3.81 3.81)
+		(cells
+			(table_cell "Iload (max)"
+				(exclude_from_sim no)
+				(at 163.83 128.27 0)
+				(size 17.78 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+				)
+				(uuid "988b0334-a82a-4050-a832-43e9593aa9cd")
+			)
+			(table_cell "1.3uA"
+				(exclude_from_sim no)
+				(at 181.61 128.27 0)
+				(size 12.7 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+				)
+				(uuid "51b57a23-7835-4fdd-a02e-f7fa978371bb")
+			)
+			(table_cell "Istartup"
+				(exclude_from_sim no)
+				(at 163.83 132.08 0)
+				(size 17.78 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+				)
+				(uuid "2b3bb629-3c9a-4107-9d31-5d0d40eb2fd9")
+			)
+			(table_cell "300uA"
+				(exclude_from_sim no)
+				(at 181.61 132.08 0)
+				(size 12.7 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+				)
+				(uuid "583f7df7-c59f-4f2e-b1e2-14f53b53a107")
+			)
+			(table_cell "Iheater"
+				(exclude_from_sim no)
+				(at 163.83 135.89 0)
+				(size 17.78 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+				)
+				(uuid "11ea1e13-1788-4547-b230-1c96ee1c1f63")
+			)
+			(table_cell "7.2mA"
+				(exclude_from_sim no)
+				(at 181.61 135.89 0)
+				(size 12.7 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+				)
+				(uuid "9046d152-170c-4b94-bd52-0651905a1420")
+			)
+			(table_cell "P (max)"
+				(exclude_from_sim no)
+				(at 163.83 139.7 0)
+				(size 17.78 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+				)
+				(uuid "a0c6a086-39d7-41f6-94fb-c8e2366d8794")
+			)
+			(table_cell "25mW"
+				(exclude_from_sim no)
+				(at 181.61 139.7 0)
+				(size 12.7 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+				)
+				(uuid "8741a084-9c25-4259-bf9b-98988acd0de8")
+			)
+		)
 	)
 	(label "TH.SCL"
 		(at 153.67 104.14 0)
