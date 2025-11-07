@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "GPS Module")
-		(date "2025-09-05")
+		(date "2025-11-07")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -304,6 +304,155 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
 					(name "~"
 						(effects
 							(font
@@ -1427,7 +1576,7 @@
 		)
 	)
 	(rectangle
-		(start 76.2 38.1)
+		(start 50.8 38.1)
 		(end 241.3 152.4)
 		(stroke
 			(width 0.254)
@@ -1454,7 +1603,7 @@
 	)
 	(text "GPS Module"
 		(exclude_from_sim no)
-		(at 78.74 148.59 0)
+		(at 54.61 147.32 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1544,7 +1693,7 @@
 		(uuid "f43dceeb-4bf8-488b-bed2-55ffbacd4413")
 	)
 	(bus_entry
-		(at 105.41 87.63)
+		(at 81.28 93.98)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1562,7 +1711,7 @@
 		(uuid "7cf21139-0ff6-4e21-bbda-61dddc1f7628")
 	)
 	(bus_entry
-		(at 105.41 85.09)
+		(at 81.28 78.74)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -1612,7 +1761,7 @@
 	)
 	(bus
 		(pts
-			(xy 105.41 77.47) (xy 102.87 77.47)
+			(xy 81.28 77.47) (xy 78.74 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1642,16 +1791,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 87.63) (xy 124.46 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da09deb-23dc-46af-90a7-9bd1d30ae7a0")
-	)
-	(wire
-		(pts
 			(xy 120.65 74.93) (xy 120.65 77.47)
 		)
 		(stroke
@@ -1669,6 +1808,16 @@
 			(type default)
 		)
 		(uuid "55be87ee-56fc-43fe-ab9b-83e11fb7cbc9")
+	)
+	(wire
+		(pts
+			(xy 106.68 96.52) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "597bea83-c08a-4dc7-b585-70eb362e12f3")
 	)
 	(wire
 		(pts
@@ -1692,7 +1841,7 @@
 	)
 	(bus
 		(pts
-			(xy 105.41 77.47) (xy 105.41 85.09)
+			(xy 81.28 77.47) (xy 81.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1742,6 +1891,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 87.63) (xy 114.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715070f4-58cf-4b03-93b2-9c9f82efd6b9")
+	)
+	(wire
+		(pts
+			(xy 114.3 81.28) (xy 106.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72d2b257-fc28-46d6-8fe5-226556fe7d96")
+	)
+	(wire
+		(pts
 			(xy 179.07 124.46) (xy 184.15 124.46)
 		)
 		(stroke
@@ -1782,7 +1951,7 @@
 	)
 	(bus
 		(pts
-			(xy 105.41 85.09) (xy 105.41 87.63)
+			(xy 81.28 78.74) (xy 81.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1799,6 +1968,16 @@
 			(type default)
 		)
 		(uuid "a884e76a-4e57-4efe-9d9b-9c4875fcb12f")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af6e3040-4cf7-47af-834e-b931cf1798c9")
 	)
 	(wire
 		(pts
@@ -1819,6 +1998,16 @@
 			(type default)
 		)
 		(uuid "b24a6d2a-db5d-4aad-85ff-bd122009af88")
+	)
+	(wire
+		(pts
+			(xy 114.3 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b483309c-9bf7-4bf2-9539-9d28d2dc8b00")
 	)
 	(wire
 		(pts
@@ -1859,6 +2048,16 @@
 			(type default)
 		)
 		(uuid "c7c52a09-0adb-493a-ae3f-b3457b82982a")
+	)
+	(wire
+		(pts
+			(xy 83.82 96.52) (xy 99.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e1789d-d81a-4d78-92f7-1c96543e7033")
 	)
 	(wire
 		(pts
@@ -1922,13 +2121,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 90.17) (xy 124.46 90.17)
+			(xy 114.3 87.63) (xy 124.46 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7ea0e3c-59d4-4e64-b362-40b7f9b980c3")
+		(uuid "e418d6f7-6e76-4b5c-86ac-18ce18ac46f4")
 	)
 	(bus
 		(pts
@@ -1950,8 +2149,18 @@
 		)
 		(uuid "f570e63c-b5f0-49a8-aeed-5dc9e28dac7c")
 	)
+	(wire
+		(pts
+			(xy 83.82 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab0b138-9c08-4a5a-8eed-da1868393bfb")
+	)
 	(label "GPS.RX"
-		(at 110.49 90.17 0)
+		(at 86.36 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1961,7 +2170,7 @@
 		(uuid "2edff27f-ef9f-426c-93e3-121c80d64f49")
 	)
 	(label "GPS.TX"
-		(at 110.49 87.63 0)
+		(at 86.36 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2004,7 +2213,7 @@
 	)
 	(hierarchical_label "GPS{TX, RX, TPLS}"
 		(shape bidirectional)
-		(at 102.87 77.47 180)
+		(at 78.74 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2243,6 +2452,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 102.87 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45e45c7e-39f7-423e-a60d-7c599e9fb866")
+		(property "Reference" "FB4"
+			(at 102.8192 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R@100MHz"
+			(at 102.8192 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 102.87 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbcf90d8-e3d4-4fcb-90b2-d6bc5110e630")
+		)
+		(pin "1"
+			(uuid "0579426d-2218-4ab8-896d-bc7316b3d07f")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
+					(reference "FB4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.65 71.12 0)
 		(unit 1)
@@ -2307,6 +2584,74 @@
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 102.87 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b7f1a7c-e05c-4c1e-a20f-6b470dd9f251")
+		(property "Reference" "FB6"
+			(at 102.8192 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R@100MHz"
+			(at 102.8192 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 102.87 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f537b0fc-32ba-4551-a640-443028631fe6")
+		)
+		(pin "1"
+			(uuid "3a23fcc3-eac7-41d6-80a3-6677cbaf88c0")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
+					(reference "FB6")
 					(unit 1)
 				)
 			)
@@ -3011,7 +3356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 177.8 81.28 0)
 			(effects
 				(font

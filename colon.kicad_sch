@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Colon matrix & Driver")
-		(date "2025-09-05")
+		(date "2025-11-07")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
-		(comment 4 "Final verification pending")
+		(comment 4 "Final verification complete")
 	)
 	(lib_symbols
 		(symbol "74xx:74AHC244"
@@ -1079,17 +1079,6 @@
 		)
 		(uuid "757aa656-c3f9-465f-a9ab-7ec5e465dc5e")
 	)
-	(text "LED size to be rechecked"
-		(exclude_from_sim no)
-		(at 153.67 130.556 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "998e0bfc-98f3-4817-a4d9-438bd58345cf")
-	)
 	(text "mm:SS \nseparator"
 		(exclude_from_sim no)
 		(at 188.468 108.712 0)
@@ -1969,7 +1958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 171.45 73.66 0)
 			(effects
 				(font
@@ -2256,7 +2245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 171.45 102.87 0)
 			(effects
 				(font
@@ -2407,7 +2396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -2691,7 +2680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 171.45 87.63 0)
 			(effects
 				(font
