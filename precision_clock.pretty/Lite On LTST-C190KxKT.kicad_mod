@@ -1,0 +1,152 @@
+(footprint "Lite On LTST-C190KxKT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED  diode")
+	(tags "LED diode")
+	(property "Reference" "REF**"
+		(at 0 -1.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "17945354-d458-4ed7-b00a-7c08c55b6cd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LTST-C190KxKT"
+		(at 0 1.0414 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d9d7e4ad-01aa-4e66-8433-d47349051292")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588935757158998016"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d7eb0ec-755a-4796-adab-1078f6bbe0a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "LED diode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "220de219-6993-4b97-901e-686ad7c3536f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.5)
+		(end -1.25 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c3c7721-b95a-4751-8077-914de2427a47")
+	)
+	(fp_line
+		(start -1.25 0.5)
+		(end 0.9 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd1b0b28-75ff-4a9c-b72c-f2e72a9d2ba8")
+	)
+	(fp_line
+		(start 0.9 -0.5)
+		(end -1.25 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0afc3549-67a3-4193-807c-5a6fbcf9241f")
+	)
+	(fp_rect
+		(start -1.35 -0.6)
+		(end 1.35 0.6)
+		(stroke
+			(width 0.02)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e13f6967-33e7-45b5-b06a-81b6f626c6e5")
+	)
+	(fp_rect
+		(start -1.25 -0.5)
+		(end 1.25 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "553f5c02-c386-45e0-9383-25813a42c1b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.8542 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "827ee3fe-08d9-4a13-abd6-afbfadec3909")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "bbe19ca1-1365-4b90-b485-65d124cc172c")
+	)
+	(pad "2" smd roundrect
+		(at 0.75 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "07a773be-d33c-4642-9acc-e824b7884139")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric_Castellated.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

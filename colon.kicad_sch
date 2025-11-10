@@ -1056,7 +1056,7 @@
 	)
 	(text "Colon matrix"
 		(exclude_from_sim no)
-		(at 69.85 146.05 0)
+		(at 66.04 148.59 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1219,6 +1219,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 87.63) (xy 186.69 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec262f6-62d3-4a6b-84e0-f36a8af87352")
+	)
+	(wire
+		(pts
 			(xy 186.69 73.66) (xy 186.69 87.63)
 		)
 		(stroke
@@ -1296,16 +1306,6 @@
 			(type default)
 		)
 		(uuid "3ee42b87-5766-47a7-a0d8-c3f7709d627f")
-	)
-	(wire
-		(pts
-			(xy 175.26 87.63) (xy 186.69 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428390af-715b-4009-a101-622d7c64bb62")
 	)
 	(wire
 		(pts
@@ -1801,6 +1801,90 @@
 		(uuid "ea985388-ecd6-46e1-b52a-46cc13c1a5af")
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bbebeb2-c2ba-465a-a367-12f6b00a88fd")
+		(property "Reference" "D16"
+			(at 171.45 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113SRC-J4.pdf"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "754-2138-ND"
+			(at 171.45 120.142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "658943b0-51e4-4181-8ff5-e22e056d993f")
+		)
+		(pin "1"
+			(uuid "1f1ad4c9-c143-4ed4-ac31-f5d062b7e07b")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 80.01 0)
 		(unit 1)
@@ -1810,7 +1894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2712e453-bce6-4ff4-9e15-440ae920941a")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0116"
 			(at 110.49 86.36 0)
 			(effects
 				(font
@@ -1860,7 +1944,91 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "#PWR0102")
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 171.45 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27b70c29-2834-4ea2-b385-bf9aa723044d")
+		(property "Reference" "D15"
+			(at 171.45 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.45 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113SRC-J4.pdf"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "754-2138-ND"
+			(at 171.45 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "30c404e4-4cd9-4402-87ea-7d5d9fe59d77")
+		)
+		(pin "1"
+			(uuid "6593663f-7be8-4f1c-a768-a315a6e209f4")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -1875,7 +2043,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45680ece-65c1-425c-af78-a3802a50a01f")
-		(property "Reference" "R64"
+		(property "Reference" "R66"
 			(at 156.21 83.312 90)
 			(effects
 				(font
@@ -1927,7 +2095,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "R64")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -1942,7 +2110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63b8b036-366c-48bd-9b1a-07f29792237f")
-		(property "Reference" "D1"
+		(property "Reference" "D13"
 			(at 171.45 68.326 0)
 			(effects
 				(font
@@ -1967,7 +2135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113SRC-J4.pdf"
 			(at 171.45 73.66 0)
 			(effects
 				(font
@@ -1994,7 +2162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1264-ND"
+		(property "Digikey" "754-2138-ND"
 			(at 171.45 76.962 0)
 			(effects
 				(font
@@ -2011,7 +2179,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "D1")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -2160,7 +2328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dfcd3b0-b627-4023-b27a-32ae22ccd109")
-		(property "Reference" "C45"
+		(property "Reference" "C52"
 			(at 114.3 72.3899 0)
 			(effects
 				(font
@@ -2214,91 +2382,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 171.45 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fd205c1-2c6d-47c3-9aca-d2363e5021c9")
-		(property "Reference" "D3"
-			(at 171.45 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 171.45 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "754-1264-ND"
-			(at 171.45 106.172 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "272aa00f-db22-4b4a-88a9-22e9e8abb8ea")
-		)
-		(pin "1"
-			(uuid "edb9be1d-c561-4bda-a280-a6fa66e83c5a")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "D3")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -2313,7 +2397,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9174cf31-1ef8-4f2f-ab4a-79438f6b5097")
-		(property "Reference" "R66"
+		(property "Reference" "R68"
 			(at 156.21 112.522 90)
 			(effects
 				(font
@@ -2365,7 +2449,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "R66")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -2373,15 +2457,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 171.45 116.84 180)
+		(at 171.45 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9c672f03-418f-460b-b80c-86ca38a30ddb")
-		(property "Reference" "D4"
-			(at 171.45 111.506 0)
+		(uuid "9f8aed37-cf26-4618-a323-b490e29d90ca")
+		(property "Reference" "D14"
+			(at 171.45 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2473,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 171.45 113.538 0)
+			(at 171.45 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2481,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 171.45 116.84 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,8 +2489,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 171.45 116.84 0)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113SRC-J4.pdf"
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2415,7 +2499,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 171.45 116.84 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,7 +2508,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 116.84 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,8 +2516,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "754-1264-ND"
-			(at 171.45 120.142 0)
+		(property "Digikey" "754-2138-ND"
+			(at 171.45 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,15 +2525,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fdf8bd5f-3551-4128-9171-ff46f579b4c2")
+			(uuid "234715d8-e1aa-4654-b42a-8838fd5c10ba")
 		)
 		(pin "1"
-			(uuid "552e4ceb-aa9f-4677-b51f-89b8568b7045")
+			(uuid "21a9ebbb-0c51-4442-acf1-fc50ee9f53e9")
 		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "D4")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2465,7 +2549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b720590c-ff7a-494d-b3af-23e78cec01d6")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0117"
 			(at 121.92 135.89 0)
 			(effects
 				(font
@@ -2515,7 +2599,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "#PWR0103")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -2530,7 +2614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb249ac3-4109-4ac9-a072-993c19dfb64d")
-		(property "Reference" "R65"
+		(property "Reference" "R67"
 			(at 156.21 98.552 90)
 			(effects
 				(font
@@ -2582,7 +2666,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "R65")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -2597,7 +2681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb72b710-9f35-4c06-ae1c-83de41ed4184")
-		(property "Reference" "R63"
+		(property "Reference" "R65"
 			(at 156.21 69.342 90)
 			(effects
 				(font
@@ -2649,91 +2733,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "R63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 171.45 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef9f1159-689d-4adc-83c9-92c1c003e360")
-		(property "Reference" "D2"
-			(at 171.45 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 171.45 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/WP7113ID.pdf"
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "754-1264-ND"
-			(at 171.45 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cb5e9311-b7c6-457f-84cb-7024f13c5616")
-		)
-		(pin "1"
-			(uuid "d078505f-ec42-47b1-a1e5-d7d207b79ea1")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "D2")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -2749,7 +2749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea5a3ba-23f1-42a8-899a-5934bcab47f0")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0118"
 			(at 186.69 132.08 0)
 			(effects
 				(font
@@ -2799,7 +2799,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9ee9cf55-854a-46a7-9bd0-7970985d5955"
-					(reference "#PWR0105")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
