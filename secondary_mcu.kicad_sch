@@ -7108,7 +7108,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 224.79) (xy 269.24 224.79)
+			(xy 254 229.87) (xy 269.24 229.87)
 		)
 		(stroke
 			(width 0)
@@ -7195,16 +7195,6 @@
 			(type default)
 		)
 		(uuid "16972a89-b887-483f-8c86-7ac76a0db948")
-	)
-	(wire
-		(pts
-			(xy 254 229.87) (xy 269.24 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c21ab4-7e25-4245-afe6-b0e1d4d6ed7b")
 	)
 	(bus
 		(pts
@@ -7516,16 +7506,6 @@
 			(type default)
 		)
 		(uuid "2e8808a3-ba88-4bf1-a275-e01b9c34c3af")
-	)
-	(wire
-		(pts
-			(xy 254 232.41) (xy 269.24 232.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31931c6b-7dfd-4319-9446-943b617d48c9")
 	)
 	(wire
 		(pts
@@ -8430,16 +8410,6 @@
 			(type default)
 		)
 		(uuid "8b220406-2df0-48c4-a2b9-b92f0d03ea31")
-	)
-	(wire
-		(pts
-			(xy 254 227.33) (xy 269.24 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c4f0823-d855-4def-84f5-9b8c8c5ed38d")
 	)
 	(wire
 		(pts
@@ -9973,16 +9943,6 @@
 		)
 		(uuid "01cf26d0-2a04-40b2-94d3-58047260c904")
 	)
-	(label "DAC"
-		(at 254 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "02928781-cae0-4e0a-ad5c-c15e2c240298")
-	)
 	(label "TH.SCL"
 		(at 110.49 129.54 180)
 		(effects
@@ -10233,16 +10193,6 @@
 		)
 		(uuid "465cb40a-95ec-450f-b22f-15e47026ead0")
 	)
-	(label "PWM"
-		(at 254 232.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a7d57a6-9956-4da8-a189-e1a7592c82ff")
-	)
 	(label "M1A1"
 		(at 110.49 58.42 180)
 		(effects
@@ -10453,16 +10403,6 @@
 		)
 		(uuid "7e019abe-bce4-48e6-8639-d63cce9ca788")
 	)
-	(label "ADC"
-		(at 254 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "83b00ae3-6b5a-4aa6-a7d9-03c959d4b51c")
-	)
 	(label "DAC"
 		(at 209.55 132.08 0)
 		(effects
@@ -10534,7 +10474,7 @@
 		(uuid "9584ec36-6649-4a3b-849e-aee0cfc7fac3")
 	)
 	(label "HSE_OUT"
-		(at 254 224.79 0)
+		(at 254 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11035,72 +10975,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 269.24 229.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0288f89f-b481-4085-94fd-3aec3ad72a13")
-		(property "Reference" "TP16"
-			(at 274.32 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DAC"
-			(at 279.4 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 269.24 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 269.24 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3235767e-0db1-45d4-9b55-d98b050d0580")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9aca4cc8-38de-4388-9e71-17c26876d83c"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 241.3 38.1 90)
 		(unit 1)
@@ -11230,72 +11104,6 @@
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9aca4cc8-38de-4388-9e71-17c26876d83c"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 269.24 232.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "086f4101-f8f7-4b77-9142-ed2b4fd84864")
-		(property "Reference" "TP17"
-			(at 274.32 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PWM"
-			(at 279.4 232.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 269.24 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 237.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 269.24 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dce73de8-72df-4e98-9a70-f312b9f646e9")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9aca4cc8-38de-4388-9e71-17c26876d83c"
-					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -13462,7 +13270,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 269.24 224.79 270)
+		(at 269.24 229.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13470,7 +13278,7 @@
 		(dnp no)
 		(uuid "8a826bf2-f191-430b-a12e-ec56fe0f6575")
 		(property "Reference" "TP14"
-			(at 274.32 224.79 90)
+			(at 274.32 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13479,7 +13287,7 @@
 			)
 		)
 		(property "Value" "HSE_OUT"
-			(at 279.4 224.79 90)
+			(at 279.4 229.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,7 +13296,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 269.24 229.87 0)
+			(at 269.24 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,7 +13305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 229.87 0)
+			(at 269.24 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +13314,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 269.24 224.79 0)
+			(at 269.24 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14218,72 +14026,6 @@
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9aca4cc8-38de-4388-9e71-17c26876d83c"
 					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 269.24 227.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2bb40fc-0c7b-4759-8625-219c1abb0a7d")
-		(property "Reference" "TP15"
-			(at 274.32 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADC"
-			(at 279.4 227.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 269.24 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 232.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 269.24 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "74c26b50-f16b-4785-bc93-47256fe4ba66")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/9aca4cc8-38de-4388-9e71-17c26876d83c"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
