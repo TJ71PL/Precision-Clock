@@ -5833,6 +5833,18 @@
 		)
 		(uuid "2b1a63dc-d26e-4d9d-8247-55089e44969f")
 	)
+	(text "Without a External Clock USB won't work"
+		(exclude_from_sim no)
+		(at 362.712 134.874 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 0 194 0 1)
+			)
+		)
+		(uuid "3b8d4c8b-7964-47e4-ada1-5aa3b3d6af4b")
+	)
 	(text "PCB Stackup SIG+GND, GND, PWR, SIG+GND to be followed"
 		(exclude_from_sim no)
 		(at 265.938 73.152 0)
@@ -11708,7 +11720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
+		(property "Footprint" "precision_clock:USB_C_Receptacle_Molex_105450-0101"
 			(at 339.09 78.74 0)
 			(effects
 				(font
