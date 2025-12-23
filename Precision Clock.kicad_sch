@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock　")
-		(date "2025-12-01")
+		(date "2025-12-23")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
-		(comment 4 "Final verification complete")
+		(comment 4 "Final verification incomplete")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
@@ -97,7 +97,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Heavily inspired from Precison Clock MK4\nhttps://mitxela.com/shop/clock4"
+	(text "Heavily inspired by Precison Clock MK4\nhttps://mitxela.com/shop/clock4"
 		(exclude_from_sim no)
 		(at 84.836 184.404 0)
 		(effects
@@ -113,153 +113,33 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 93.98) (xy 222.25 76.2)
+			(xy 165.1 101.6) (xy 165.1 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "058fa88e-0349-4ab7-bf03-0168328bcdd7")
+		(uuid "0f1bfffc-6dd5-48ad-9617-889c2a4d43db")
 	)
 	(bus
 		(pts
-			(xy 171.45 95.25) (xy 171.45 76.2)
+			(xy 215.9 107.95) (xy 234.95 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0931090f-8763-4453-8a9b-d7b1417045b4")
+		(uuid "166452de-008c-4506-a82f-c79ad4491ec8")
 	)
 	(bus
 		(pts
-			(xy 215.9 93.98) (xy 222.25 93.98)
+			(xy 228.6 101.6) (xy 228.6 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1655a3d5-dc7c-4323-878f-c8cdaef92fa5")
-	)
-	(bus
-		(pts
-			(xy 127 76.2) (xy 133.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a92c79e-2b1c-4825-adf4-175a2a9212a9")
-	)
-	(bus
-		(pts
-			(xy 139.7 57.15) (xy 127 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8a4f8d-f41e-4b2e-a380-d87a0501ba68")
-	)
-	(bus
-		(pts
-			(xy 88.9 101.6) (xy 76.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b65406-47bf-4a70-88f5-a5fc997aa80d")
-	)
-	(wire
-		(pts
-			(xy 127 148.59) (xy 139.7 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b66c76a-8e34-4831-9fad-8e19f8c3a67e")
-	)
-	(bus
-		(pts
-			(xy 215.9 104.14) (xy 229.87 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cc1839a-94eb-45f3-90f9-09b0f72686d8")
-	)
-	(bus
-		(pts
-			(xy 215.9 57.15) (xy 226.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "406fb6a2-a61e-4929-95c6-2390845ade84")
-	)
-	(bus
-		(pts
-			(xy 229.87 104.14) (xy 229.87 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "463b82fa-e1af-4bd0-bbf3-916017e1f173")
-	)
-	(wire
-		(pts
-			(xy 127 143.51) (xy 139.7 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c03a0ee-f1c4-4bf7-94bc-103ade02edad")
-	)
-	(bus
-		(pts
-			(xy 76.2 101.6) (xy 76.2 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7356fe-ed47-412c-98ec-57d0c3bf42e2")
-	)
-	(bus
-		(pts
-			(xy 165.1 101.6) (xy 165.1 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b34ed5a-6b4d-4f64-9317-bcfa52132634")
-	)
-	(bus
-		(pts
-			(xy 215.9 99.06) (xy 226.06 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "858348d6-4456-4e2a-af4c-e026acc4072f")
-	)
-	(bus
-		(pts
-			(xy 165.1 38.1) (xy 177.8 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a753af9-f0df-4b2c-8000-38a2813c7203")
+		(uuid "1a7e7852-5965-4883-a0a3-09153ee65e91")
 	)
 	(bus
 		(pts
@@ -269,17 +149,137 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9bd5ba3d-3494-4186-aadd-61da0322ec30")
+		(uuid "1e102d70-e85f-48f2-95a7-7ebbbaca450e")
 	)
 	(bus
 		(pts
-			(xy 177.8 95.25) (xy 171.45 95.25)
+			(xy 133.35 95.25) (xy 133.35 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0beb24d-c306-4504-a4dd-192d57a33dc3")
+		(uuid "51b34ebb-98f3-4840-bfda-f9770d0eff1b")
+	)
+	(bus
+		(pts
+			(xy 88.9 69.85) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58406426-f2bb-405c-8bf1-ce0a32b192ec")
+	)
+	(bus
+		(pts
+			(xy 139.7 101.6) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5987f7c0-370d-4156-a11b-4ae28e7eb583")
+	)
+	(bus
+		(pts
+			(xy 165.1 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ed37e0-5697-4590-bd54-b6b4ca278dbc")
+	)
+	(bus
+		(pts
+			(xy 215.9 95.25) (xy 222.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "697ba96c-c0ad-4df3-8673-9647b9e967a5")
+	)
+	(bus
+		(pts
+			(xy 171.45 95.25) (xy 177.8 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69c197a4-9f99-46bc-be0f-24c6ccf74988")
+	)
+	(bus
+		(pts
+			(xy 88.9 101.6) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80bf38da-b555-4c1c-9e33-64afc3fe8ba4")
+	)
+	(bus
+		(pts
+			(xy 76.2 101.6) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf8c75f-2581-4b9b-bc5e-0af5050a1e8c")
+	)
+	(bus
+		(pts
+			(xy 234.95 57.15) (xy 215.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c7c58b-4068-4830-bc8d-5f0b6df99505")
+	)
+	(bus
+		(pts
+			(xy 127 101.6) (xy 139.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9206cf59-b724-4b6b-9404-4faf8f094266")
+	)
+	(bus
+		(pts
+			(xy 139.7 63.5) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05494fb-91e8-485c-85c2-6737bf67f510")
+	)
+	(bus
+		(pts
+			(xy 228.6 63.5) (xy 215.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a387bfb8-f68a-4cc8-8822-92712ba36910")
+	)
+	(bus
+		(pts
+			(xy 127 95.25) (xy 133.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a622e8e4-f3fc-43c9-ac27-e2b6313653f8")
 	)
 	(bus
 		(pts
@@ -293,33 +293,33 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 95.25) (xy 127 95.25)
+			(xy 222.25 95.25) (xy 222.25 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af62ac1d-b6e4-47c7-b222-e9dca2740e39")
+		(uuid "acd246f8-4c01-4d91-b8be-026960d50e39")
 	)
 	(bus
 		(pts
-			(xy 133.35 76.2) (xy 133.35 95.25)
+			(xy 177.8 101.6) (xy 165.1 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4f929ad-40f4-4e05-a1d7-f603dae247cf")
+		(uuid "b66dfc5e-c467-4aba-b9f8-bf76d7eb262e")
 	)
 	(bus
 		(pts
-			(xy 82.55 76.2) (xy 82.55 95.25)
+			(xy 234.95 107.95) (xy 234.95 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b70eea79-4fbd-4199-9e93-df523c0da0c7")
+		(uuid "b85ce5a8-b575-4651-8b04-a266b9c1089c")
 	)
 	(bus
 		(pts
@@ -333,63 +333,33 @@
 	)
 	(bus
 		(pts
-			(xy 222.25 76.2) (xy 215.9 76.2)
+			(xy 76.2 63.5) (xy 88.9 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bf810743-6bb2-4170-88de-c53a8e830d49")
+		(uuid "d08f47fe-dd18-4f2b-9589-41452eca95d0")
 	)
 	(bus
 		(pts
-			(xy 88.9 76.2) (xy 82.55 76.2)
+			(xy 215.9 101.6) (xy 228.6 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4cee566-568d-4944-9124-89e7fb963bb2")
+		(uuid "d6f47229-4b98-4bc8-8808-325db1883213")
 	)
 	(bus
 		(pts
-			(xy 76.2 57.15) (xy 88.9 57.15)
+			(xy 133.35 69.85) (xy 127 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7f9c034-8e45-4807-aae6-9753d1c48c27")
-	)
-	(bus
-		(pts
-			(xy 139.7 101.6) (xy 139.7 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80bd485-cbe6-434b-9f45-9c465b17f4e4")
-	)
-	(wire
-		(pts
-			(xy 165.1 146.05) (xy 177.8 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9c1db58-8607-49ce-8bb5-cc3dbc8ce6e9")
-	)
-	(bus
-		(pts
-			(xy 177.8 101.6) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc8f5111-dc38-4c3f-a1aa-690cc630e3f8")
+		(uuid "d7096f6f-5dcc-41fe-a676-81d0b48aec70")
 	)
 	(bus
 		(pts
@@ -403,33 +373,13 @@
 	)
 	(bus
 		(pts
-			(xy 229.87 38.1) (xy 215.9 38.1)
+			(xy 171.45 69.85) (xy 171.45 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e15a2d46-cadc-466e-aad2-e494c83d2de8")
-	)
-	(bus
-		(pts
-			(xy 226.06 99.06) (xy 226.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee349fcd-a7fe-410a-b3a6-6a6293e679d6")
-	)
-	(bus
-		(pts
-			(xy 171.45 76.2) (xy 177.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55e3903-7e38-431d-aff2-ff073a738004")
+		(uuid "deae2eb4-67fa-4079-a62e-c01003f559ae")
 	)
 	(bus
 		(pts
@@ -443,13 +393,33 @@
 	)
 	(bus
 		(pts
-			(xy 127 101.6) (xy 139.7 101.6)
+			(xy 177.8 69.85) (xy 171.45 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa2b443b-75ec-4f4b-a857-4077759d66da")
+		(uuid "fb1d598f-cfe7-43b6-b3f6-48557cf7b1c4")
+	)
+	(bus
+		(pts
+			(xy 222.25 69.85) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe6afb79-b666-4c2f-8e12-bf2ae2aadc48")
+	)
+	(bus
+		(pts
+			(xy 82.55 69.85) (xy 82.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feefccec-9f49-4604-8632-7becddb9ecf4")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -708,68 +678,6 @@
 		)
 	)
 	(sheet
-		(at 177.8 69.85)
-		(size 38.1 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(color 255 255 255 1.0000)
-		)
-		(uuid "61b252ee-6ab4-4417-a4ad-7fc052d7ca20")
-		(property "Sheetname" "SSsss Character matrix"
-			(at 177.8 69.1384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SSsss_character_matrix.kicad_sch"
-			(at 177.8 95.8346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "M4A[0..7]" input
-			(at 215.9 76.2 0)
-			(uuid "0df511b8-a260-4af8-8e70-5e5d85a3f972")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M4K[0..4]" input
-			(at 177.8 76.2 180)
-			(uuid "987a9f73-cc30-415d-a197-4cbf740ed29f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 50.8 120.65)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
@@ -857,36 +765,6 @@
 				(hide yes)
 			)
 		)
-		(pin "DAC_VD" input
-			(at 139.7 143.51 180)
-			(uuid "9dba3f7f-1e04-4536-96bf-184be8db5e9d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DAC_VDC" input
-			(at 139.7 148.59 180)
-			(uuid "d0ce2915-4a4e-4078-91d6-b2578586ab84")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "VB" input
-			(at 165.1 146.05 0)
-			(uuid "6f4f14e2-0cb8-4d53-a23f-8112d6649e06")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
@@ -896,8 +774,8 @@
 		)
 	)
 	(sheet
-		(at 88.9 50.8)
-		(size 38.1 12.7)
+		(at 88.9 57.15)
+		(size 38.1 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -910,8 +788,8 @@
 			(color 255 255 255 1.0000)
 		)
 		(uuid "95a63663-b2f9-448f-a4dd-b71321e8f379")
-		(property "Sheetname" "YYYY- Character matrix"
-			(at 88.9 50.0884 0)
+		(property "Sheetname" "YYYY-MM-DD Character matrix"
+			(at 88.9 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,8 +797,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "YYYY-_character_matrix.kicad_sch"
-			(at 88.9 76.7846 0)
+		(property "Sheetfile" "YYYY-MM-DD_character_matrix.kicad_sch"
+			(at 88.9 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,9 +807,29 @@
 				(hide yes)
 			)
 		)
-		(pin "M1A[0..7]" input
-			(at 127 57.15 0)
-			(uuid "f807ef2e-1de9-4932-98ff-87d9db14577c")
+		(pin "M1A[0..6]" input
+			(at 88.9 69.85 180)
+			(uuid "7c711e61-d586-4b5b-a045-5846b199871e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1K[0..4]" input
+			(at 88.9 63.5 180)
+			(uuid "6a01d069-a498-465d-8cf4-5dc8b98a53d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M2A[0..6]" input
+			(at 127 69.85 0)
+			(uuid "a1c00324-7f21-46a1-adfc-fdf0f34f8bf9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -939,14 +837,14 @@
 				(justify right)
 			)
 		)
-		(pin "M1K[0..4]" input
-			(at 88.9 57.15 180)
-			(uuid "1abf5e67-4a1a-4f16-a2c8-b1c8ffbdb41f")
+		(pin "M2K[0..4]" input
+			(at 127 63.5 0)
+			(uuid "bab80a2e-0c21-44ff-886f-932bb041cc10")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -1022,29 +920,9 @@
 				(justify right)
 			)
 		)
-		(pin "M1A[0..7]" output
-			(at 127 101.6 0)
-			(uuid "63e70bb9-418d-4c34-8a43-f04542872abc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M2A[0..7]" output
-			(at 127 95.25 0)
-			(uuid "a03e1e43-cbc5-4154-8286-f4b7a8d13c0f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M2K[0..4]" output
+		(pin "M1A[0..6]" output
 			(at 88.9 95.25 180)
-			(uuid "8dcd5842-e3d2-41b8-b732-e9b20cf0ed44")
+			(uuid "a4993dee-2d2e-4fac-b780-0848405e4f6d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +932,7 @@
 		)
 		(pin "M1K[0..4]" output
 			(at 88.9 101.6 180)
-			(uuid "54d3494a-ba70-431d-8461-bebff0897e83")
+			(uuid "04543968-bb8f-4dcc-b606-cbcb51a118a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,9 +940,9 @@
 				(justify left)
 			)
 		)
-		(pin "VFB_C" output
-			(at 127 143.51 0)
-			(uuid "08185257-4fb6-4726-b329-dda05613b03b")
+		(pin "M2A[0..6]" output
+			(at 127 95.25 0)
+			(uuid "82cc8a56-c981-4940-999e-1e7d2c781433")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,9 +950,9 @@
 				(justify right)
 			)
 		)
-		(pin "VFB_D" output
-			(at 127 148.59 0)
-			(uuid "02122ca3-97c7-4c04-a4bc-fdaa0fa5dc6a")
+		(pin "M2K[0..4]" output
+			(at 127 101.6 0)
+			(uuid "50c826d4-60ca-456f-a5c8-fe774acf829d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,59 +964,6 @@
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 177.8 50.8)
-		(size 38.1 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(color 255 255 255 1.0000)
-		)
-		(uuid "9ee9cf55-854a-46a7-9bd0-7970985d5955")
-		(property "Sheetname" "Colon"
-			(at 177.8 50.0376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "colon.kicad_sch"
-			(at 177.8 64.1354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "COL[0..1]" input
-			(at 215.9 57.15 0)
-			(uuid "4a7caa5f-3fde-43de-9141-8d6b6ae26c16")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "12")
 				)
 			)
 		)
@@ -1304,39 +1129,9 @@
 				(justify right)
 			)
 		)
-		(pin "COL[0..1]" output
-			(at 215.9 99.06 0)
-			(uuid "1fe773e3-1de2-45e5-9f2f-4ea8e3169271")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M3A[0..7]" output
-			(at 215.9 104.14 0)
-			(uuid "f29aa9b9-cd17-48c3-94dd-6834dc7ae37d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M4A[0..7]" output
-			(at 215.9 93.98 0)
-			(uuid "54d16fd6-5688-4798-abd9-11b5b5743cd8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M4K[0..4]" output
+		(pin "M3A[0..6]" output
 			(at 177.8 95.25 180)
-			(uuid "3a9ce497-d1fa-4583-8f23-aaa690442b36")
+			(uuid "b3e16a99-e061-45d6-b17f-c1ad479caeb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1346,7 +1141,7 @@
 		)
 		(pin "M3K[0..3]" output
 			(at 177.8 101.6 180)
-			(uuid "eb0a975a-2146-46bb-a7ee-c71d21c75139")
+			(uuid "a39ae356-4de4-4042-956e-36f1d26a054f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,14 +1149,34 @@
 				(justify left)
 			)
 		)
-		(pin "VB" output
-			(at 177.8 146.05 180)
-			(uuid "3172ecf1-5b08-448a-bb8e-eec92657049d")
+		(pin "M4A[0..6]" output
+			(at 215.9 95.25 0)
+			(uuid "c24d2fba-e75c-485b-bac3-4057801c3f66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "M4K[0..4]" output
+			(at 215.9 101.6 0)
+			(uuid "dc51a042-987a-4c5f-8fe5-d89263efee16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL[0..3]" output
+			(at 215.9 107.95 0)
+			(uuid "b501bc08-47bc-41eb-9c8d-34db325129b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -1373,8 +1188,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 31.75)
-		(size 38.1 12.7)
+		(at 177.8 50.8)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1387,8 +1202,8 @@
 			(color 255 255 255 1.0000)
 		)
 		(uuid "d3af2bc2-13e8-43c1-8a6d-735ddffde2e2")
-		(property "Sheetname" "HHmm Character matrix"
-			(at 177.8 31.0384 0)
+		(property "Sheetname" "HH:mm:SSsss Character matrix"
+			(at 177.8 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,8 +1211,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "HHmm_character_matrix.kicad_sch"
-			(at 177.8 57.7346 0)
+		(property "Sheetfile" "HHmmSSsss_character_matrix.kicad_sch"
+			(at 177.8 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,19 +1221,9 @@
 				(hide yes)
 			)
 		)
-		(pin "M3A[0..7]" input
-			(at 215.9 38.1 0)
-			(uuid "a8edc26d-a4d6-4f4c-b198-bc9d5c69d93b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "M3K[0..3]" input
-			(at 177.8 38.1 180)
-			(uuid "0b6b4a28-080b-4930-b069-f73a9cc1438a")
+		(pin "M3A[0..6]" input
+			(at 177.8 69.85 180)
+			(uuid "844033c1-b4d9-4c1e-b769-7f23aed9cb50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,51 +1231,19 @@
 				(justify left)
 			)
 		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 88.9 69.85)
-		(size 38.1 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(color 255 255 255 1.0000)
-		)
-		(uuid "e0daf664-e239-498f-ad2e-96c4213a6fbd")
-		(property "Sheetname" "MM-DD Character matrix"
-			(at 88.9 69.1384 0)
+		(pin "M3K[0..3]" input
+			(at 177.8 63.5 180)
+			(uuid "153b71c1-b8b9-4dba-8c9f-90250364955c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Sheetfile" "MM-DD_character_matrix.kicad_sch"
-			(at 88.9 95.8346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "M2A[0..7]" input
-			(at 127 76.2 0)
-			(uuid "5b7f4b72-1ffa-40a7-8d49-771aa2b5bcfa")
+		(pin "M4A[0..6]" input
+			(at 215.9 69.85 0)
+			(uuid "049e7f2c-a296-4204-ba9e-523fc7dac1a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,9 +1251,29 @@
 				(justify right)
 			)
 		)
-		(pin "M2K[0..4]" input
-			(at 88.9 76.2 180)
-			(uuid "cabf5676-729b-446f-9f67-0762c1e3f239")
+		(pin "M4K[0..4]" input
+			(at 215.9 63.5 0)
+			(uuid "b208df83-2eaa-4dce-a289-aaebcf0efded")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "COL[0..3]" input
+			(at 215.9 57.15 0)
+			(uuid "36619b74-9347-4cfc-9445-ce4c1f0c0eb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DOT" input
+			(at 177.8 57.15 180)
+			(uuid "b8a1cc2b-f5d8-40ea-9ac0-2a1808050a2d")
 			(effects
 				(font
 					(size 1.27 1.27)
