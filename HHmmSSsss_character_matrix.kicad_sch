@@ -1726,12 +1726,6 @@
 		(uuid "7d67624a-32db-4041-8f37-39f2224cd813")
 	)
 	(junction
-		(at 238.76 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f196943-f1a7-4c77-bf78-8ac78fe5c452")
-	)
-	(junction
 		(at 370.84 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1804,14 +1798,16 @@
 		(uuid "dd4d94f9-a7f1-4296-912f-eb2650a14931")
 	)
 	(junction
+		(at 349.25 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df0f657d-dffe-4bba-a2da-c6b03941d6e9")
+	)
+	(junction
 		(at 137.16 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5494792-2bf7-4454-ae6c-222b07507a44")
-	)
-	(no_connect
-		(at 266.7 236.22)
-		(uuid "0e10d685-e078-43fa-a495-009e0d7b81e9")
 	)
 	(no_connect
 		(at 116.84 67.31)
@@ -1880,6 +1876,10 @@
 	(no_connect
 		(at 163.83 67.31)
 		(uuid "ca2ef163-0470-42f5-b98d-bed2c743f5e7")
+	)
+	(no_connect
+		(at 377.19 204.47)
+		(uuid "e1afa356-eebf-48ff-ae5a-9fa5805fb120")
 	)
 	(no_connect
 		(at 69.85 146.05)
@@ -3185,6 +3185,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 236.22) (xy 241.3 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063f3186-202a-4b02-abb9-842b9f34c6a2")
+	)
+	(wire
+		(pts
 			(xy 128.27 143.51) (xy 133.35 143.51)
 		)
 		(stroke
@@ -3302,16 +3312,6 @@
 			(type default)
 		)
 		(uuid "0d1f69c8-e110-4d92-841b-5b0494835beb")
-	)
-	(wire
-		(pts
-			(xy 238.76 236.22) (xy 241.3 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d8eaa18-3f9a-4e70-897b-c894ddef5320")
 	)
 	(wire
 		(pts
@@ -4002,6 +4002,16 @@
 			(type default)
 		)
 		(uuid "3a0ac943-530a-4618-8476-cb25606f79eb")
+	)
+	(wire
+		(pts
+			(xy 349.25 204.47) (xy 351.79 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7193d8-f6dd-4355-85d9-1b031cb789fe")
 	)
 	(bus
 		(pts
@@ -4813,6 +4823,16 @@
 		)
 		(uuid "72f1e795-50cf-4181-95b3-34f8722a4283")
 	)
+	(wire
+		(pts
+			(xy 266.7 236.22) (xy 271.78 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b58f89-efd5-4c3f-bf69-f67281eeb4ab")
+	)
 	(bus
 		(pts
 			(xy 34.29 233.68) (xy 36.83 233.68)
@@ -4862,6 +4882,16 @@
 			(type default)
 		)
 		(uuid "76fed00f-757e-4214-abda-29f764ed6455")
+	)
+	(wire
+		(pts
+			(xy 349.25 207.01) (xy 349.25 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7737f612-edb8-485b-b8a4-49c42fbf13d9")
 	)
 	(wire
 		(pts
@@ -5807,16 +5837,6 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 204.47) (xy 386.08 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b21e75a2-d29a-4c81-89b3-18a856c3fdec")
-	)
-	(wire
-		(pts
 			(xy 39.37 228.6) (xy 48.26 228.6)
 		)
 		(stroke
@@ -6548,16 +6568,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 204.47) (xy 351.79 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db979924-61ae-4f77-8a8d-7e6b4a2e841c")
-	)
-	(wire
-		(pts
 			(xy 349.25 212.09) (xy 349.25 209.55)
 		)
 		(stroke
@@ -6755,16 +6765,6 @@
 			(type default)
 		)
 		(uuid "e8cc197b-aa70-4d9a-948e-5c6c280aa98d")
-	)
-	(wire
-		(pts
-			(xy 238.76 241.3) (xy 238.76 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea3379b5-3911-462e-8325-05b9687f4ae7")
 	)
 	(wire
 		(pts
@@ -7567,16 +7567,6 @@
 		)
 		(uuid "6f6a3feb-9ce0-4e50-8810-a6eacf0a5857")
 	)
-	(label "DP0"
-		(at 386.08 204.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70eba1ad-5e43-421a-9d60-8fabf2e5174e")
-	)
 	(label "A4"
 		(at 128.27 59.69 0)
 		(effects
@@ -7836,6 +7826,16 @@
 			(justify left bottom)
 		)
 		(uuid "9e491972-fa16-4a86-98c6-de34a3ddc427")
+	)
+	(label "DP0"
+		(at 271.78 236.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f364aeb-9084-4f2f-a162-49db99ac542e")
 	)
 	(label "A6"
 		(at 175.26 64.77 0)
@@ -8592,14 +8592,14 @@
 	)
 	(hierarchical_label "DOT"
 		(shape input)
-		(at 340.36 204.47 180)
+		(at 229.87 236.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "b2d98436-ba6a-40ac-8974-ba264c1a2e0c")
+		(uuid "e7fc91a1-1880-44fe-ab17-75ab1380a9de")
 	)
 	(hierarchical_label "M4K[0..4]"
 		(shape input)

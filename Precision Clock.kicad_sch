@@ -151,6 +151,16 @@
 		)
 		(uuid "1e102d70-e85f-48f2-95a7-7ebbbaca450e")
 	)
+	(wire
+		(pts
+			(xy 177.8 107.95) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d73c620-9edb-4344-ac94-1e81f095bd7c")
+	)
 	(bus
 		(pts
 			(xy 133.35 95.25) (xy 133.35 69.85)
@@ -221,6 +231,16 @@
 		)
 		(uuid "80bf38da-b555-4c1c-9e33-64afc3fe8ba4")
 	)
+	(wire
+		(pts
+			(xy 158.75 57.15) (xy 177.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "859f08eb-bb9f-40ae-ac05-42c54f2a87d4")
+	)
 	(bus
 		(pts
 			(xy 76.2 101.6) (xy 76.2 63.5)
@@ -260,6 +280,16 @@
 			(type default)
 		)
 		(uuid "a05494fb-91e8-485c-85c2-6737bf67f510")
+	)
+	(wire
+		(pts
+			(xy 127 148.59) (xy 139.7 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3536896-9762-4a84-a148-2186249033f3")
 	)
 	(bus
 		(pts
@@ -381,6 +411,16 @@
 		)
 		(uuid "deae2eb4-67fa-4079-a62e-c01003f559ae")
 	)
+	(wire
+		(pts
+			(xy 127 143.51) (xy 139.7 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6bb9865-9ca2-4e35-946d-0565301e5859")
+	)
 	(bus
 		(pts
 			(xy 127 114.3) (xy 177.8 114.3)
@@ -410,6 +450,16 @@
 			(type default)
 		)
 		(uuid "fe6afb79-b666-4c2f-8e12-bf2ae2aadc48")
+	)
+	(wire
+		(pts
+			(xy 158.75 107.95) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8ac645-de3c-4eec-80ea-8642d1a21529")
 	)
 	(bus
 		(pts
@@ -765,6 +815,26 @@
 				(hide yes)
 			)
 		)
+		(pin "VC_IN" input
+			(at 139.7 143.51 180)
+			(uuid "8643c1fb-3382-44be-a9ef-c39a79cc1455")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VD_IN" input
+			(at 139.7 148.59 180)
+			(uuid "25bdec87-59e5-4096-a8b9-b49cd8c9dd04")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
@@ -953,6 +1023,26 @@
 		(pin "M2K[0..4]" output
 			(at 127 101.6 0)
 			(uuid "50c826d4-60ca-456f-a5c8-fe774acf829d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VC_OUT" output
+			(at 127 143.51 0)
+			(uuid "5dcd129c-a944-45bc-804a-0d568c4d7a69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VD_OUT" output
+			(at 127 148.59 0)
+			(uuid "0e22bb27-0836-462c-a01d-f2f1dcfc8e20")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,6 +1267,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "DOT" output
+			(at 177.8 107.95 180)
+			(uuid "815c5b15-464e-4374-af02-f7600439cd2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
