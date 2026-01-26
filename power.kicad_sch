@@ -794,7 +794,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:TLV62568ADRL"
+		(symbol "Regulator_Switching:TLV62568DBV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -807,7 +807,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TLV62568ADRL"
+			(property "Value" "TLV62568DBV"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -816,7 +816,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at 1.27 -6.35 0)
 				(effects
 					(font
@@ -827,7 +827,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv62568a"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62568.pdf"
 				(at -6.35 11.43 0)
 				(effects
 					(font
@@ -836,7 +836,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High Efficiency Synchronous Buck Converter with forced PWM, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6"
+			(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -854,7 +854,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT*563*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -863,7 +863,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV62568ADRL_0_1"
+			(symbol "TLV62568DBV_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -876,7 +876,7 @@
 					)
 				)
 			)
-			(symbol "TLV62568ADRL_1_1"
+			(symbol "TLV62568DBV_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -887,7 +887,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -905,7 +905,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -931,25 +931,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 2.54)
@@ -960,7 +941,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -978,7 +959,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1646,12 +1627,6 @@
 		(uuid "c9027800-7abe-4ee3-bf03-0b4634b242ff")
 	)
 	(junction
-		(at 120.65 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "087b120b-ff1f-4bc6-ae7a-9ebb281622d2")
-	)
-	(junction
 		(at 154.94 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1668,6 +1643,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25dbf7eb-da1a-4665-b5c1-ada6adc6b93c")
+	)
+	(junction
+		(at 209.55 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a183ab6-8813-4734-bde3-394f0c15ed8e")
 	)
 	(junction
 		(at 95.25 107.95)
@@ -1704,18 +1685,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8de1fa25-f12f-46b5-8fe6-2c080c7560d6")
-	)
-	(junction
-		(at 222.25 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e335f7b-2077-42df-86fc-d8961046cfae")
-	)
-	(junction
-		(at 208.28 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7e29274-fe9a-4f99-9b8b-a0050b0398ac")
 	)
 	(junction
 		(at 195.58 38.1)
@@ -1787,16 +1756,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 119.38) (xy 120.65 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd9584d-8b8c-40b9-af1b-084105413efa")
-	)
-	(wire
-		(pts
 			(xy 95.25 107.95) (xy 107.95 107.95)
 		)
 		(stroke
@@ -1825,16 +1784,6 @@
 			(color 132 0 0 1)
 		)
 		(uuid "31ab4899-0a3a-4aad-ac66-17d322fc8842")
-	)
-	(wire
-		(pts
-			(xy 120.65 107.95) (xy 120.65 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3326d39a-f333-4186-9462-113d0d1e341e")
 	)
 	(wire
 		(pts
@@ -1878,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 35.56) (xy 222.25 38.1)
+			(xy 209.55 35.56) (xy 209.55 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1908,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 38.1) (xy 208.28 38.1)
+			(xy 195.58 38.1) (xy 209.55 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1928,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 105.41) (xy 120.65 107.95)
+			(xy 107.95 105.41) (xy 107.95 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1938,17 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 38.1) (xy 222.25 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57d0982d-4188-45d3-b3c6-886c82d481de")
-	)
-	(wire
-		(pts
-			(xy 208.28 38.1) (xy 208.28 40.64)
+			(xy 209.55 38.1) (xy 209.55 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1965,16 +1904,6 @@
 			(type default)
 		)
 		(uuid "5c5919e2-a4a7-43a5-a4d1-ead257c05c9a")
-	)
-	(wire
-		(pts
-			(xy 222.25 38.1) (xy 222.25 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75647566-8ada-43cb-83bf-3f35b0c1629f")
 	)
 	(wire
 		(pts
@@ -2168,16 +2097,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 107.95) (xy 120.65 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b50cc5af-56f2-4229-b915-b556a0f9da8c")
-	)
-	(wire
-		(pts
 			(xy 19.05 118.11) (xy 19.05 120.65)
 		)
 		(stroke
@@ -2299,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 137.16) (xy 133.35 139.7)
+			(xy 127 130.81) (xy 127 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2349,16 +2268,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 48.26) (xy 222.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da9b0fe1-31e1-4e4c-b1bc-f4f0de431ba9")
-	)
-	(wire
-		(pts
 			(xy 50.8 127) (xy 60.96 127)
 		)
 		(stroke
@@ -2400,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 127) (xy 133.35 129.54)
+			(xy 127 120.65) (xy 127 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2440,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 48.26) (xy 208.28 50.8)
+			(xy 209.55 48.26) (xy 209.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +2769,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 133.35 0)
+		(at 127 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2869,7 +2778,7 @@
 		(fields_autoplaced yes)
 		(uuid "045e5ebc-5b2c-41b9-a40c-be52e0b5e418")
 		(property "Reference" "C4"
-			(at 137.16 132.0799 0)
+			(at 130.81 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2878,7 +2787,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 137.16 134.6199 0)
+			(at 130.81 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2887,7 +2796,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 134.3152 137.16 0)
+			(at 127.9652 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2896,7 +2805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 133.35 0)
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2814,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 133.35 0)
+			(at 127 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,35 +3191,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 120.65 115.57 0)
+		(lib_id "Regulator_Switching:TLV62568DBV")
+		(at 165.1 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2335f7c7-122e-452f-ad04-509b78b1e8f1")
-		(property "Reference" "C3"
-			(at 124.46 114.2999 0)
+		(uuid "34ed6e88-305b-4261-a01b-44ec53e0b7cc")
+		(property "Reference" "U1"
+			(at 165.1 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV62568DBV"
+			(at 165.1 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "10u"
-			(at 124.46 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 121.6152 119.38 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62568.pdf"
+			(at 158.75 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3318,8 +3235,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 120.65 115.57 0)
+		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5"
+			(at 165.1 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,91 +3244,33 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 120.65 115.57 0)
+		(property "LCSC" "C163219"
+			(at 165.1 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "c2ae8452-cb3a-4aaa-8c61-50ef7270c078")
 		)
 		(pin "2"
-			(uuid "ed3478ce-1342-486b-9a9b-66f4025a7943")
+			(uuid "55c8c050-e1cc-425d-9769-a35b3b27b03f")
 		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "C3")
-					(unit 1)
-				)
-			)
+		(pin "4"
+			(uuid "8547f9ae-7fa1-4561-b258-8c4740d4180d")
 		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "366c4972-1a1b-4fe0-980a-0638002c1307")
-		(property "Reference" "#PWR020"
-			(at 222.25 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "5"
+			(uuid "780421c2-b84f-4907-ab79-1d82e5af3e4a")
 		)
 		(pin "1"
-			(uuid "f285b8c2-20e1-4b95-88f7-a256cf56e1ba")
+			(uuid "fd567e7b-7f7a-4b3c-8df2-e8e97e7d591a")
+		)
+		(pin "3"
+			(uuid "c3b11317-cf63-49a7-895b-4073b3ba4cd4")
 		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR020")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3617,7 +3476,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 50.8 0)
+		(at 209.55 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3626,7 +3485,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bd4ef2f-943b-44b2-9ebd-97b2a9f4fb05")
 		(property "Reference" "#PWR018"
-			(at 208.28 57.15 0)
+			(at 209.55 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3494,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 55.88 0)
+			(at 209.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 50.8 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 50.8 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 50.8 0)
+			(at 209.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3740,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 139.7 0)
+		(at 127 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3890,7 +3749,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ca636b0-1ed1-4ab4-9ac7-f565c6ecb2a7")
 		(property "Reference" "#PWR013"
-			(at 133.35 146.05 0)
+			(at 127 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +3758,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 144.78 0)
+			(at 127 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 139.7 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 139.7 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +3784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 139.7 0)
+			(at 127 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +3874,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 208.28 44.45 0)
+		(at 209.55 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4024,7 +3883,7 @@
 		(fields_autoplaced yes)
 		(uuid "72e85883-34de-4680-8123-52fd7f0e4905")
 		(property "Reference" "C6"
-			(at 212.09 43.1799 0)
+			(at 213.36 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +3892,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 212.09 45.7199 0)
+			(at 213.36 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +3901,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 209.2452 48.26 0)
+			(at 210.5152 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +3910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 44.45 0)
+			(at 209.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +3919,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 208.28 44.45 0)
+			(at 209.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,76 +4079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 222.25 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77fb296a-5015-4081-ad49-97142d656c89")
-		(property "Reference" "C7"
-			(at 226.06 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 226.06 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 223.2152 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 222.25 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "473bb5e1-ed92-4ca5-91d4-d1a280b2d77e")
-		)
-		(pin "2"
-			(uuid "0cae0dce-d677-44c8-b1e0-e19c20d3ef4d")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 95.25 105.41 0)
 		(unit 1)
@@ -4357,7 +4146,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 120.65 105.41 0)
+		(at 107.95 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4366,7 +4155,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b18a8c9-7307-42e1-b072-a26d1436bb85")
 		(property "Reference" "#PWR010"
-			(at 120.65 109.22 0)
+			(at 107.95 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,7 +4164,7 @@
 			)
 		)
 		(property "Value" "VDIS"
-			(at 120.65 100.33 0)
+			(at 107.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4383,7 +4172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 105.41 0)
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4392,7 +4181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 105.41 0)
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4401,7 +4190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 120.65 105.41 0)
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4227,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "2.2u"
 			(at 62.23 105.41 90)
 			(effects
 				(font
@@ -4560,7 +4349,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 133.35 127 0)
+		(at 127 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4569,7 +4358,7 @@
 		(fields_autoplaced yes)
 		(uuid "87168499-d1a5-47d4-8423-578da8471753")
 		(property "Reference" "#PWR012"
-			(at 133.35 130.81 0)
+			(at 127 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4578,7 +4367,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 133.35 121.92 0)
+			(at 127 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +4375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 127 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 127 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 127 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,72 +4546,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96980679-b10f-447d-aab9-00ba6debc5c3")
-		(property "Reference" "#PWR011"
-			(at 120.65 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95286f01-8f04-417a-bfc1-49861a2415a6")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 115.57 0)
 		(unit 1)
@@ -4894,7 +4617,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 222.25 35.56 0)
+		(at 209.55 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4903,7 +4626,7 @@
 		(fields_autoplaced yes)
 		(uuid "af4e18cd-6e05-44ee-9e92-941ba5c80506")
 		(property "Reference" "#PWR019"
-			(at 222.25 39.37 0)
+			(at 209.55 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4635,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 222.25 30.48 0)
+			(at 209.55 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 35.56 0)
+			(at 209.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 35.56 0)
+			(at 209.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 222.25 35.56 0)
+			(at 209.55 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,88 +4882,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TLV62568ADRL")
-		(at 165.1 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c26b0978-a3ed-4a79-a9ca-9a244473f1ea")
-		(property "Reference" "U3"
-			(at 165.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV62568ADRL"
-			(at 165.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
-			(at 166.37 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv62568a"
-			(at 158.75 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Efficiency Synchronous Buck Converter with forced PWM, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6"
-			(at 165.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "0d9817fc-0831-430a-b1da-a529a790c5a3")
-		)
-		(pin "5"
-			(uuid "fb10398b-fa61-458c-8d18-cf6423874758")
-		)
-		(pin "6"
-			(uuid "d1a56821-a5ba-4775-8a23-9f167574ee37")
-		)
-		(pin "2"
-			(uuid "347431e8-3852-4e10-a6c3-3d4bb4d74bb6")
-		)
-		(pin "1"
-			(uuid "45961d7e-a3ba-4e24-a0ce-f0783b7a5af2")
-		)
-		(pin "4"
-			(uuid "17801073-533c-4bcc-9795-dba7bb19a481")
-		)
-		(instances
-			(project ""
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 184.15 38.1 90)
 		(unit 1)
@@ -5257,7 +4898,7 @@
 				)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "2.2u"
 			(at 184.15 35.56 90)
 			(effects
 				(font
@@ -5374,32 +5015,31 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TLV62568ADRL")
+		(lib_id "Regulator_Switching:TLV62568DBV")
 		(at 38.1 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db391046-e2de-42c8-8fa5-c85b2d7e9bcb")
-		(property "Reference" "U1"
-			(at 38.1 100.33 0)
+		(uuid "db2b034c-c5b8-4648-b4c2-15005b85fc01")
+		(property "Reference" "U19"
+			(at 38.1 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TLV62568ADRL"
-			(at 38.1 102.87 0)
+		(property "Value" "TLV62568DBV"
+			(at 38.1 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 39.37 116.84 0)
 			(effects
 				(font
@@ -5410,7 +5050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv62568a"
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62568.pdf"
 			(at 31.75 99.06 0)
 			(effects
 				(font
@@ -5419,7 +5059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Efficiency Synchronous Buck Converter with forced PWM, Adjustable Output 0.6V-5.5V, 1A, SOT-563-6"
+		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 1A, SOT-23-5"
 			(at 38.1 110.49 0)
 			(effects
 				(font
@@ -5428,28 +5068,33 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "b2b55f27-3f4d-428e-8ab3-579363443410")
-		)
-		(pin "5"
-			(uuid "f797a527-8f0a-4777-847d-8b561926c0ba")
-		)
-		(pin "6"
-			(uuid "fdbab991-2a71-4c85-9ed9-e590a7665f08")
+		(property "LCSC" "C163219"
+			(at 38.1 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "15739173-9053-4614-a131-15d9df5ec36b")
-		)
-		(pin "1"
-			(uuid "2a731e3c-965f-4d4a-a8e0-d6fd9b413a3c")
+			(uuid "1b43be88-be8d-4a90-9538-450ce895822e")
 		)
 		(pin "4"
-			(uuid "d51500db-a1d6-43e3-a447-e1ac4696ef7c")
+			(uuid "e13d5066-bdff-4305-8cb1-7719e3c1614e")
+		)
+		(pin "5"
+			(uuid "e144f8c3-0b0b-4a65-88af-d0022bead1d2")
+		)
+		(pin "1"
+			(uuid "c5845279-84dd-4299-a956-ac670e9ce097")
+		)
+		(pin "3"
+			(uuid "911a410e-efc9-4dc9-b2d3-3451e63d4bce")
 		)
 		(instances
-			(project "Precision Clock"
+			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "U1")
+					(reference "U19")
 					(unit 1)
 				)
 			)
