@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock　")
-		(date "2026-01-25")
+		(date "2026-01-27")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -113,13 +113,13 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 95.25) (xy 127 95.25)
+			(xy 165.1 133.35) (xy 177.8 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "240c1efe-d115-4942-89ab-4e1b24dc7e9f")
+		(uuid "350c98e0-01ad-44ce-9a90-807b1a22509e")
 	)
 	(bus
 		(pts
@@ -150,70 +150,6 @@
 			(type default)
 		)
 		(uuid "baf84283-06d4-4be1-ace1-3c8e1d371c67")
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 190.5 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cee5933-f9e1-4d03-a451-5d1532a2bf26")
-		(property "Reference" "H5"
-			(at 193.04 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 193.04 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 190.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 190.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -338,70 +274,6 @@
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 203.2 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a5d340f-f2dc-44a9-b4a3-78f3b2131b09")
-		(property "Reference" "H6"
-			(at 205.74 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 205.74 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 203.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 203.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -535,134 +407,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 228.6 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dabfe5b1-b907-43a9-a73e-a865f098a138")
-		(property "Reference" "H8"
-			(at 231.14 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 231.14 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 228.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 228.6 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 215.9 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f214a7a4-7f02-42ec-b9d1-fb0f34094ca3")
-		(property "Reference" "H7"
-			(at 218.44 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M3"
-			(at 218.44 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 215.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 215.9 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 76.2 127)
 		(size 38.1 12.7)
@@ -739,6 +483,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "DAC{VDIS, VLED}" input
+			(at 177.8 133.35 180)
+			(uuid "58fde724-ccf2-44f0-bec2-7494303b3e5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -818,7 +572,7 @@
 			(color 255 255 255 1.0000)
 		)
 		(uuid "cc882cab-fb20-4552-b867-43569dfc2d06")
-		(property "Sheetname" "Temperature & Humidity Sensor"
+		(property "Sheetname" "Temperature, Humidity & Gas Sensor"
 			(at 76.2 88.1376 0)
 			(effects
 				(font
@@ -827,7 +581,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Temperature & Humidity Sensor.kicad_sch"
+		(property "Sheetfile" "Temperature, Humidity & Gas Sensor.kicad_sch"
 			(at 76.2 102.2354 0)
 			(effects
 				(font
@@ -835,16 +589,6 @@
 				)
 				(justify left top)
 				(hide yes)
-			)
-		)
-		(pin "TH{SCL, SDA}" bidirectional
-			(at 114.3 95.25 0)
-			(uuid "307e3683-85f9-45d0-b953-c7ac0f14134c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
@@ -940,16 +684,6 @@
 				(justify left)
 			)
 		)
-		(pin "TH{SCL, SDA}" bidirectional
-			(at 127 95.25 180)
-			(uuid "acf8205a-2375-47a8-b5a6-8e86170855dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DAC{VDIS, VLED}" output
 			(at 165.1 133.35 0)
 			(uuid "059495ed-71a8-4620-841a-2014c1d3b226")
@@ -958,6 +692,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "THG{SCL, SDA}" output
+			(at 127 95.25 180)
+			(uuid "fca3be19-ef0f-4fb1-b4b2-bc307e7a378e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

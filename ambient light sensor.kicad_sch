@@ -6,10 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Ambient Light Sensor")
-		(date "2026-01-25")
+		(date "2026-01-27")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
+		(comment 4 "Final verification incomplete")
 	)
 	(lib_symbols
 		(symbol "Device:R"
@@ -673,10 +674,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1013f4ae-f53e-4cbc-b09d-6dc28461faea")
-		(property "Reference" "Q2"
-			(at 154.94 102.1206 0)
+		(property "Reference" "Q1"
+			(at 154.94 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -685,7 +685,7 @@
 			)
 		)
 		(property "Value" "TEPT5700"
-			(at 154.94 104.6606 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,6 +720,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "782-TEPT5700"
+			(at 154.94 106.4134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "2"
 			(uuid "872f27d4-f044-4f21-837d-376cd6c81bb8")
 		)
@@ -729,7 +738,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -745,7 +754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3533e928-6da2-4bda-bc20-864f14803eec")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 154.94 86.3599 0)
 			(effects
 				(font
@@ -799,7 +808,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)

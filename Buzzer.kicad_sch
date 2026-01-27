@@ -5,10 +5,12 @@
 	(uuid "92ae1de2-8c6c-4376-b3e7-1bd7c467ffef")
 	(paper "A4")
 	(title_block
-		(date "2026-01-25")
+		(title "Buzzer")
+		(date "2026-01-27")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
+		(comment 4 "Final verification incomplete")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1040,10 +1042,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1c2363b3-4e97-4dfb-8b25-8a7779590970")
-		(property "Reference" "Q3"
-			(at 154.94 109.2199 0)
+		(property "Reference" "Q2"
+			(at 154.94 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1053,7 @@
 			)
 		)
 		(property "Value" "MMBT3904"
-			(at 154.94 111.7599 0)
+			(at 154.94 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,6 +1091,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C81464"
+			(at 154.94 113.0301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "2"
 			(uuid "a596bb40-444c-4af2-bbaa-08606fa74fe1")
 		)
@@ -1102,7 +1112,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1118,7 +1128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f1b336d-f7eb-428a-924f-54827fba757f")
-		(property "Reference" "R41"
+		(property "Reference" "R36"
 			(at 134.62 104.14 90)
 			(effects
 				(font
@@ -1134,7 +1144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 134.62 112.268 90)
 			(effects
 				(font
@@ -1170,7 +1180,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "R41")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -1186,7 +1196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258796a8-20d8-4028-b999-d5ac3edc43ab")
-		(property "Reference" "C39"
+		(property "Reference" "C37"
 			(at 130.81 82.5499 0)
 			(effects
 				(font
@@ -1240,7 +1250,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "C39")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -1256,7 +1266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae02488-b1e1-4a27-bae6-6b55637c63d0")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR097"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -1306,7 +1316,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "#PWR098")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -1320,10 +1330,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a34bb86d-6f45-4238-872b-b5d694b3caa1")
 		(property "Reference" "LS1"
-			(at 165.1 87.6299 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1341,7 @@
 			)
 		)
 		(property "Value" "PS1440P02BT"
-			(at 165.1 90.1699 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,6 +1376,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" "810-PS1440P02BT"
+			(at 165.1 89.9161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
 			(uuid "dc214dae-70a9-46b7-b9b7-2e4e933c03e4")
 		)
@@ -1392,7 +1410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc8c7439-f1fb-4cc2-91d8-182d990c63ee")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR0101"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -1442,7 +1460,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "#PWR011")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -1458,7 +1476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd7e16d8-ee60-4f51-9299-8c1c93c91dfc")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR098"
 			(at 152.4 77.47 0)
 			(effects
 				(font
@@ -1508,7 +1526,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "#PWR020")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1524,7 +1542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c376d8f9-4faf-4bcd-ad89-25c4e9706a8f")
-		(property "Reference" "R40"
+		(property "Reference" "R37"
 			(at 142.24 82.5499 0)
 			(effects
 				(font
@@ -1578,7 +1596,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "R40")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -1594,7 +1612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d487542c-f7f5-4524-84a6-8127a53b8814")
-		(property "Reference" "R39"
+		(property "Reference" "R38"
 			(at 142.24 93.9799 0)
 			(effects
 				(font
@@ -1648,7 +1666,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "R39")
+					(reference "R38")
 					(unit 1)
 				)
 			)
