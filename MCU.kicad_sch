@@ -6237,6 +6237,19 @@
 		)
 		(uuid "ba2e3ccb-3441-49e3-b8f7-28709e92f6f9")
 	)
+	(text "DAC1"
+		(exclude_from_sim no)
+		(at 115.57 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "bb813ea4-27a1-40c8-893e-3a83eb0a853a")
+	)
 	(text "SWD"
 		(exclude_from_sim no)
 		(at 115.57 88.138 0)
@@ -6805,6 +6818,15 @@
 		(uuid "751f22a4-6e98-40d7-bb31-c0ce6d96c460")
 	)
 	(bus_entry
+		(at 125.73 66.04)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781592d6-a9a6-4ac3-8c8a-bb0c42ca13d8")
+	)
+	(bus_entry
 		(at 125.73 55.88)
 		(size -2.54 2.54)
 		(stroke
@@ -6902,6 +6924,15 @@
 			(type default)
 		)
 		(uuid "d32c2682-13ba-47bb-ab81-b950c8ba2b8b")
+	)
+	(bus_entry
+		(at 125.73 63.5)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d641079d-1460-4471-ae23-f5d60d0655ca")
 	)
 	(bus_entry
 		(at 125.73 116.84)
@@ -7039,6 +7070,16 @@
 			(type default)
 		)
 		(uuid "061ebee8-c59a-433e-b3a8-57db0eef40b7")
+	)
+	(bus
+		(pts
+			(xy 125.73 63.5) (xy 125.73 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ffe93b-a100-4f0a-9042-07ac87ae0ce9")
 	)
 	(wire
 		(pts
@@ -8146,6 +8187,16 @@
 	)
 	(bus
 		(pts
+			(xy 125.73 63.5) (xy 128.27 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d067e56-7dd6-479e-b6b1-2957ea47b3de")
+	)
+	(bus
+		(pts
 			(xy 125.73 127) (xy 125.73 129.54)
 		)
 		(stroke
@@ -8324,16 +8375,6 @@
 			(type default)
 		)
 		(uuid "7c1e2574-dab9-442f-a720-7d44a1735337")
-	)
-	(wire
-		(pts
-			(xy 99.06 66.04) (xy 129.54 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c301c87-c1b2-4bdc-8a33-f0ea870640cd")
 	)
 	(wire
 		(pts
@@ -8524,6 +8565,16 @@
 			(type default)
 		)
 		(uuid "871ebd68-293b-4b28-ba91-886064274d2a")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 123.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a15cf31-53da-4f1e-b4ab-cf6127bcc648")
 	)
 	(wire
 		(pts
@@ -8846,6 +8897,16 @@
 			(type default)
 		)
 		(uuid "a8e3e318-4022-4a4b-8d1b-482acc7e5d55")
+	)
+	(wire
+		(pts
+			(xy 99.06 66.04) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a906354e-f121-4f97-aaba-bfa085886309")
 	)
 	(wire
 		(pts
@@ -10323,6 +10384,16 @@
 		)
 		(uuid "aa001d15-2cea-4f9b-920f-8cea5d36d000")
 	)
+	(label "DAC.VLED"
+		(at 113.03 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad992b0d-f2b0-499d-b8b2-080f2241513d")
+	)
 	(label "DIS4"
 		(at 113.03 119.38 180)
 		(effects
@@ -10472,6 +10543,16 @@
 			(justify right bottom)
 		)
 		(uuid "d64b01e4-2e6e-4c7d-acde-86345e2387ca")
+	)
+	(label "DAC.VDIS"
+		(at 113.03 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d89c8a1f-98cb-4f25-9e47-f4bbad11b77c")
 	)
 	(label "GPS.TX"
 		(at 113.03 55.88 180)
@@ -10692,17 +10773,6 @@
 		)
 		(uuid "6aceba89-3ac5-4e48-823e-e25db936524b")
 	)
-	(hierarchical_label "DAC"
-		(shape output)
-		(at 129.54 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8faaee52-f37d-4e23-a68b-60a1ffc54e5a")
-	)
 	(hierarchical_label "DIS[0..13]"
 		(shape output)
 		(at 129.54 101.6 0)
@@ -10735,6 +10805,17 @@
 			(justify left)
 		)
 		(uuid "c5bea569-d1a5-4b63-ac39-e97f5f972173")
+	)
+	(hierarchical_label "DAC{VDIS, VLED}"
+		(shape output)
+		(at 128.27 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d085760e-c6fa-4428-ad10-a0225b386cb9")
 	)
 	(hierarchical_label "DIS[0..13]"
 		(shape output)
