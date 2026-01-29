@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Regulation")
-		(date "2026-01-27")
+		(date "2026-01-29")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -1986,7 +1986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e39ed3-49de-460c-8468-796adbeb1720")
-		(property "Reference" "C3"
+		(property "Reference" "C1"
 			(at 175.26 43.1799 0)
 			(effects
 				(font
@@ -2040,7 +2040,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "C3")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2197,7 +2197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4096fbee-557e-490f-8c1c-f9d2fd8780cf")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 190.5 57.15 0)
 			(effects
 				(font
@@ -2247,7 +2247,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2263,7 +2263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd4ef2f-943b-44b2-9ebd-97b2a9f4fb05")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 209.55 57.15 0)
 			(effects
 				(font
@@ -2313,7 +2313,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR018")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2329,7 +2329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eaa893d-02ca-4113-9b8e-f36686ecb5e0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR03"
 			(at 171.45 39.37 0)
 			(effects
 				(font
@@ -2379,7 +2379,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR010")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2545,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e85883-34de-4680-8123-52fd7f0e4905")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 213.36 43.1799 0)
 			(effects
 				(font
@@ -2599,7 +2599,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a869fa-d999-4afa-9596-8570fb7fbd15")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR04"
 			(at 171.45 57.15 0)
 			(effects
 				(font
@@ -2665,7 +2665,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR011")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2681,7 +2681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af4e18cd-6e05-44ee-9e92-941ba5c80506")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR06"
 			(at 209.55 39.37 0)
 			(effects
 				(font
@@ -2731,7 +2731,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR017")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dce6608e-3ab1-4a5e-aa11-6fb5196f3bf9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR02"
 			(at 82.55 53.34 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/8ce44042-2af7-42d8-9728-8ac0b976522a"
-					(reference "#PWR04")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

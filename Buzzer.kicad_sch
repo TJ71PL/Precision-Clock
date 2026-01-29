@@ -6,11 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "Buzzer")
-		(date "2026-01-27")
+		(date "2026-01-29")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
-		(comment 4 "Final verification incomplete")
+		(comment 4 "Final verification complete")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -835,17 +835,43 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 139.7 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17c7a8f2-2e03-46f7-8dd2-d3c10fb841d1")
+	(rectangle
+		(start 101.6 57.15)
+		(end 203.2 139.7)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7feccc16-ae87-402a-821e-286833fc4005)
+	)
+	(text "Buzzer"
+		(exclude_from_sim no)
+		(at 104.14 135.636 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 132 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9e18bb30-c326-4258-9c0a-a37d45b1fb7a")
 	)
 	(junction
 		(at 152.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ddff034-9148-4d0f-b1bf-8888ea37b596")
+	)
+	(junction
+		(at 139.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dd3209f-4528-4efb-a31a-fb40124dc7c0")
 	)
 	(junction
 		(at 152.4 76.2)
@@ -865,13 +891,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 127 80.01)
+			(xy 127 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fd7991f-0b3c-4d90-98b0-703628b78ae8")
+		(uuid "27300271-4e1a-4cae-af39-38fd3a6dad1c")
 	)
 	(wire
 		(pts
@@ -892,16 +918,6 @@
 			(type default)
 		)
 		(uuid "2c629e16-c176-4c96-831b-c6f7a9ad98bc")
-	)
-	(wire
-		(pts
-			(xy 139.7 76.2) (xy 127 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5f35df-f6d3-4ab8-9793-63fdfdb52287")
 	)
 	(wire
 		(pts
@@ -975,6 +991,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 87.63) (xy 127 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba9f6ff-47e9-4252-8418-2c4099e97699")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c504ffa-9b13-495e-8bbf-215802ce3519")
+	)
+	(wire
+		(pts
 			(xy 152.4 115.57) (xy 152.4 120.65)
 		)
 		(stroke
@@ -982,16 +1018,6 @@
 			(type default)
 		)
 		(uuid "8216289e-cb57-44d1-8c52-39b7e4f8607e")
-	)
-	(wire
-		(pts
-			(xy 127 87.63) (xy 127 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c3b079-ae57-4844-8f87-9a89eb0614cb")
 	)
 	(wire
 		(pts
@@ -1005,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 110.49) (xy 130.81 110.49)
+			(xy 123.19 110.49) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 110.49) (xy 144.78 110.49)
+			(xy 137.16 110.49) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1023,9 +1049,151 @@
 		)
 		(uuid "f940006e-373b-43a3-8474-892f27f387b3")
 	)
-	(hierarchical_label "PWM"
+	(table
+		(column_count 1)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 20.32)
+		(row_heights 7.62 3.81 3.81 3.81 3.81 3.81 3.81)
+		(cells
+			(table_cell "Recommeneded Square Drive Frequency (Hz)"
+				(exclude_from_sim no)
+				(at 180.34 106.68 0)
+				(size 20.32 7.62)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b70f368b-99a6-4132-aef0-3488513d06c7")
+			)
+			(table_cell "1.35K"
+				(exclude_from_sim no)
+				(at 180.34 114.3 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "868fc720-c957-415f-a1ae-a8bbb70f537c")
+			)
+			(table_cell "2.35K"
+				(exclude_from_sim no)
+				(at 180.34 118.11 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1c2e28ba-172f-4296-82b7-68a85bc25420")
+			)
+			(table_cell "2.95K"
+				(exclude_from_sim no)
+				(at 180.34 121.92 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "753e3b82-6796-462b-bc33-d138d501f21d")
+			)
+			(table_cell "4K"
+				(exclude_from_sim no)
+				(at 180.34 125.73 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "52d62f50-c948-4adf-bc7b-b12d777e7460")
+			)
+			(table_cell "5K"
+				(exclude_from_sim no)
+				(at 180.34 129.54 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e6275ca4-8dbc-481f-90d4-ce736198b57e")
+			)
+			(table_cell "7K"
+				(exclude_from_sim no)
+				(at 180.34 133.35 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c4ad6a03-3c3b-4632-bbec-9ff55e027a50")
+			)
+		)
+	)
+	(hierarchical_label "BZ_DRV"
 		(shape input)
-		(at 124.46 110.49 180)
+		(at 123.19 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1033,6 +1201,75 @@
 			(justify right)
 		)
 		(uuid "2bff21e8-2178-46d1-b094-2cf364615a12")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "076413d4-e72f-4d85-9be7-e2df511c39ab")
+		(property "Reference" "C30"
+			(at 130.81 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 130.81 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 127.9652 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb30305d-4f02-41b1-93de-2526ff4d7fa1")
+		)
+		(pin "1"
+			(uuid "71bd9c09-d4b7-4a24-9b40-eaa1edaa74dd")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transistor_BJT:MMBT3904")
@@ -1120,7 +1357,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 110.49 90)
+		(at 133.35 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1128,16 +1365,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f1b336d-f7eb-428a-924f-54827fba757f")
-		(property "Reference" "R36"
-			(at 134.62 104.14 90)
+		(property "Reference" "R27"
+			(at 133.35 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "50R"
-			(at 134.62 106.68 90)
+		(property "Value" "500R"
+			(at 133.35 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1382,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 134.62 112.268 90)
+			(at 133.35 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1154,7 +1391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 110.49 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1163,7 +1400,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 110.49 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,24 +1417,24 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "R36")
+					(reference "R27")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 127 83.82 0)
+		(lib_id "Device:R")
+		(at 139.7 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "258796a8-20d8-4028-b999-d5ac3edc43ab")
-		(property "Reference" "C37"
-			(at 130.81 82.5499 0)
+		(uuid "844a4d6d-44b6-4ab6-93f2-398275a67be1")
+		(property "Reference" "R28"
+			(at 142.24 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,8 +1442,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 130.81 85.0899 0)
+		(property "Value" "500R"
+			(at 142.24 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1214,8 +1451,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 127.9652 87.63 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 137.922 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1461,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 83.82 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,25 +1469,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 127 83.82 0)
+		(property "Description" "Resistor"
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "d08b3144-71c5-4606-a1d1-5f8cafba84a1")
 		)
 		(pin "1"
-			(uuid "c420b272-c98a-49b7-97e7-5351694ab24e")
+			(uuid "9cf79ba4-fb4b-4149-8393-47c0dbfbc63a")
+		)
+		(pin "2"
+			(uuid "e4e4d061-b669-483d-a489-1ce4e35eb20e")
 		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "C37")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -1265,8 +1502,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ae02488-b1e1-4a27-bae6-6b55637c63d0")
-		(property "Reference" "#PWR097"
+		(uuid "8ec57237-ea29-4076-ad68-09b4c2e07bb3")
+		(property "Reference" "#PWR080"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -1311,12 +1548,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "454c4e07-84b8-4752-b745-a0d8b14b7cc7")
+			(uuid "02d63671-f4c3-4a45-8424-c04cb5c24440")
 		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "#PWR097")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -1340,7 +1577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PS1440P02BT"
+		(property "Value" "PS1740P02CE"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -1349,7 +1586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "precision_clock:TDK PS1440P02BT"
+		(property "Footprint" "precision_clock:TDK PS1740P02CE"
 			(at 160.02 92.71 0)
 			(effects
 				(font
@@ -1376,7 +1613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "810-PS1440P02BT"
+		(property "Mouser" "810-PS1740P02CE"
 			(at 165.1 89.9161 0)
 			(effects
 				(font
@@ -1410,7 +1647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc8c7439-f1fb-4cc2-91d8-182d990c63ee")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR079"
 			(at 152.4 127 0)
 			(effects
 				(font
@@ -1460,7 +1697,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "#PWR0101")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1476,7 +1713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd7e16d8-ee60-4f51-9299-8c1c93c91dfc")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR076"
 			(at 152.4 77.47 0)
 			(effects
 				(font
@@ -1526,77 +1763,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "#PWR098")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c376d8f9-4faf-4bcd-ad89-25c4e9706a8f")
-		(property "Reference" "R37"
-			(at 142.24 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 142.24 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.922 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7288574-d0bf-4e35-a368-5ff43bdd0a24")
-		)
-		(pin "2"
-			(uuid "83d4c973-efbc-481d-b645-a0598571f734")
-		)
-		(instances
-			(project "Precision Clock"
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "R37")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -1612,7 +1779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d487542c-f7f5-4524-84a6-8127a53b8814")
-		(property "Reference" "R38"
+		(property "Reference" "R29"
 			(at 142.24 93.9799 0)
 			(effects
 				(font
@@ -1621,7 +1788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1K"
+		(property "Value" "500R"
 			(at 142.24 96.5199 0)
 			(effects
 				(font
@@ -1666,7 +1833,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/fa1772ae-d612-479d-9fc0-6f13b32ea30c"
-					(reference "R38")
+					(reference "R29")
 					(unit 1)
 				)
 			)

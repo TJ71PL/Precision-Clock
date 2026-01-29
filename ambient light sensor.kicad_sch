@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ambient Light Sensor")
-		(date "2026-01-27")
+		(date "2026-01-29")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -585,8 +585,8 @@
 		)
 	)
 	(rectangle
-		(start 88.9 63.5)
-		(end 228.6 127)
+		(start 114.3 63.5)
+		(end 215.9 133.35)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -599,7 +599,7 @@
 	)
 	(text "Ambient Light Sensor"
 		(exclude_from_sim no)
-		(at 91.44 123.19 0)
+		(at 116.84 129.54 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -611,14 +611,14 @@
 		(uuid "e302b997-4e88-40ae-a52d-065451ba4c5f")
 	)
 	(junction
-		(at 152.4 95.25)
+		(at 158.75 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d827564f-29ae-453c-b3ec-35ad118f76a4")
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 152.4 99.06)
+			(xy 158.75 95.25) (xy 158.75 99.06)
 		)
 		(stroke
 			(width 0)
@@ -628,7 +628,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 91.44) (xy 152.4 95.25)
+			(xy 158.75 91.44) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -638,7 +638,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 152.4 113.03)
+			(xy 158.75 109.22) (xy 158.75 113.03)
 		)
 		(stroke
 			(width 0)
@@ -648,7 +648,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 165.1 95.25)
+			(xy 158.75 95.25) (xy 171.45 95.25)
 		)
 		(stroke
 			(width 0)
@@ -658,7 +658,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 80.01) (xy 152.4 83.82)
+			(xy 158.75 80.01) (xy 158.75 83.82)
 		)
 		(stroke
 			(width 0)
@@ -666,9 +666,236 @@
 		)
 		(uuid "fd7a79f7-be1e-4951-a2cb-e5589a9fe1cd")
 	)
+	(table
+		(column_count 3)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 19.05 11.43 16.51)
+		(row_heights 3.81 3.81 3.81 3.81)
+		(cells
+			(table_cell "Luminance (lx)"
+				(exclude_from_sim no)
+				(at 125.73 166.37 0)
+				(size 19.05 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ae357086-3727-4357-9a90-4ba3a41c633d")
+			)
+			(table_cell "Ice (uA)"
+				(exclude_from_sim no)
+				(at 144.78 166.37 0)
+				(size 11.43 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "519adc90-477b-4cec-b280-2e6363c56056")
+			)
+			(table_cell "Vadc (mV)"
+				(exclude_from_sim no)
+				(at 156.21 166.37 0)
+				(size 16.51 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "519adc90-477b-4cec-b280-2e6363c56056")
+			)
+			(table_cell "10"
+				(exclude_from_sim no)
+				(at 125.73 170.18 0)
+				(size 19.05 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "81a3e514-24cc-4090-9358-ba15e689ae62")
+			)
+			(table_cell "11"
+				(exclude_from_sim no)
+				(at 144.78 170.18 0)
+				(size 11.43 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "56c27614-b103-4ef4-a53e-ccdcb3d7c800")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 156.21 170.18 0)
+				(size 16.51 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "56c27614-b103-4ef4-a53e-ccdcb3d7c800")
+			)
+			(table_cell "100"
+				(exclude_from_sim no)
+				(at 125.73 173.99 0)
+				(size 19.05 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d5d50790-3176-4bdb-b4b6-3276fcc2ca3c")
+			)
+			(table_cell "110"
+				(exclude_from_sim no)
+				(at 144.78 173.99 0)
+				(size 11.43 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a0b85fad-c2bb-4497-8b3d-70d152d5c7cc")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 156.21 173.99 0)
+				(size 16.51 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a0b85fad-c2bb-4497-8b3d-70d152d5c7cc")
+			)
+			(table_cell "1000"
+				(exclude_from_sim no)
+				(at 125.73 177.8 0)
+				(size 19.05 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e0764b6d-4dd8-4157-bf35-93a3c73dd629")
+			)
+			(table_cell "1100"
+				(exclude_from_sim no)
+				(at 144.78 177.8 0)
+				(size 11.43 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fdb1f5b8-0c18-406a-aaca-a9b2641e3bdd")
+			)
+			(table_cell ""
+				(exclude_from_sim no)
+				(at 156.21 177.8 0)
+				(size 16.51 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fdb1f5b8-0c18-406a-aaca-a9b2641e3bdd")
+			)
+		)
+	)
 	(hierarchical_label "ADC"
 		(shape output)
-		(at 165.1 95.25 0)
+		(at 171.45 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -679,7 +906,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:TEPT4400")
-		(at 149.86 104.14 0)
+		(at 156.21 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -687,7 +914,7 @@
 		(dnp no)
 		(uuid "1013f4ae-f53e-4cbc-b09d-6dc28461faea")
 		(property "Reference" "Q1"
-			(at 154.94 101.6 0)
+			(at 161.29 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -696,7 +923,7 @@
 			)
 		)
 		(property "Value" "TEPT5700"
-			(at 154.94 104.14 0)
+			(at 161.29 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -705,7 +932,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-			(at 162.052 107.696 0)
+			(at 168.402 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/81341/tept4400.pdf"
-			(at 149.86 104.14 0)
+			(at 156.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -723,7 +950,7 @@
 			)
 		)
 		(property "Description" "Ambient Light Sensor, NPN Epitaxial Planar Phototransistor, T-1"
-			(at 149.86 104.14 0)
+			(at 156.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +959,7 @@
 			)
 		)
 		(property "LCSC" "782-TEPT5700"
-			(at 154.94 106.4134 0)
+			(at 161.29 106.4134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,16 +984,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 87.63 0)
+		(at 158.75 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3533e928-6da2-4bda-bc20-864f14803eec")
-		(property "Reference" "R39"
-			(at 154.94 86.3599 0)
+		(uuid "425d1a9e-3a9d-4e02-afcc-d3f5a9e5f4a1")
+		(property "Reference" "R30"
+			(at 161.29 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,7 +1002,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 154.94 88.8999 0)
+			(at 161.29 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +1011,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 150.622 87.63 90)
+			(at 156.972 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +1020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 87.63 0)
+			(at 158.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +1029,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 87.63 0)
+			(at 158.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,16 +1037,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "00131e08-e536-454d-9a34-9b6299e558b9")
-		)
 		(pin "1"
-			(uuid "cd2e77ea-8f7c-4ce8-b876-7dd022eefb3c")
+			(uuid "299f0f29-a616-4db2-aba8-c0dbfb24c793")
+		)
+		(pin "2"
+			(uuid "2b7639d8-f617-421f-9100-faf312fc4456")
 		)
 		(instances
-			(project ""
+			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "R39")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -827,7 +1054,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 113.03 0)
+		(at 158.75 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -835,8 +1062,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b51462a9-ee74-4ad2-bc8f-df746165cbf6")
-		(property "Reference" "#PWR0100"
-			(at 152.4 119.38 0)
+		(property "Reference" "#PWR078"
+			(at 158.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +1072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 118.11 0)
+			(at 158.75 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +1080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 113.03 0)
+			(at 158.75 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +1089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 113.03 0)
+			(at 158.75 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +1098,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 113.03 0)
+			(at 158.75 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +1112,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "#PWR0100")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -893,7 +1120,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 80.01 0)
+		(at 158.75 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -901,8 +1128,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0999a2a-065b-40e2-95b9-bfcce39f3eb2")
-		(property "Reference" "#PWR099"
-			(at 152.4 83.82 0)
+		(property "Reference" "#PWR077"
+			(at 158.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,7 +1138,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 152.4 74.93 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,7 +1146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 80.01 0)
+			(at 158.75 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -928,7 +1155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 80.01 0)
+			(at 158.75 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +1164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 80.01 0)
+			(at 158.75 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -951,7 +1178,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "#PWR099")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)

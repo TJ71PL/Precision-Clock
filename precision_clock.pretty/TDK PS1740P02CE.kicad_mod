@@ -1,9 +1,9 @@
-(footprint "TDK PS1440P02BT"
+(footprint "TDK PS1740P02CE"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Piezoelectric Buzzer 14mm")
+	(descr "Piezoelectric Buzzer 17mm")
 	(tags "piezoeletric buzzer")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "TDK PS1440P02BT"
+	(property "Value" "TDK PS1740P02CE"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -58,7 +58,7 @@
 	(attr through_hole)
 	(fp_circle
 		(center 0 0)
-		(end 7 0)
+		(end 8.5 0)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -81,7 +81,7 @@
 	)
 	(fp_circle
 		(center 0 0)
-		(end 7.1 0)
+		(end 8.7 0)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -103,7 +103,7 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -2.5 0)
+		(at -5 0)
 		(size 2 2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -111,7 +111,7 @@
 		(uuid "b1075af8-3a77-44ca-b0d8-57dcb140dfdd")
 	)
 	(pad "2" thru_hole circle
-		(at 2.5 0)
+		(at 5 0)
 		(size 2 2)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -119,4 +119,15 @@
 		(uuid "06b89440-c391-4791-8f75-61df1f621ebf")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/PS1740P02CE.stp"
+		(offset
+			(xyz 0 0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
 )
