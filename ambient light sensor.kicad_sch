@@ -648,7 +648,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 177.8 95.25)
+			(xy 152.4 95.25) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -665,6 +665,17 @@
 			(type default)
 		)
 		(uuid "fd7a79f7-be1e-4951-a2cb-e5589a9fe1cd")
+	)
+	(hierarchical_label "ADC"
+		(shape output)
+		(at 165.1 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5aad96f-18e9-4de3-b10a-602d153c5fd7")
 	)
 	(symbol
 		(lib_id "Sensor_Optical:TEPT4400")
