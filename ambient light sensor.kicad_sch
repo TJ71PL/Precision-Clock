@@ -585,8 +585,8 @@
 		)
 	)
 	(rectangle
-		(start 114.3 63.5)
-		(end 215.9 133.35)
+		(start 101.6 63.5)
+		(end 203.2 133.35)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -599,7 +599,7 @@
 	)
 	(text "Ambient Light Sensor"
 		(exclude_from_sim no)
-		(at 116.84 129.54 0)
+		(at 104.14 129.54 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -611,14 +611,14 @@
 		(uuid "e302b997-4e88-40ae-a52d-065451ba4c5f")
 	)
 	(junction
-		(at 158.75 95.25)
+		(at 146.05 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d827564f-29ae-453c-b3ec-35ad118f76a4")
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 158.75 99.06)
+			(xy 146.05 95.25) (xy 146.05 99.06)
 		)
 		(stroke
 			(width 0)
@@ -628,7 +628,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 91.44) (xy 158.75 95.25)
+			(xy 146.05 91.44) (xy 146.05 95.25)
 		)
 		(stroke
 			(width 0)
@@ -638,7 +638,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 109.22) (xy 158.75 113.03)
+			(xy 146.05 109.22) (xy 146.05 113.03)
 		)
 		(stroke
 			(width 0)
@@ -648,7 +648,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 171.45 95.25)
+			(xy 146.05 95.25) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -658,7 +658,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 80.01) (xy 158.75 83.82)
+			(xy 146.05 80.01) (xy 146.05 83.82)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +895,7 @@
 	)
 	(hierarchical_label "ADC"
 		(shape output)
-		(at 171.45 95.25 0)
+		(at 158.75 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -906,7 +906,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Optical:TEPT4400")
-		(at 156.21 104.14 0)
+		(at 143.51 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -914,7 +914,7 @@
 		(dnp no)
 		(uuid "1013f4ae-f53e-4cbc-b09d-6dc28461faea")
 		(property "Reference" "Q1"
-			(at 161.29 101.6 0)
+			(at 148.59 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +923,7 @@
 			)
 		)
 		(property "Value" "TEPT5700"
-			(at 161.29 104.14 0)
+			(at 148.59 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,7 +932,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm_Clear"
-			(at 168.402 107.696 0)
+			(at 155.702 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -941,7 +941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/81341/tept4400.pdf"
-			(at 156.21 104.14 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -950,7 +950,7 @@
 			)
 		)
 		(property "Description" "Ambient Light Sensor, NPN Epitaxial Planar Phototransistor, T-1"
-			(at 156.21 104.14 0)
+			(at 143.51 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +959,7 @@
 			)
 		)
 		(property "LCSC" "782-TEPT5700"
-			(at 161.29 106.4134 0)
+			(at 148.59 106.4134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +984,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 87.63 0)
+		(at 146.05 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -993,7 +993,7 @@
 		(fields_autoplaced yes)
 		(uuid "425d1a9e-3a9d-4e02-afcc-d3f5a9e5f4a1")
 		(property "Reference" "R30"
-			(at 161.29 86.3599 0)
+			(at 148.59 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1002,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 161.29 88.8999 0)
+			(at 148.59 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1011,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 156.972 87.63 90)
+			(at 144.272 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 87.63 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1029,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 87.63 0)
+			(at 146.05 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1054,7 +1054,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 113.03 0)
+		(at 146.05 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1063,7 +1063,7 @@
 		(fields_autoplaced yes)
 		(uuid "b51462a9-ee74-4ad2-bc8f-df746165cbf6")
 		(property "Reference" "#PWR078"
-			(at 158.75 119.38 0)
+			(at 146.05 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,7 +1072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 118.11 0)
+			(at 146.05 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 113.03 0)
+			(at 146.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 113.03 0)
+			(at 146.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1098,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 113.03 0)
+			(at 146.05 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1120,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 158.75 80.01 0)
+		(at 146.05 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1129,7 +1129,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0999a2a-065b-40e2-95b9-bfcce39f3eb2")
 		(property "Reference" "#PWR077"
-			(at 158.75 83.82 0)
+			(at 146.05 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1138,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 158.75 74.93 0)
+			(at 146.05 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 80.01 0)
+			(at 146.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 80.01 0)
+			(at 146.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 80.01 0)
+			(at 146.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
