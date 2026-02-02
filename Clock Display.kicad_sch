@@ -1730,12 +1730,6 @@
 		(uuid "8348ca3e-6a06-41b3-9473-b58f279ab429")
 	)
 	(junction
-		(at 205.74 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89ff956e-f398-4a50-acbe-6e074bd5dbf6")
-	)
-	(junction
 		(at 311.15 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1818,12 +1812,20 @@
 		(uuid "78a0ad53-babc-4b87-812d-ce1b684f46da")
 	)
 	(no_connect
+		(at 203.2 195.58)
+		(uuid "a662a798-5ee5-4fae-ae8c-5b2728accd67")
+	)
+	(no_connect
 		(at 317.5 195.58)
 		(uuid "b3473921-f629-4821-84df-a442c971a751")
 	)
 	(no_connect
 		(at 317.5 198.12)
 		(uuid "d92a3755-3655-4de8-b205-873104092862")
+	)
+	(no_connect
+		(at 203.2 198.12)
+		(uuid "f6387e2d-ec22-4de1-9910-8ddad8dbf960")
 	)
 	(bus_entry
 		(at 233.68 172.72)
@@ -2684,16 +2686,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 195.58) (xy 205.74 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "033b2048-a402-400f-a676-e5e843c02d72")
-	)
-	(wire
-		(pts
 			(xy 212.09 53.34) (xy 219.71 53.34)
 		)
 		(stroke
@@ -2881,16 +2873,6 @@
 			(type default)
 		)
 		(uuid "1197ebbf-d6b1-4852-9580-e6fed762d7cf")
-	)
-	(wire
-		(pts
-			(xy 203.2 198.12) (xy 205.74 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12ddce25-5cce-49c5-b6cc-99ed08b91d2a")
 	)
 	(bus
 		(pts
@@ -3771,16 +3753,6 @@
 			(type default)
 		)
 		(uuid "5fd79a78-fb06-4c60-9fa4-ad0f353e2f53")
-	)
-	(wire
-		(pts
-			(xy 205.74 198.12) (xy 205.74 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "601ba69e-74f1-44e2-ab6d-a832b6893ecc")
 	)
 	(wire
 		(pts
@@ -5125,16 +5097,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 215.9) (xy 190.5 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfed97c2-6c5a-47d6-82bf-a1805fc830fe")
-	)
-	(wire
-		(pts
 			(xy 161.29 53.34) (xy 168.91 53.34)
 		)
 		(stroke
@@ -5452,16 +5414,6 @@
 			(type default)
 		)
 		(uuid "ebf7449d-9913-4f4d-b7cb-e6c474de8b59")
-	)
-	(wire
-		(pts
-			(xy 205.74 195.58) (xy 205.74 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec3ae898-d9de-4729-8477-7462431f8056")
 	)
 	(wire
 		(pts

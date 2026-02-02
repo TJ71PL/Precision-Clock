@@ -121,6 +121,26 @@
 		)
 		(uuid "0ffb943e-774b-4013-9935-16bb6771b039")
 	)
+	(wire
+		(pts
+			(xy 114.3 114.3) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4237f210-c9ae-43d4-abb4-3d6cb1e28107")
+	)
+	(bus
+		(pts
+			(xy 165.1 133.35) (xy 177.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3a0053-2b5d-40cd-8d95-847d929dcec2")
+	)
 	(bus
 		(pts
 			(xy 165.1 63.5) (xy 177.8 63.5)
@@ -133,13 +153,23 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 57.15) (xy 127 57.15)
+			(xy 114.3 63.5) (xy 127 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7ecb72d1-e6d8-4e23-9348-844e5c51ba55")
+	)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0bb05f-cb5d-4840-8212-4da66ccc5a90")
 	)
 	(bus
 		(pts
@@ -160,26 +190,6 @@
 			(type default)
 		)
 		(uuid "baf84283-06d4-4be1-ace1-3c8e1d371c67")
-	)
-	(wire
-		(pts
-			(xy 165.1 107.95) (xy 177.8 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe13cdd-2a84-44ed-9a31-be4d9092201b")
-	)
-	(wire
-		(pts
-			(xy 114.3 114.3) (xy 127 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbe3411a-9221-4cbd-b9fa-69669bd27a9e")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -525,9 +535,9 @@
 				(hide yes)
 			)
 		)
-		(pin "DAC{VDIS, VLED}" input
+		(pin "DIS{FB, EN}" input
 			(at 177.8 133.35 180)
-			(uuid "58fde724-ccf2-44f0-bec2-7494303b3e5d")
+			(uuid "7fd73f59-92d8-4df9-9f20-630fceb59d0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +555,7 @@
 	)
 	(sheet
 		(at 76.2 50.8)
-		(size 38.1 12.7)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -569,7 +579,7 @@
 			)
 		)
 		(property "Sheetfile" "GPS.kicad_sch"
-			(at 76.2 64.1354 0)
+			(at 76.2 76.8354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,7 +589,7 @@
 			)
 		)
 		(pin "GPS{TX, RX, TP}" bidirectional
-			(at 114.3 57.15 0)
+			(at 114.3 63.5 0)
 			(uuid "bb119641-79f0-4031-b98c-11a93b985618")
 			(effects
 				(font
@@ -684,16 +694,6 @@
 				(hide yes)
 			)
 		)
-		(pin "PWM" output
-			(at 165.1 107.95 0)
-			(uuid "d27124d2-4db9-4b40-b652-5a5bac108de1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DIS[0..13]" output
 			(at 165.1 63.5 0)
 			(uuid "d8798e89-cf0d-40c5-a8bf-e31c37453490")
@@ -704,18 +704,8 @@
 				(justify right)
 			)
 		)
-		(pin "ADC" input
-			(at 127 114.3 180)
-			(uuid "9f425563-1717-469b-9711-83bff76e6cea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "DIS{FB, EN}" output
-			(at 165.1 130.81 0)
+			(at 165.1 133.35 0)
 			(uuid "ac88d404-02a7-44fd-81e4-63ed04d5774f")
 			(effects
 				(font
@@ -735,7 +725,7 @@
 			)
 		)
 		(pin "GPS{TX, RX, TP}" bidirectional
-			(at 127 57.15 180)
+			(at 127 63.5 180)
 			(uuid "5b3ff6ac-6826-4aa9-a905-4c5b4910e26c")
 			(effects
 				(font
@@ -754,9 +744,19 @@
 				(justify right)
 			)
 		)
-		(pin "LED{FB, EN}" output
-			(at 165.1 135.89 0)
-			(uuid "bbfe1fdd-a755-4a2b-8ced-0327aa9c30f0")
+		(pin "THG{SCL, SDA}" bidirectional
+			(at 127 95.25 180)
+			(uuid "2308259f-dd14-447b-a00b-6af130d48f2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BZ" output
+			(at 165.1 101.6 0)
+			(uuid "eeb84eb7-8c65-4e55-8e37-3df2e99c17e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,9 +764,9 @@
 				(justify right)
 			)
 		)
-		(pin "THG{SCL, SDA}" bidirectional
-			(at 127 95.25 180)
-			(uuid "2308259f-dd14-447b-a00b-6af130d48f2f")
+		(pin "ALS" input
+			(at 127 114.3 180)
+			(uuid "168dfde8-7705-4c41-9e91-adb15fd59fc4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,9 +826,9 @@
 				(justify left)
 			)
 		)
-		(pin "COL[0..3]" input
+		(pin "LED[0..4]" input
 			(at 177.8 76.2 180)
-			(uuid "2ab4d084-d35b-42d1-8302-f68a3041903d")
+			(uuid "a29257d8-fb27-46fd-9e5c-a2f37ed6d328")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,9 +879,9 @@
 				(hide yes)
 			)
 		)
-		(pin "ADC" output
+		(pin "ALS" output
 			(at 114.3 114.3 0)
-			(uuid "2462bdd1-91bf-4833-8e16-9fb2c4b05c0e")
+			(uuid "c146d0c2-6475-4faa-bc3e-61d75388ce01")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +898,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 101.6)
+		(at 177.8 95.25)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -914,7 +914,7 @@
 		)
 		(uuid "fa1772ae-d612-479d-9fc0-6f13b32ea30c")
 		(property "Sheetname" "Buzzer"
-			(at 177.8 100.8376 0)
+			(at 177.8 94.4876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +923,7 @@
 			)
 		)
 		(property "Sheetfile" "Buzzer.kicad_sch"
-			(at 177.8 114.9354 0)
+			(at 177.8 108.5854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,9 +932,9 @@
 				(hide yes)
 			)
 		)
-		(pin "PWM" input
-			(at 177.8 107.95 180)
-			(uuid "3af8a78d-7e78-4cb5-a0e5-195bef969234")
+		(pin "BZ" input
+			(at 177.8 101.6 180)
+			(uuid "6af73251-6a74-4c31-b9f2-ee3fbe1e8aa1")
 			(effects
 				(font
 					(size 1.27 1.27)

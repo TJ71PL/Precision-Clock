@@ -667,7 +667,7 @@
 		(uuid "fd7a79f7-be1e-4951-a2cb-e5589a9fe1cd")
 	)
 	(table
-		(column_count 3)
+		(column_count 2)
 		(border
 			(external yes)
 			(header yes)
@@ -684,12 +684,12 @@
 				(type solid)
 			)
 		)
-		(column_widths 19.05 11.43 16.51)
+		(column_widths 19.05 19.05)
 		(row_heights 3.81 3.81 3.81 3.81)
 		(cells
 			(table_cell "Luminance (lx)"
 				(exclude_from_sim no)
-				(at 125.73 166.37 0)
+				(at 162.56 115.57 0)
 				(size 19.05 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -706,25 +706,8 @@
 			)
 			(table_cell "Ice (uA)"
 				(exclude_from_sim no)
-				(at 144.78 166.37 0)
-				(size 11.43 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "519adc90-477b-4cec-b280-2e6363c56056")
-			)
-			(table_cell "Vadc (mV)"
-				(exclude_from_sim no)
-				(at 156.21 166.37 0)
-				(size 16.51 3.81)
+				(at 181.61 115.57 0)
+				(size 19.05 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -740,7 +723,7 @@
 			)
 			(table_cell "10"
 				(exclude_from_sim no)
-				(at 125.73 170.18 0)
+				(at 162.56 119.38 0)
 				(size 19.05 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -757,25 +740,8 @@
 			)
 			(table_cell "11"
 				(exclude_from_sim no)
-				(at 144.78 170.18 0)
-				(size 11.43 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "56c27614-b103-4ef4-a53e-ccdcb3d7c800")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 156.21 170.18 0)
-				(size 16.51 3.81)
+				(at 181.61 119.38 0)
+				(size 19.05 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -791,7 +757,7 @@
 			)
 			(table_cell "100"
 				(exclude_from_sim no)
-				(at 125.73 173.99 0)
+				(at 162.56 123.19 0)
 				(size 19.05 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -808,25 +774,8 @@
 			)
 			(table_cell "110"
 				(exclude_from_sim no)
-				(at 144.78 173.99 0)
-				(size 11.43 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "a0b85fad-c2bb-4497-8b3d-70d152d5c7cc")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 156.21 173.99 0)
-				(size 16.51 3.81)
+				(at 181.61 123.19 0)
+				(size 19.05 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -842,7 +791,7 @@
 			)
 			(table_cell "1000"
 				(exclude_from_sim no)
-				(at 125.73 177.8 0)
+				(at 162.56 127 0)
 				(size 19.05 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -859,25 +808,8 @@
 			)
 			(table_cell "1100"
 				(exclude_from_sim no)
-				(at 144.78 177.8 0)
-				(size 11.43 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "fdb1f5b8-0c18-406a-aaca-a9b2641e3bdd")
-			)
-			(table_cell ""
-				(exclude_from_sim no)
-				(at 156.21 177.8 0)
-				(size 16.51 3.81)
+				(at 181.61 127 0)
+				(size 19.05 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -893,7 +825,7 @@
 			)
 		)
 	)
-	(hierarchical_label "ADC"
+	(hierarchical_label "ALS"
 		(shape output)
 		(at 158.75 95.25 0)
 		(effects
