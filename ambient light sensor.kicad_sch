@@ -6,13 +6,152 @@
 	(paper "A4")
 	(title_block
 		(title "Ambient Light Sensor")
-		(date "2026-01-29")
+		(date "2026-02-04")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
-		(comment 4 "Final verification incomplete")
+		(comment 4 "Final verification complete")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -590,7 +729,6 @@
 		(stroke
 			(width 0.254)
 			(type dash)
-			(color 132 0 0 1)
 		)
 		(fill
 			(type none)
@@ -604,7 +742,6 @@
 			(font
 				(size 2.54 2.54)
 				(thickness 0.3175)
-				(color 132 0 0 1)
 			)
 			(justify left)
 		)
@@ -614,17 +751,63 @@
 		(at 146.05 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d827564f-29ae-453c-b3ec-35ad118f76a4")
+		(uuid "412cb4d1-966a-4e99-b4e0-0e15d80b30a7")
+	)
+	(junction
+		(at 146.05 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed28ae5c-5a1f-47d7-a3d4-7ea975e19da9")
 	)
 	(wire
 		(pts
-			(xy 146.05 95.25) (xy 146.05 99.06)
+			(xy 133.35 83.82) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e91385b-e699-4991-8706-9e229781481f")
+		(uuid "10aa04d6-b090-422a-96c5-fd19541e0df1")
+	)
+	(wire
+		(pts
+			(xy 146.05 95.25) (xy 154.94 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409e92f1-e69c-4275-b903-852c02b872e0")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a87850-b05c-40ca-b7b4-a972208e86e6")
+	)
+	(wire
+		(pts
+			(xy 162.56 95.25) (xy 171.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d8229d-e11f-41c2-b456-3775ebc52f83")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 133.35 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781ab90d-ef76-4dfc-90ab-9ccadb882d62")
 	)
 	(wire
 		(pts
@@ -648,17 +831,27 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 95.25) (xy 158.75 95.25)
+			(xy 146.05 95.25) (xy 146.05 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6a1c03f-69c2-4f65-85e5-0111eb7e50e6")
+		(uuid "cde44aee-bfaf-4920-a177-48971d77e863")
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 146.05 83.82)
+			(xy 146.05 81.28) (xy 146.05 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5364b80-ea16-483c-aa89-453b5bfc289b")
+	)
+	(wire
+		(pts
+			(xy 146.05 78.74) (xy 146.05 81.28)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +1020,7 @@
 	)
 	(hierarchical_label "ALS"
 		(shape output)
-		(at 158.75 95.25 0)
+		(at 171.45 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -924,7 +1117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "425d1a9e-3a9d-4e02-afcc-d3f5a9e5f4a1")
-		(property "Reference" "R30"
+		(property "Reference" "R34"
 			(at 148.59 86.3599 0)
 			(effects
 				(font
@@ -978,7 +1171,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "R30")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -994,7 +1187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b51462a9-ee74-4ad2-bc8f-df746165cbf6")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR090"
 			(at 146.05 119.38 0)
 			(effects
 				(font
@@ -1044,7 +1237,77 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "#PWR078")
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c420799f-3d8d-4902-a488-d8c18a466fae")
+		(property "Reference" "C34"
+			(at 137.16 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 137.16 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 134.3152 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29527c66-812d-4b0a-a45c-3b63e0790f20")
+		)
+		(pin "1"
+			(uuid "8fbc0364-eab2-4cbc-96fd-d51d4f7ed28a")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -1052,7 +1315,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 146.05 80.01 0)
+		(at 146.05 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1060,8 +1323,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0999a2a-065b-40e2-95b9-bfcce39f3eb2")
-		(property "Reference" "#PWR077"
-			(at 146.05 83.82 0)
+		(property "Reference" "#PWR089"
+			(at 146.05 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1333,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 146.05 74.93 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 80.01 0)
+			(at 146.05 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 80.01 0)
+			(at 146.05 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +1359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 80.01 0)
+			(at 146.05 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1373,141 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "#PWR077")
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9711186-2d4f-477c-a090-4c8a8239efa4")
+		(property "Reference" "#PWR088"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "896c099d-f06a-4d07-9de4-0cd90c3a114c")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb52aaff-34ef-4fab-a32a-2c05f775e093")
+		(property "Reference" "R35"
+			(at 158.75 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500R"
+			(at 158.75 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 158.75 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b599f6c-a301-4838-a68a-0758c9c27c6e")
+		)
+		(pin "2"
+			(uuid "9da13962-a6f3-4c7d-a614-871908b24f4f")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
+					(reference "R35")
 					(unit 1)
 				)
 			)

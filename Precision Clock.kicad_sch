@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock　")
-		(date "2026-01-29")
+		(date "2026-02-04")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -163,7 +163,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 101.6) (xy 177.8 101.6)
+			(xy 165.1 114.3) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -183,13 +183,13 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 76.2) (xy 177.8 76.2)
+			(xy 165.1 95.25) (xy 177.8 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "baf84283-06d4-4be1-ace1-3c8e1d371c67")
+		(uuid "bbdf4ebb-79f7-4945-b664-ab28237e6599")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -495,7 +495,60 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "9")
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 88.9)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 255 255 255 1.0000)
+		)
+		(uuid "7feba6ed-769c-49aa-8cad-0f57dc62b971")
+		(property "Sheetname" "LEDs"
+			(at 177.8 88.1376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LEDs.kicad_sch"
+			(at 177.8 102.2354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LED[0..4]" input
+			(at 177.8 95.25 180)
+			(uuid "1f5876e6-4733-4dde-9439-a84f6dc03bc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
+					(page "10")
 				)
 			)
 		)
@@ -548,7 +601,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
@@ -601,7 +654,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -654,7 +707,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -734,16 +787,6 @@
 				(justify left)
 			)
 		)
-		(pin "LED[0..3]" output
-			(at 165.1 76.2 0)
-			(uuid "a7ec439d-d4d1-4a67-9d31-c78126e042fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "THG{SCL, SDA}" bidirectional
 			(at 127 95.25 180)
 			(uuid "2308259f-dd14-447b-a00b-6af130d48f2f")
@@ -755,7 +798,7 @@
 			)
 		)
 		(pin "BZ" output
-			(at 165.1 101.6 0)
+			(at 165.1 114.3 0)
 			(uuid "eeb84eb7-8c65-4e55-8e37-3df2e99c17e5")
 			(effects
 				(font
@@ -774,17 +817,27 @@
 				(justify left)
 			)
 		)
+		(pin "LED[0..4]" output
+			(at 165.1 95.25 0)
+			(uuid "a9e1e95a-a7ad-4a1f-b73e-95d4e8057f01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
 	)
 	(sheet
 		(at 177.8 50.8)
-		(size 38.1 38.1)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -826,20 +879,10 @@
 				(justify left)
 			)
 		)
-		(pin "LED[0..4]" input
-			(at 177.8 76.2 180)
-			(uuid "a29257d8-fb27-46fd-9e5c-a2f37ed6d328")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "9")
+					(page "5")
 				)
 			)
 		)
@@ -892,13 +935,13 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "10")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 177.8 95.25)
+		(at 177.8 107.95)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -914,7 +957,7 @@
 		)
 		(uuid "fa1772ae-d612-479d-9fc0-6f13b32ea30c")
 		(property "Sheetname" "Buzzer"
-			(at 177.8 94.4876 0)
+			(at 177.8 107.1876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +966,7 @@
 			)
 		)
 		(property "Sheetfile" "Buzzer.kicad_sch"
-			(at 177.8 108.5854 0)
+			(at 177.8 121.2854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -933,7 +976,7 @@
 			)
 		)
 		(pin "BZ" input
-			(at 177.8 101.6 180)
+			(at 177.8 114.3 180)
 			(uuid "6af73251-6a74-4c31-b9f2-ee3fbe1e8aa1")
 			(effects
 				(font
@@ -945,7 +988,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(page "10")
+					(page "9")
 				)
 			)
 		)
