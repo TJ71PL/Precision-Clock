@@ -490,6 +490,30 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 6,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "High Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(194, 0, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "Low Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(221, 133, 0)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -497,7 +521,36 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "High Power",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Low Power",
+        "pattern": "+3.3V"
+      },
+      {
+        "netclass": "Low Power",
+        "pattern": "+BATT"
+      },
+      {
+        "netclass": "Low Power",
+        "pattern": "GPS_BCKP"
+      },
+      {
+        "netclass": "Low Power",
+        "pattern": "MCU_RTC"
+      },
+      {
+        "netclass": "Low Power",
+        "pattern": "+3.3VA"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -700,10 +753,6 @@
     [
       "fa1772ae-d612-479d-9fc0-6f13b32ea30c",
       "Buzzer"
-    ],
-    [
-      "7feba6ed-769c-49aa-8cad-0f57dc62b971",
-      "LEDs"
     ]
   ],
   "text_variables": {}
