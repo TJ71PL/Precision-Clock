@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Temperature, Humidity & Gas Sensor")
-		(date "2026-02-04")
+		(date "2026-02-06")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -761,7 +761,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 11.43 3.81 180)
 					(length 2.54)
 					(name "SDO"
@@ -836,6 +836,9 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(bus_alias "THG_BUS"
+		(members "THG.SCL" "THG.SDA")
 	)
 	(rectangle
 		(start 76.2 63.5)
@@ -1558,7 +1561,7 @@
 		)
 		(uuid "98d1b28f-d2e9-421d-ab04-a5fbdc9dc6bb")
 	)
-	(hierarchical_label "THG{SCL, SDA}"
+	(hierarchical_label "{THG_BUS}"
 		(shape bidirectional)
 		(at 193.04 92.71 0)
 		(effects
@@ -1579,7 +1582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "209cf3e5-e146-46e1-bf5c-0c1f8ad8d6f0")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR074"
 			(at 101.6 104.14 0)
 			(effects
 				(font
@@ -1629,7 +1632,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR067")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -1645,7 +1648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d1267a-0856-4de5-9e57-1fb5f6c162ec")
-		(property "Reference" "C26"
+		(property "Reference" "C29"
 			(at 92.71 88.8999 0)
 			(effects
 				(font
@@ -1699,7 +1702,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "C26")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -1715,7 +1718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32d362fb-c72b-4535-bbba-af3b3c674636")
-		(property "Reference" "TP6"
+		(property "Reference" "TP17"
 			(at 169.418 102.87 90)
 			(effects
 				(font
@@ -1764,7 +1767,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "TP6")
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -1780,7 +1783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34b36678-22af-46e6-b034-45fc5b1bfe2b")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR079"
 			(at 157.48 86.36 0)
 			(effects
 				(font
@@ -1830,7 +1833,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR072")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -1846,7 +1849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b3bb689-7528-4f4f-b45d-d4107b05a8fa")
-		(property "Reference" "R19"
+		(property "Reference" "R8"
 			(at 171.45 87.6299 0)
 			(effects
 				(font
@@ -1855,7 +1858,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3K"
+		(property "Value" "10K"
 			(at 171.45 90.1699 0)
 			(effects
 				(font
@@ -1900,7 +1903,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "R19")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1916,7 +1919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c1c84a6-20e1-41fc-8f9c-838797555d7e")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR077"
 			(at 149.86 93.98 0)
 			(effects
 				(font
@@ -1966,7 +1969,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR070")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -1982,7 +1985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d690caf-be6e-4f1d-ba93-5c1f06277bed")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR078"
 			(at 149.86 111.76 0)
 			(effects
 				(font
@@ -2032,7 +2035,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR071")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -2048,7 +2051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "527dc9d3-ab7f-4de8-b78d-011fd75367b9")
-		(property "Reference" "C27"
+		(property "Reference" "C30"
 			(at 105.41 88.8999 0)
 			(effects
 				(font
@@ -2102,103 +2105,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "precision_clock:BME690")
-		(at 129.54 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "58267131-1576-430f-971c-3a85bc2ed002")
-		(property "Reference" "U16"
-			(at 119.38 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "BME690"
-			(at 119.38 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-			(at 129.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme690/"
-			(at 129.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
-			(at 129.54 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C42431867"
-			(at 119.126 99.0601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "1"
-			(uuid "9a4cfec4-f02c-40c8-853d-3acd1e9c39dc")
-		)
-		(pin "6"
-			(uuid "f34fa983-0f20-43bc-8a6a-1c1065079751")
-		)
-		(pin "8"
-			(uuid "eb92244f-83bf-4953-9bd2-9abbcf0c77ef")
-		)
-		(pin "5"
-			(uuid "0abb2828-f3dd-4f0c-8c87-e363ff5e6208")
-		)
-		(pin "7"
-			(uuid "68143670-3c9e-4a6f-828e-8715729256c4")
-		)
-		(pin "3"
-			(uuid "bb2b95e5-90a5-4b0d-9d4d-7e9a2b680675")
-		)
-		(pin "4"
-			(uuid "180035da-636d-4edb-ada0-48400c5ebd60")
-		)
-		(pin "2"
-			(uuid "53db0dff-d60d-4c7a-949b-f714023973c1")
-		)
-		(instances
-			(project ""
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "U16")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -2214,7 +2121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e38ce0-edff-45d0-8a74-e9b5b862facf")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR073"
 			(at 88.9 104.14 0)
 			(effects
 				(font
@@ -2264,7 +2171,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR066")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2280,7 +2187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "705dbe59-7f60-4790-8bf5-ab88f869be01")
-		(property "Reference" "R18"
+		(property "Reference" "R7"
 			(at 160.02 87.6299 0)
 			(effects
 				(font
@@ -2289,7 +2196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3K"
+		(property "Value" "10K"
 			(at 160.02 90.1699 0)
 			(effects
 				(font
@@ -2334,7 +2241,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "R18")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2350,7 +2257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7292156a-b820-4e8f-b85b-1cc5e2b27d5e")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR076"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -2400,7 +2307,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR069")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -2416,7 +2323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "815f6e20-a1b4-4c18-9860-bba5417269de")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR075"
 			(at 127 83.82 0)
 			(effects
 				(font
@@ -2466,7 +2373,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR068")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -2482,7 +2389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "839efe19-aaef-4e6a-9379-0769eeb8a5a2")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR080"
 			(at 168.91 86.36 0)
 			(effects
 				(font
@@ -2532,7 +2439,95 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "#PWR073")
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "precision_clock:BME690")
+		(at 129.54 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0c0ffc2-611e-4b73-b681-44e74cf33e31")
+		(property "Reference" "U14"
+			(at 119.38 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BME690"
+			(at 119.38 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme690/"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(at 129.54 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6fb6d580-ed91-4fe6-9fd4-4648131a5ced")
+		)
+		(pin "4"
+			(uuid "c11855e1-ae9b-452b-98f6-d06f15a60362")
+		)
+		(pin "2"
+			(uuid "53ae116f-32fc-4068-9e8e-661ce19cde5f")
+		)
+		(pin "3"
+			(uuid "fcb3b32c-1851-4ed3-9fda-c426f1f89960")
+		)
+		(pin "6"
+			(uuid "3fecec0a-e51d-4ddc-8326-f2172e79bd67")
+		)
+		(pin "1"
+			(uuid "713d8b04-37b6-4aa7-9f20-366dae320bed")
+		)
+		(pin "7"
+			(uuid "2b9a0756-6807-4667-8e34-f9d7082bcfe0")
+		)
+		(pin "8"
+			(uuid "f26a2588-d6d7-4ef7-80b9-e234b8b4336e")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -2548,7 +2543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9704965-7795-4ffe-a6ab-51e8e2253816")
-		(property "Reference" "TP7"
+		(property "Reference" "TP18"
 			(at 169.418 111.76 90)
 			(effects
 				(font
@@ -2597,7 +2592,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/cc882cab-fb20-4552-b867-43569dfc2d06"
-					(reference "TP7")
+					(reference "TP18")
 					(unit 1)
 				)
 			)

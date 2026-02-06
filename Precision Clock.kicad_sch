@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock　")
-		(date "2026-02-04")
+		(date "2026-02-06")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -133,16 +133,6 @@
 	)
 	(bus
 		(pts
-			(xy 165.1 133.35) (xy 177.8 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3a0053-2b5d-40cd-8d95-847d929dcec2")
-	)
-	(bus
-		(pts
 			(xy 114.3 63.5) (xy 127 63.5)
 		)
 		(stroke
@@ -150,6 +140,16 @@
 			(type default)
 		)
 		(uuid "7ecb72d1-e6d8-4e23-9348-844e5c51ba55")
+	)
+	(bus
+		(pts
+			(xy 165.1 63.5) (xy 177.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c49a47e-79bb-4676-a590-c9b8f176402e")
 	)
 	(wire
 		(pts
@@ -462,9 +462,9 @@
 				(hide yes)
 			)
 		)
-		(pin "ENC[0..2]" output
+		(pin "{INP_BUS}" output
 			(at 114.3 133.35 0)
-			(uuid "c6615e8c-370f-4db8-8af8-3483af862225")
+			(uuid "9745e10e-d7a4-4f22-b57b-1f32c1e90ebf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,16 +515,6 @@
 				(hide yes)
 			)
 		)
-		(pin "DIS{FB, EN}" input
-			(at 177.8 133.35 180)
-			(uuid "7fd73f59-92d8-4df9-9f20-630fceb59d0d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
@@ -568,9 +558,9 @@
 				(hide yes)
 			)
 		)
-		(pin "GPS{TX, RX, TP}" bidirectional
+		(pin "{GPS_BUS}" bidirectional
 			(at 114.3 63.5 0)
-			(uuid "bb119641-79f0-4031-b98c-11a93b985618")
+			(uuid "b568093f-1b35-4155-ba2d-048f2f510676")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,9 +611,9 @@
 				(hide yes)
 			)
 		)
-		(pin "THG{SCL, SDA}" bidirectional
+		(pin "{THG_BUS}" bidirectional
 			(at 114.3 95.25 0)
-			(uuid "3c83e205-81f1-4c42-a6a8-bffe06669b3b")
+			(uuid "16d796ce-1334-4263-a47e-7035eacd6a41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,56 +664,6 @@
 				(hide yes)
 			)
 		)
-		(pin "DIS[0..13]" output
-			(at 165.1 63.5 0)
-			(uuid "d8798e89-cf0d-40c5-a8bf-e31c37453490")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "DIS{FB, EN}" output
-			(at 165.1 133.35 0)
-			(uuid "ac88d404-02a7-44fd-81e4-63ed04d5774f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ENC[0..2]" input
-			(at 127 133.35 180)
-			(uuid "2c8066c0-39e8-4859-b2ef-d4e1111876dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPS{TX, RX, TP}" bidirectional
-			(at 127 63.5 180)
-			(uuid "5b3ff6ac-6826-4aa9-a905-4c5b4910e26c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "THG{SCL, SDA}" bidirectional
-			(at 127 95.25 180)
-			(uuid "2308259f-dd14-447b-a00b-6af130d48f2f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "BZ" output
 			(at 165.1 114.3 0)
 			(uuid "eeb84eb7-8c65-4e55-8e37-3df2e99c17e5")
@@ -737,6 +677,46 @@
 		(pin "ALS" input
 			(at 127 114.3 180)
 			(uuid "168dfde8-7705-4c41-9e91-adb15fd59fc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{DISPLAY_BUS}" bidirectional
+			(at 165.1 63.5 0)
+			(uuid "fffd342b-c4d0-4788-af13-102305770dc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{GPS_BUS}" bidirectional
+			(at 127 63.5 180)
+			(uuid "143b79ff-1d28-426a-a39d-45fa9f526ea7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{INP_BUS}" input
+			(at 127 133.35 180)
+			(uuid "ec0f06c6-1042-44af-bbca-b19f843ff630")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{THG_BUS}" bidirectional
+			(at 127 95.25 180)
+			(uuid "999207d1-09f1-4d0b-8d6c-694a78f70f4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,6 +764,16 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "{DISPLAY_BUS}" bidirectional
+			(at 177.8 63.5 180)
+			(uuid "7b6d8c70-3019-497b-8f6a-0333fe0810d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
