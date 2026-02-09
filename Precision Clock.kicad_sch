@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock　")
-		(date "2026-02-06")
+		(date "2026-02-09")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -133,7 +133,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 63.5) (xy 127 63.5)
+			(xy 114.3 69.85) (xy 127 69.85)
 		)
 		(stroke
 			(width 0)
@@ -141,19 +141,9 @@
 		)
 		(uuid "7ecb72d1-e6d8-4e23-9348-844e5c51ba55")
 	)
-	(bus
-		(pts
-			(xy 165.1 63.5) (xy 177.8 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c49a47e-79bb-4676-a590-c9b8f176402e")
-	)
 	(wire
 		(pts
-			(xy 165.1 114.3) (xy 177.8 114.3)
+			(xy 165.1 107.95) (xy 177.8 107.95)
 		)
 		(stroke
 			(width 0)
@@ -170,6 +160,26 @@
 			(type default)
 		)
 		(uuid "b8a33954-165d-4f51-9553-b5a3b8882a4c")
+	)
+	(bus
+		(pts
+			(xy 165.1 76.2) (xy 177.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba047085-da37-4e34-a306-b19fd83dca35")
+	)
+	(bus
+		(pts
+			(xy 165.1 133.35) (xy 177.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3177e8-2194-4308-aa69-c1894fa060f8")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -515,6 +525,16 @@
 				(hide yes)
 			)
 		)
+		(pin "{USB_BUS}" bidirectional
+			(at 177.8 133.35 180)
+			(uuid "67387775-0ab3-4b07-b361-083209499a52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
@@ -524,7 +544,7 @@
 		)
 	)
 	(sheet
-		(at 76.2 50.8)
+		(at 76.2 57.15)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -540,7 +560,7 @@
 		)
 		(uuid "adbcdd61-c016-4293-925d-555ee31f0e50")
 		(property "Sheetname" "GPS"
-			(at 76.2 50.0376 0)
+			(at 76.2 56.3876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -549,7 +569,7 @@
 			)
 		)
 		(property "Sheetfile" "GPS.kicad_sch"
-			(at 76.2 76.8354 0)
+			(at 76.2 83.1854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -559,7 +579,7 @@
 			)
 		)
 		(pin "{GPS_BUS}" bidirectional
-			(at 114.3 63.5 0)
+			(at 114.3 69.85 0)
 			(uuid "b568093f-1b35-4155-ba2d-048f2f510676")
 			(effects
 				(font
@@ -630,8 +650,8 @@
 		)
 	)
 	(sheet
-		(at 127 50.8)
-		(size 38.1 88.9)
+		(at 127 57.15)
+		(size 38.1 82.55)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -646,7 +666,7 @@
 		)
 		(uuid "d0d8c9aa-9e46-4cf3-a690-ff272eec1168")
 		(property "Sheetname" "MCU"
-			(at 127 50.0376 0)
+			(at 127 56.3876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,7 +685,7 @@
 			)
 		)
 		(pin "BZ" output
-			(at 165.1 114.3 0)
+			(at 165.1 107.95 0)
 			(uuid "eeb84eb7-8c65-4e55-8e37-3df2e99c17e5")
 			(effects
 				(font
@@ -685,7 +705,7 @@
 			)
 		)
 		(pin "{DISPLAY_BUS}" bidirectional
-			(at 165.1 63.5 0)
+			(at 165.1 76.2 0)
 			(uuid "fffd342b-c4d0-4788-af13-102305770dc4")
 			(effects
 				(font
@@ -695,7 +715,7 @@
 			)
 		)
 		(pin "{GPS_BUS}" bidirectional
-			(at 127 63.5 180)
+			(at 127 69.85 180)
 			(uuid "143b79ff-1d28-426a-a39d-45fa9f526ea7")
 			(effects
 				(font
@@ -724,6 +744,16 @@
 				(justify left)
 			)
 		)
+		(pin "{USB_BUS}" bidirectional
+			(at 165.1 133.35 0)
+			(uuid "2d850fda-f496-4b38-8836-ab3d447d48de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
@@ -733,8 +763,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 50.8)
-		(size 38.1 25.4)
+		(at 177.8 57.15)
+		(size 38.1 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -748,7 +778,7 @@
 		)
 		(uuid "d3af2bc2-13e8-43c1-8a6d-735ddffde2e2")
 		(property "Sheetname" "Clock Display"
-			(at 177.8 50.0884 0)
+			(at 177.8 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +787,7 @@
 			)
 		)
 		(property "Sheetfile" "Clock Display.kicad_sch"
-			(at 177.8 76.7846 0)
+			(at 177.8 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -767,7 +797,7 @@
 			)
 		)
 		(pin "{DISPLAY_BUS}" bidirectional
-			(at 177.8 63.5 180)
+			(at 177.8 76.2 180)
 			(uuid "7b6d8c70-3019-497b-8f6a-0333fe0810d7")
 			(effects
 				(font
@@ -838,7 +868,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 107.95)
+		(at 177.8 101.6)
 		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -854,7 +884,7 @@
 		)
 		(uuid "fa1772ae-d612-479d-9fc0-6f13b32ea30c")
 		(property "Sheetname" "Buzzer"
-			(at 177.8 107.1876 0)
+			(at 177.8 100.8376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +893,7 @@
 			)
 		)
 		(property "Sheetfile" "Buzzer.kicad_sch"
-			(at 177.8 121.2854 0)
+			(at 177.8 114.9354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +903,7 @@
 			)
 		)
 		(pin "BZ" input
-			(at 177.8 114.3 180)
+			(at 177.8 107.95 180)
 			(uuid "6af73251-6a74-4c31-b9f2-ee3fbe1e8aa1")
 			(effects
 				(font
