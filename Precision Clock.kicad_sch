@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock　")
-		(date "2026-02-09")
+		(date "2026-02-13")
 		(rev "v0.0")
 		(company "TJ71PL")
 		(comment 1 "天計")
@@ -432,6 +432,70 @@
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 190.5 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b33a4fee-8536-4da4-a3bd-ec414d107c41")
+		(property "Reference" "H5"
+			(at 193.04 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3"
+			(at 193.04 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 190.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
+					(reference "H5")
 					(unit 1)
 				)
 			)
