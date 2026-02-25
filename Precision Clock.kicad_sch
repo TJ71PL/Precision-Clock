@@ -6,11 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "Precision Clock　")
-		(date "2026-02-13")
+		(date "2026-02-25")
 		(rev "v0.0")
 		(company "TJ71PL")
-		(comment 1 "天計")
-		(comment 4 "Final verification incomplete")
+		(comment 4 "Final verification complete")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
@@ -97,9 +96,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Heavily inspired by Precison Clock MK4\nhttps://mitxela.com/shop/clock4"
+	(text "Inspired by Precison Clock MK4 by Mitxela\nhttps://mitxela.com/projects"
 		(exclude_from_sim no)
-		(at 84.836 184.404 0)
+		(at 76.2 177.8 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -191,7 +190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30735535-0737-4c93-96be-4af80596c464")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 167.64 151.1299 0)
 			(effects
 				(font
@@ -239,7 +238,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -255,7 +254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34468d3f-c507-48e3-a0f9-e64c6eb13d2f")
-		(property "Reference" "H1"
+		(property "Reference" "H4"
 			(at 142.24 151.1299 0)
 			(effects
 				(font
@@ -303,7 +302,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -319,7 +318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "840fbf0b-f5c8-4259-91ed-6ee81bb1a991")
-		(property "Reference" "H4"
+		(property "Reference" "H5"
 			(at 180.34 151.1299 0)
 			(effects
 				(font
@@ -367,7 +366,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H4")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -383,7 +382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1348ba7-f7b4-41ee-88fd-6cfbf275eefc")
-		(property "Reference" "H2"
+		(property "Reference" "H1"
 			(at 154.94 151.1299 0)
 			(effects
 				(font
@@ -431,7 +430,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -447,7 +446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b33a4fee-8536-4da4-a3bd-ec414d107c41")
-		(property "Reference" "H5"
+		(property "Reference" "H3"
 			(at 193.04 151.1299 0)
 			(effects
 				(font
@@ -495,7 +494,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)

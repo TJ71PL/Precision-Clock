@@ -212,18 +212,29 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.4125 0)
+		(at -0.32 0)
 		(size 0.425 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "65e7553d-a19d-463f-a8ae-0cabb742bb8c")
 	)
 	(pad "2" smd roundrect
-		(at 0.4125 0)
+		(at 0.32 0)
 		(size 0.425 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "65e52600-1554-4faa-8057-6c9b0aa03c7e")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3d/ST0201.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
