@@ -6,7 +6,7 @@
 	(descr "USB PD3.1 EPR SINK CONTROLLER")
 	(tags "usb pd epr sink controller")
 	(property "Reference" "REF**"
-		(at 14.8 -13.4 0)
+		(at 0 -3.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "233972cd-8dd4-477a-8f9f-b39593f70520")
@@ -18,7 +18,7 @@
 		)
 	)
 	(property "Value" "W-DFN3030-14 (Type A1) Diodes"
-		(at 14.8 -11.9 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e5e02d27-227f-482c-8ff9-9e6b0c64ebcf")
@@ -108,8 +108,8 @@
 		(uuid "a0016978-4668-4610-94d3-a51dbb986319")
 	)
 	(fp_rect
-		(start -1.5 -1.7)
-		(end 1.5 1.7)
+		(start -1.8 -2)
+		(end 1.8 2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -168,32 +168,8 @@
 		(layer "F.Fab")
 		(uuid "aaf02af9-0be7-4e16-9c73-72ac5fb847a7")
 	)
-	(fp_text user "REF**"
-		(at 1.8 -1.2 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "f3bcd4fe-f64a-4a61-9c14-c5b079ebf9ec")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "8bfbe89c-e2e7-4cbb-a017-e8996520821a")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.125)
-			)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 14.8 -10.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f774db89-1e36-424d-93e2-3eb34bc770c7")
