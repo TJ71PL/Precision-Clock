@@ -1660,16 +1660,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 182.88 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17a482e9-7e46-4d23-925d-8df0f738343a")
-	)
-	(wire
-		(pts
 			(xy 182.88 71.12) (xy 182.88 83.82)
 		)
 		(stroke
@@ -1730,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 104.14) (xy 163.83 104.14)
+			(xy 154.94 104.14) (xy 182.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2015,6 +2005,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "86cb17b4-e762-452c-903b-a7e46c5f2ef5")
 		)
@@ -2182,87 +2181,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "584aa87c-7a4d-4b75-9b7d-2c75c21f1f1c")
-		(property "Reference" "C6"
-			(at 167.64 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47pF 5% 25V C0G"
-			(at 167.64 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 171.45 103.1748 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 167.64 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C437519"
-			(at 167.64 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72f43999-43a3-4a53-913c-aadb2eb6f588")
-		)
-		(pin "2"
-			(uuid "20a6465d-6265-4ec2-88ae-8ac16590cfaa")
-		)
-		(instances
-			(project "gps"
-				(path "/1f769d9b-701f-4274-bc3c-6e110fe5dea9"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 119.38 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2271,7 +2189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1716b3-7543-4374-8272-2d370b3b8d6d")
-		(property "Reference" "C13"
+		(property "Reference" "C8"
 			(at 123.19 76.1999 0)
 			(effects
 				(font
@@ -2316,6 +2234,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb008ffa-88c7-4e0c-89cf-c0fe38bd1478")
 		)
@@ -2331,7 +2258,7 @@
 			)
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
-					(reference "C13")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2632,7 +2559,7 @@
 		(at 139.7 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c918827b-33d6-4c90-8894-2826b0e80d66")
@@ -2786,7 +2713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.64 85.598 90)
 			(effects
 				(font
@@ -2911,7 +2838,7 @@
 		(at 196.85 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e5023015-a93e-49ef-87aa-d6eccf6eea09")

@@ -1166,7 +1166,7 @@
 		(at 143.51 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1013f4ae-f53e-4cbc-b09d-6dc28461faea")
@@ -1215,7 +1215,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "782-TEPT5700"
+		(property "Mouser" "782-TEPT5700"
 			(at 148.59 106.4134 0)
 			(effects
 				(font
@@ -1244,7 +1244,7 @@
 		(at 167.64 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1316,7 +1316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "425d1a9e-3a9d-4e02-afcc-d3f5a9e5f4a1")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 148.59 86.3599 0)
 			(effects
 				(font
@@ -1361,6 +1361,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60489"
+			(at 146.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "299f0f29-a616-4db2-aba8-c0dbfb24c793")
 		)
@@ -1370,7 +1379,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1489,6 +1498,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -1654,7 +1672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb52aaff-34ef-4fab-a32a-2c05f775e093")
-		(property "Reference" "R12"
+		(property "Reference" "R15"
 			(at 158.75 88.9 90)
 			(effects
 				(font
@@ -1697,6 +1715,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C276273"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b599f6c-a301-4838-a68a-0758c9c27c6e")
 		)
@@ -1706,7 +1733,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)
