@@ -1224,6 +1224,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "782-TEPT5700"
+			(at 143.51 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "872f27d4-f044-4f21-837d-376cd6c81bb8")
 		)
@@ -1316,7 +1325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "425d1a9e-3a9d-4e02-afcc-d3f5a9e5f4a1")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 148.59 86.3599 0)
 			(effects
 				(font
@@ -1379,7 +1388,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/f0b87a8b-19e9-4032-a495-3b751ae7ab11"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)

@@ -1536,6 +1536,12 @@
 		(uuid "9556ddb0-07f0-42a3-9e19-09addd94b4bd")
 	)
 	(junction
+		(at 182.88 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "654b80e8-5368-4b9a-9b41-39f4ec25eb04")
+	)
+	(junction
 		(at 182.88 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1552,12 +1558,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "883928d4-53fb-41ed-8db3-5552e344c2bf")
-	)
-	(junction
-		(at 182.88 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8aea5bdc-aba5-43f2-b10f-60c5dcd4efac")
 	)
 	(no_connect
 		(at 124.46 111.76)
@@ -1680,6 +1680,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d90021-4b61-4f67-a51d-332d1ec33be8")
+	)
+	(wire
+		(pts
 			(xy 119.38 71.12) (xy 134.62 71.12)
 		)
 		(stroke
@@ -1700,6 +1710,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 104.14) (xy 182.88 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b4e749-e42a-48ac-a692-76a1ba3d469a")
+	)
+	(wire
+		(pts
 			(xy 152.4 71.12) (xy 152.4 74.93)
 		)
 		(stroke
@@ -1717,16 +1737,6 @@
 			(type default)
 		)
 		(uuid "558716d6-a488-4f7a-a428-d76f160bf8db")
-	)
-	(wire
-		(pts
-			(xy 154.94 104.14) (xy 182.88 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55be87ee-56fc-43fe-ab9b-83e11fb7cbc9")
 	)
 	(wire
 		(pts
@@ -1970,7 +1980,7 @@
 				)
 			)
 		)
-		(property "Value" "10n 10% 16V X7R"
+		(property "Value" "10n"
 			(at 167.64 66.04 90)
 			(effects
 				(font
@@ -2688,6 +2698,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 167.64 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd51c0ca-0c1c-4ab8-9b9c-abc4792bd6f8")
+		(property "Reference" "C6"
+			(at 172.212 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47pF"
+			(at 172.466 99.314 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 103.1748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C437519"
+			(at 174.244 101.854 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bebb723b-adf1-4a98-acd0-12cd8b07d66c")
+		)
+		(pin "2"
+			(uuid "ae520cd5-4c8d-4b6e-8e57-28202d1b4885")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/adbcdd61-c016-4293-925d-555ee31f0e50"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 167.64 83.82 90)
 		(unit 1)
@@ -2705,7 +2790,7 @@
 				)
 			)
 		)
-		(property "Value" "10R 5% 250mW"
+		(property "Value" "10R"
 			(at 167.64 80.01 90)
 			(effects
 				(font
@@ -2732,6 +2817,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 167.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C109318"
 			(at 167.64 83.82 0)
 			(effects
 				(font
