@@ -12,6 +12,113 @@
 		(comment 4 "Final verification complete")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1707,6 +1814,18 @@
 		)
 		(uuid "c6780c0f-828d-4e4a-98fc-64e2640cb0eb")
 	)
+	(text "Test Points"
+		(exclude_from_sim no)
+		(at 213.36 203.2 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.4763)
+			)
+			(justify left)
+		)
+		(uuid "e60ff9a0-30e8-4d72-99ea-7cb1e9a9bb53")
+	)
 	(text "Display Bank 0"
 		(exclude_from_sim no)
 		(at 36.83 140.97 0)
@@ -1879,6 +1998,15 @@
 			(type default)
 		)
 		(uuid "01cdd6b5-6430-4754-ad65-db93baf45984")
+	)
+	(bus_entry
+		(at 254 184.15)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037e5cd1-69c8-4a53-ae48-be36a96be582")
 	)
 	(bus_entry
 		(at 118.11 111.76)
@@ -2095,6 +2223,15 @@
 			(type default)
 		)
 		(uuid "3a27d90b-4ed8-4bba-9e33-0a04f388fadc")
+	)
+	(bus_entry
+		(at 254 190.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3cec7d-6db5-4cc0-a456-dd9533ea0d4a")
 	)
 	(bus_entry
 		(at 307.34 55.88)
@@ -2439,6 +2576,15 @@
 		(uuid "8b44459c-6f18-4274-997e-91695661297c")
 	)
 	(bus_entry
+		(at 254 177.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c735b36-b958-4526-b12b-1c5333058a8d")
+	)
+	(bus_entry
 		(at 307.34 71.12)
 		(size -2.54 -2.54)
 		(stroke
@@ -2545,6 +2691,15 @@
 			(type default)
 		)
 		(uuid "b49e7eae-f712-4fe7-874a-b2ccdec2a61a")
+	)
+	(bus_entry
+		(at 254 165.1)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b731ec6e-a878-4238-b658-1c970f68619f")
 	)
 	(bus_entry
 		(at 307.34 60.96)
@@ -2797,6 +2952,15 @@
 			(type default)
 		)
 		(uuid "ee1c4f93-b4f4-4475-b01b-b0879f10ef63")
+	)
+	(bus_entry
+		(at 254 171.45)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef808b8a-531a-4bb8-a3d2-63403107936e")
 	)
 	(bus_entry
 		(at 118.11 88.9)
@@ -3197,6 +3361,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 186.69) (xy 264.16 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195b2f71-b38e-4fe8-816a-0b000036eef4")
+	)
+	(wire
+		(pts
 			(xy 64.77 99.06) (xy 64.77 104.14)
 		)
 		(stroke
@@ -3274,6 +3448,16 @@
 			(type default)
 		)
 		(uuid "1f7b38bb-186b-47e3-9c94-7dd391faf235")
+	)
+	(wire
+		(pts
+			(xy 256.54 173.99) (xy 264.16 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237c79c1-2be9-4f1a-aed9-6956a970d36d")
 	)
 	(bus
 		(pts
@@ -3555,6 +3739,16 @@
 		)
 		(uuid "390cbdc0-9ba1-4385-aeeb-ebd2582f0279")
 	)
+	(bus
+		(pts
+			(xy 254 171.45) (xy 254 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393a8198-2806-4954-9509-8c00fb8815d1")
+	)
 	(wire
 		(pts
 			(xy 294.64 66.04) (xy 304.8 66.04)
@@ -3584,6 +3778,16 @@
 			(type default)
 		)
 		(uuid "3c1731d6-0cc3-4894-a9bc-cd8c9a0b7452")
+	)
+	(wire
+		(pts
+			(xy 256.54 193.04) (xy 264.16 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d0ea3f3-a526-4ed8-99a6-c4afaca145df")
 	)
 	(bus
 		(pts
@@ -3694,6 +3898,26 @@
 			(type default)
 		)
 		(uuid "48e9517a-9f80-4a58-9a61-4550962415df")
+	)
+	(bus
+		(pts
+			(xy 254 165.1) (xy 254 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4980bc44-f008-49c5-a345-dd1f1b9263da")
+	)
+	(bus
+		(pts
+			(xy 254 184.15) (xy 254 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b95b8e-3ba6-4972-ae51-6beefca75a23")
 	)
 	(wire
 		(pts
@@ -4234,6 +4458,16 @@
 			(type default)
 		)
 		(uuid "7480709f-65db-4bce-81ca-8f5881c8d221")
+	)
+	(bus
+		(pts
+			(xy 254 177.8) (xy 254 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77761b8b-5c12-46c7-b38e-e68bcf3d5fae")
 	)
 	(wire
 		(pts
@@ -4937,6 +5171,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 180.34) (xy 264.16 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f9cdd8-5a89-43b4-8517-f6dfe8b07c5f")
+	)
+	(wire
+		(pts
 			(xy 67.31 208.28) (xy 74.93 208.28)
 		)
 		(stroke
@@ -5224,6 +5468,16 @@
 			(type default)
 		)
 		(uuid "cf78be7c-5c98-482e-b0f0-628c61129b32")
+	)
+	(bus
+		(pts
+			(xy 251.46 165.1) (xy 254 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb4a097-ca1c-40c1-8a1e-88ea4aca3938")
 	)
 	(bus
 		(pts
@@ -5524,6 +5778,16 @@
 			(type default)
 		)
 		(uuid "e508ce36-3e7c-4e81-8753-a02277e63f36")
+	)
+	(wire
+		(pts
+			(xy 256.54 167.64) (xy 264.16 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59e58f1-364b-46b0-b0e7-d5155d21e757")
 	)
 	(bus
 		(pts
@@ -6428,6 +6692,16 @@
 		)
 		(uuid "50ece183-a88e-45e3-8541-52f435371121")
 	)
+	(label "OE"
+		(at 259.08 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "579b037c-c83c-4467-9980-6dfdc1f4bc17")
+	)
 	(label "SDO0"
 		(at 67.31 208.28 0)
 		(effects
@@ -6437,6 +6711,16 @@
 			(justify left bottom)
 		)
 		(uuid "57e00144-a2c2-4a35-8499-de653162727f")
+	)
+	(label "SCL"
+		(at 259.08 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58759594-9f98-4eee-92b5-a7522571060a")
 	)
 	(label "B1.5"
 		(at 123.19 181.61 0)
@@ -6697,6 +6981,16 @@
 			(justify left bottom)
 		)
 		(uuid "97a75330-be4d-4a99-8f3d-520c89221298")
+	)
+	(label "SDO"
+		(at 259.08 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9887f1f6-872b-4244-8f35-4be73ee1d3a6")
 	)
 	(label "B2.14"
 		(at 297.18 91.44 0)
@@ -7128,6 +7422,16 @@
 		)
 		(uuid "e91e6dbd-3475-4394-b895-ed696850e36c")
 	)
+	(label "SDI"
+		(at 259.08 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb165893-0ab3-491c-b52c-e45e95bd0ebe")
+	)
 	(label "B1.8"
 		(at 123.19 234.95 0)
 		(effects
@@ -7169,6 +7473,16 @@
 		(uuid "fa722e70-e5f5-4e75-84c2-002a6ed8eea9")
 	)
 	(label "LE"
+		(at 259.08 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbde2c31-2dc9-4ba0-a5ab-6476e0535e57")
+	)
+	(label "LE"
 		(at 256.54 63.5 0)
 		(effects
 			(font
@@ -7187,6 +7501,17 @@
 			(justify left bottom)
 		)
 		(uuid "feebda69-e6fe-4262-b5b6-f93b6d228228")
+	)
+	(hierarchical_label "{DISPLAY_BUS}"
+		(shape bidirectional)
+		(at 251.46 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f78f2ce-28db-4f22-94af-d0a446915610")
 	)
 	(hierarchical_label "{DISPLAY_BUS}"
 		(shape bidirectional)
@@ -7805,6 +8130,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "219740bd-009d-4ae0-8143-243519d6ba29")
+		(property "Reference" "TP5"
+			(at 269.24 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDI"
+			(at 269.24 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 264.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ec7869c-9e48-4dc0-a06c-f910d98351e1")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 168.91 62.23 0)
 		(unit 1)
@@ -7814,7 +8206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "255130d9-8e56-4a15-b7c3-b7bb88b8431f")
-		(property "Reference" "C35"
+		(property "Reference" "C36"
 			(at 172.72 60.9599 0)
 			(effects
 				(font
@@ -7877,7 +8269,7 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -8051,7 +8443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32913c7b-fbec-40f6-9ffe-b06d4cfe232f")
-		(property "Reference" "C22"
+		(property "Reference" "C27"
 			(at 73.66 170.1799 0)
 			(effects
 				(font
@@ -8114,7 +8506,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C22")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8806,7 +9198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b30c8b0-5c99-4d9a-9ead-cfbfd7714c5f")
-		(property "Reference" "C41"
+		(property "Reference" "C45"
 			(at 361.95 60.9599 0)
 			(effects
 				(font
@@ -8869,7 +9261,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C41")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -8885,7 +9277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b265ef-5f52-4506-b875-0eecc3994e35")
-		(property "Reference" "R25"
+		(property "Reference" "R23"
 			(at 67.31 93.9799 0)
 			(effects
 				(font
@@ -8948,7 +9340,74 @@
 		(instances
 			(project ""
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "R25")
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 167.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72c6deeb-71ce-4542-9238-a39d5b9b887b")
+		(property "Reference" "TP7"
+			(at 269.24 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LE"
+			(at 269.24 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 264.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa70bc51-aada-48f5-b0d2-107ec53a82cf")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9096,7 +9555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7af2f759-da88-4a02-9ca7-79f0373e8b53")
-		(property "Reference" "C37"
+		(property "Reference" "C41"
 			(at 172.72 126.9999 0)
 			(effects
 				(font
@@ -9159,7 +9618,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C37")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -9324,6 +9783,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "909186bd-b65f-4224-adbc-6302945a1d3e")
+		(property "Reference" "TP9"
+			(at 269.24 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDO"
+			(at 269.24 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 264.16 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b52f0d0-f759-4da9-9db2-958f139a57bf")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93d119b4-8142-415c-9807-47e07239e920")
+		(property "Reference" "TP10"
+			(at 269.24 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCL"
+			(at 269.24 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 264.16 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42f62466-00fd-4f33-a051-6187339c7cd9")
+		)
+		(instances
+			(project ""
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VD")
 		(at 168.91 184.15 0)
 		(unit 1)
@@ -9399,7 +9992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a3be6cb-5d27-4d73-805f-64c520509938")
-		(property "Reference" "C39"
+		(property "Reference" "C43"
 			(at 172.72 194.3099 0)
 			(effects
 				(font
@@ -9462,7 +10055,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C39")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -9478,7 +10071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b7c97ae-1b9d-4779-a555-045eba0bed86")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 67.31 227.3299 0)
 			(effects
 				(font
@@ -9541,7 +10134,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9557,7 +10150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d9f381e-9be9-4423-9220-d960f271da3e")
-		(property "Reference" "C23"
+		(property "Reference" "C26"
 			(at 264.16 36.8299 0)
 			(effects
 				(font
@@ -9620,7 +10213,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C23")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9636,7 +10229,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2ba558-4890-430d-acb3-f6ed46a9d80e")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 256.54 93.9799 0)
 			(effects
 				(font
@@ -9699,7 +10292,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10351,7 +10944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc14d7be-5678-4c4b-b63e-11b1f1bfff82")
-		(property "Reference" "C42"
+		(property "Reference" "C46"
 			(at 361.95 126.9999 0)
 			(effects
 				(font
@@ -10414,7 +11007,74 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C42")
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 193.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d64cccb2-cf86-498c-849c-1f39a90c264c")
+		(property "Reference" "TP4"
+			(at 269.24 191.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OE"
+			(at 269.24 194.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 264.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f420f227-f26c-4155-9300-93f4657b532b")
+		)
+		(instances
+			(project "Precision Clock"
+				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -10430,7 +11090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e368955b-16da-4750-9b2e-44d3d5727ea1")
-		(property "Reference" "C40"
+		(property "Reference" "C44"
 			(at 172.72 260.3499 0)
 			(effects
 				(font
@@ -10493,7 +11153,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C40")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -10707,7 +11367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7da9a6a-422c-44e9-8633-44fc26dd0602")
-		(property "Reference" "C21"
+		(property "Reference" "C25"
 			(at 73.66 36.8299 0)
 			(effects
 				(font
@@ -10770,7 +11430,7 @@
 		(instances
 			(project "Precision Clock"
 				(path "/c9a8ff63-a0d1-4125-9dd1-40fb53daf536/d3af2bc2-13e8-43c1-8a6d-735ddffde2e2"
-					(reference "C21")
+					(reference "C25")
 					(unit 1)
 				)
 			)
