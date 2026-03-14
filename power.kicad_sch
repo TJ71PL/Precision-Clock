@@ -4019,7 +4019,6 @@
 			(stroke
 				(width 0)
 				(type solid)
-				(color 132 0 0 1)
 			)
 		)
 		(separators
@@ -4028,16 +4027,15 @@
 			(stroke
 				(width 0)
 				(type solid)
-				(color 132 0 0 1)
 			)
 		)
-		(column_widths 13.97 12.7)
-		(row_heights 3.81 3.81 3.81)
+		(column_widths 24.13 6.35)
+		(row_heights 3.81 3.81)
 		(cells
-			(table_cell "Vin"
+			(table_cell "Requested Voltage Vd"
 				(exclude_from_sim no)
-				(at 72.39 68.58 0)
-				(size 13.97 3.81)
+				(at 242.57 59.69 0)
+				(size 24.13 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4046,16 +4044,15 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(color 132 0 0 1)
 					)
-					(justify left)
+					(justify left top)
 				)
-				(uuid "988b0334-a82a-4050-a832-43e9593aa9cd")
+				(uuid "829f79a6-2607-4dcb-872d-d4583b79d93e")
 			)
-			(table_cell "4V - 6V"
+			(table_cell "5V"
 				(exclude_from_sim no)
-				(at 86.36 68.58 0)
-				(size 12.7 3.81)
+				(at 266.7 59.69 0)
+				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4064,16 +4061,15 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(color 132 0 0 1)
 					)
-					(justify left)
+					(justify left top)
 				)
-				(uuid "51b57a23-7835-4fdd-a02e-f7fa978371bb")
+				(uuid "4690741d-a653-44fa-a500-376a4478337a")
 			)
-			(table_cell "Vout"
+			(table_cell "Requesed Current I"
 				(exclude_from_sim no)
-				(at 72.39 72.39 0)
-				(size 13.97 3.81)
+				(at 242.57 63.5 0)
+				(size 24.13 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4082,16 +4078,15 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(color 132 0 0 1)
 					)
-					(justify left)
+					(justify left top)
 				)
-				(uuid "6540d2fd-49fd-491b-93e8-99ae4fa5e378")
+				(uuid "3ec1c33d-783f-46b4-b6db-112eee7375a8")
 			)
-			(table_cell "3.3V"
+			(table_cell "2.5A"
 				(exclude_from_sim no)
-				(at 86.36 72.39 0)
-				(size 12.7 3.81)
+				(at 266.7 63.5 0)
+				(size 6.35 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4100,47 +4095,10 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(color 132 0 0 1)
 					)
-					(justify left)
+					(justify left top)
 				)
-				(uuid "1a255138-fbb0-4c68-abcb-9716b2eb05c2")
-			)
-			(table_cell "Iout(max)"
-				(exclude_from_sim no)
-				(at 72.39 76.2 0)
-				(size 13.97 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(color 132 0 0 1)
-					)
-					(justify left)
-				)
-				(uuid "a0c6a086-39d7-41f6-94fb-c8e2366d8794")
-			)
-			(table_cell "300mA"
-				(exclude_from_sim no)
-				(at 86.36 76.2 0)
-				(size 12.7 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(color 132 0 0 1)
-					)
-					(justify left)
-				)
-				(uuid "8741a084-9c25-4259-bf9b-98988acd0de8")
+				(uuid "0a2fe107-11cf-4c8c-9150-0b3098a0538e")
 			)
 		)
 	)
@@ -4333,6 +4291,139 @@
 				(exclude_from_sim no)
 				(at 81.28 187.96 0)
 				(size 17.78 6.35)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+					(justify left)
+				)
+				(uuid "8741a084-9c25-4259-bf9b-98988acd0de8")
+			)
+		)
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 132 0 0 1)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+				(color 132 0 0 1)
+			)
+		)
+		(column_widths 13.97 12.7)
+		(row_heights 3.81 3.81 3.81)
+		(cells
+			(table_cell "Vin"
+				(exclude_from_sim no)
+				(at 72.39 68.58 0)
+				(size 13.97 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+					(justify left)
+				)
+				(uuid "988b0334-a82a-4050-a832-43e9593aa9cd")
+			)
+			(table_cell "4V - 6V"
+				(exclude_from_sim no)
+				(at 86.36 68.58 0)
+				(size 12.7 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+					(justify left)
+				)
+				(uuid "51b57a23-7835-4fdd-a02e-f7fa978371bb")
+			)
+			(table_cell "Vout"
+				(exclude_from_sim no)
+				(at 72.39 72.39 0)
+				(size 13.97 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+					(justify left)
+				)
+				(uuid "6540d2fd-49fd-491b-93e8-99ae4fa5e378")
+			)
+			(table_cell "3.3V"
+				(exclude_from_sim no)
+				(at 86.36 72.39 0)
+				(size 12.7 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+					(justify left)
+				)
+				(uuid "1a255138-fbb0-4c68-abcb-9716b2eb05c2")
+			)
+			(table_cell "Iout(max)"
+				(exclude_from_sim no)
+				(at 72.39 76.2 0)
+				(size 13.97 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(color 132 0 0 1)
+					)
+					(justify left)
+				)
+				(uuid "a0c6a086-39d7-41f6-94fb-c8e2366d8794")
+			)
+			(table_cell "300mA"
+				(exclude_from_sim no)
+				(at 86.36 76.2 0)
+				(size 12.7 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -4777,97 +4868,6 @@
 					(justify left top)
 				)
 				(uuid "039b7391-317c-4386-bcde-d6b7b2aed29e")
-			)
-		)
-	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 24.13 6.35)
-		(row_heights 3.81 3.81)
-		(cells
-			(table_cell "Requested Voltage Vd"
-				(exclude_from_sim no)
-				(at 242.57 59.69 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "829f79a6-2607-4dcb-872d-d4583b79d93e")
-			)
-			(table_cell "5V"
-				(exclude_from_sim no)
-				(at 266.7 59.69 0)
-				(size 6.35 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4690741d-a653-44fa-a500-376a4478337a")
-			)
-			(table_cell "Requesed Current I"
-				(exclude_from_sim no)
-				(at 242.57 63.5 0)
-				(size 24.13 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "3ec1c33d-783f-46b4-b6db-112eee7375a8")
-			)
-			(table_cell "2.5A"
-				(exclude_from_sim no)
-				(at 266.7 63.5 0)
-				(size 6.35 3.81)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "0a2fe107-11cf-4c8c-9150-0b3098a0538e")
 			)
 		)
 	)
