@@ -10,6 +10,8 @@ extern osThreadId_t brightnessTaskHandle;
 
 extern TIM_HandleTypeDef htim4;
 
+extern TIM_HandleTypeDef htim16;
+
 void startBrightnessTask(void *argument);
 
 #endif // BRIGHTNESS_TASK_H

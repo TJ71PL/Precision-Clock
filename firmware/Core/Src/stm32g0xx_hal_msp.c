@@ -59,7 +59,7 @@ extern DMA_HandleTypeDef hdma_spi1_tx;
 /* USER CODE END 0 */
 
 void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
-                    /**
+                                        /**
   * Initializes the Global MSP.
   */
 void HAL_MspInit(void)
@@ -86,6 +86,64 @@ void HAL_MspInit(void)
 }
 
 /**
+  * @brief RTC MSP Initialization
+  * This function configures the hardware resources used in this example
+  * @param hrtc: RTC handle pointer
+  * @retval None
+  */
+void HAL_RTC_MspInit(RTC_HandleTypeDef* hrtc)
+{
+  RCC_PeriphCLKInitTypeDef PeriphClkInit = {0};
+  if(hrtc->Instance==RTC)
+  {
+    /* USER CODE BEGIN RTC_MspInit 0 */
+
+    /* USER CODE END RTC_MspInit 0 */
+
+  /** Initializes the peripherals clocks
+  */
+    PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_RTC;
+    PeriphClkInit.RTCClockSelection = RCC_RTCCLKSOURCE_LSE;
+    if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
+    {
+      Error_Handler();
+    }
+
+    /* Peripheral clock enable */
+    __HAL_RCC_RTC_ENABLE();
+    __HAL_RCC_RTCAPB_CLK_ENABLE();
+    /* USER CODE BEGIN RTC_MspInit 1 */
+
+    /* USER CODE END RTC_MspInit 1 */
+
+  }
+
+}
+
+/**
+  * @brief RTC MSP De-Initialization
+  * This function freeze the hardware resources used in this example
+  * @param hrtc: RTC handle pointer
+  * @retval None
+  */
+void HAL_RTC_MspDeInit(RTC_HandleTypeDef* hrtc)
+{
+  if(hrtc->Instance==RTC)
+  {
+    /* USER CODE BEGIN RTC_MspDeInit 0 */
+
+    /* USER CODE END RTC_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_RTC_DISABLE();
+    __HAL_RCC_RTCAPB_CLK_DISABLE();
+    /* USER CODE BEGIN RTC_MspDeInit 1 */
+
+    /* USER CODE END RTC_MspDeInit 1 */
+  }
+
+}
+
+/**
   * @brief SPI MSP Initialization
   * This function configures the hardware resources used in this example
   * @param hspi: SPI handle pointer
@@ -107,7 +165,7 @@ void HAL_SPI_MspInit(SPI_HandleTypeDef* hspi)
     PB3     ------> SPI1_SCK
     PB5     ------> SPI1_MOSI
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_5;
+    GPIO_InitStruct.Pin = DISPLAY_CLK_Pin|DISPLAY_DATA_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
@@ -160,7 +218,7 @@ void HAL_SPI_MspDeInit(SPI_HandleTypeDef* hspi)
     PB3     ------> SPI1_SCK
     PB5     ------> SPI1_MOSI
     */
-    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_3|GPIO_PIN_5);
+    HAL_GPIO_DeInit(GPIOB, DISPLAY_CLK_Pin|DISPLAY_DATA_Pin);
 
     /* SPI1 DMA DeInit */
     HAL_DMA_DeInit(hspi->hdmatx);
@@ -189,7 +247,17 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* htim_base)
     /* USER CODE BEGIN TIM4_MspInit 1 */
 
     /* USER CODE END TIM4_MspInit 1 */
+  }
+  else if(htim_base->Instance==TIM16)
+  {
+    /* USER CODE BEGIN TIM16_MspInit 0 */
 
+    /* USER CODE END TIM16_MspInit 0 */
+    /* Peripheral clock enable */
+    __HAL_RCC_TIM16_CLK_ENABLE();
+    /* USER CODE BEGIN TIM16_MspInit 1 */
+
+    /* USER CODE END TIM16_MspInit 1 */
   }
 
 }
@@ -202,21 +270,41 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* htim)
     /* USER CODE BEGIN TIM4_MspPostInit 0 */
 
     /* USER CODE END TIM4_MspPostInit 0 */
-
     __HAL_RCC_GPIOB_CLK_ENABLE();
     /**TIM4 GPIO Configuration
     PB7     ------> TIM4_CH2
     */
-    GPIO_InitStruct.Pin = GPIO_PIN_7;
+    GPIO_InitStruct.Pin = DISPLAY_BRIGHTNESS_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
     GPIO_InitStruct.Alternate = GPIO_AF9_TIM4;
-    HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+    HAL_GPIO_Init(DISPLAY_BRIGHTNESS_GPIO_Port, &GPIO_InitStruct);
 
     /* USER CODE BEGIN TIM4_MspPostInit 1 */
 
     /* USER CODE END TIM4_MspPostInit 1 */
+  }
+  else if(htim->Instance==TIM16)
+  {
+    /* USER CODE BEGIN TIM16_MspPostInit 0 */
+
+    /* USER CODE END TIM16_MspPostInit 0 */
+
+    __HAL_RCC_GPIOD_CLK_ENABLE();
+    /**TIM16 GPIO Configuration
+    PD0     ------> TIM16_CH1
+    */
+    GPIO_InitStruct.Pin = BUZZER_Pin;
+    GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    GPIO_InitStruct.Alternate = GPIO_AF2_TIM16;
+    HAL_GPIO_Init(BUZZER_GPIO_Port, &GPIO_InitStruct);
+
+    /* USER CODE BEGIN TIM16_MspPostInit 1 */
+
+    /* USER CODE END TIM16_MspPostInit 1 */
   }
 
 }
@@ -238,6 +326,17 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* htim_base)
     /* USER CODE BEGIN TIM4_MspDeInit 1 */
 
     /* USER CODE END TIM4_MspDeInit 1 */
+  }
+  else if(htim_base->Instance==TIM16)
+  {
+    /* USER CODE BEGIN TIM16_MspDeInit 0 */
+
+    /* USER CODE END TIM16_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_TIM16_CLK_DISABLE();
+    /* USER CODE BEGIN TIM16_MspDeInit 1 */
+
+    /* USER CODE END TIM16_MspDeInit 1 */
   }
 
 }

@@ -59,6 +59,16 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define BUZZER_Pin GPIO_PIN_0
+#define BUZZER_GPIO_Port GPIOD
+#define DISPLAY_UPDATE_Pin GPIO_PIN_1
+#define DISPLAY_UPDATE_GPIO_Port GPIOD
+#define DISPLAY_CLK_Pin GPIO_PIN_3
+#define DISPLAY_CLK_GPIO_Port GPIOB
+#define DISPLAY_DATA_Pin GPIO_PIN_5
+#define DISPLAY_DATA_GPIO_Port GPIOB
+#define DISPLAY_BRIGHTNESS_Pin GPIO_PIN_7
+#define DISPLAY_BRIGHTNESS_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

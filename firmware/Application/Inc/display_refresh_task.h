@@ -4,6 +4,7 @@
 
 #include "cmsis_os.h"
 #include "main.h"
+#include "stm32g0xx_hal_rtc.h"
 #include "stm32g0xx_hal_spi.h"
 #include "stm32g0xx_hal_tim.h"
 
@@ -12,6 +13,8 @@
 #define DISPLAY_DATA_TX_CPLT    (uint32_t)0x00000001
 
 extern SPI_HandleTypeDef hspi1;
+
+extern RTC_HandleTypeDef hrtc;
 
 extern osThreadId_t displayRefreshTaskHandle;
 
