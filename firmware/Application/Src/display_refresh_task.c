@@ -1,12 +1,4 @@
 #include "display_refresh_task.h"
-#include "cmsis_os.h"
-#include "cmsis_os2.h"
-#include "stm32g0xx_hal_gpio.h"
-#include "stm32g0xx_hal_rtc.h"
-#include "stm32g0xx_hal_spi.h"
-#include "stm32g0xx_hal_tim.h"
-#include <stdint.h>
-#include <string.h>
 
 /*
  * Segment bit mapping (bit 7 = dot, controlled by writeBuffer):
@@ -41,7 +33,15 @@ void startDisplayRefreshTask(void *argument)
     uint8_t displayBuffer[DISPLAY_SIZE];
 
     RTC_TimeTypeDef currentTime;
+    RTC_DateTypeDef currentDate;
     
+    if (!RTC_IsTimeSet())
+    {
+        // first boot or battery died — set a default, or flag "time invalid"
+        // on the display and wait for the user/UART to set it
+        RTC_SetDateTime(26, RTC_MONTH_OCTOBER, 30, RTC_WEEKDAY_FRIDAY, 12, 0, 0);
+    }
+
     // Initial Display Data
     memset(displayBuffer, 0xFF, sizeof(displayBuffer));
 
@@ -57,27 +57,31 @@ void startDisplayRefreshTask(void *argument)
         // Waiting for the display data transmission to be complete
         osThreadFlagsWait(DISPLAY_DATA_TX_CPLT, osFlagsWaitAny, osWaitForever);
 
+        osDelay(100U);
+
         // Display Update
 
         // Get the current time from the RTC
-        HAL_RTC_GetTime(&hrtc, &currentTime, RTC_FORMAT_BCD);
+        
+        HAL_RTC_GetTime(&hrtc, &currentTime, RTC_FORMAT_BIN);
+        HAL_RTC_GetDate(&hrtc, &currentDate, RTC_FORMAT_BIN); 
 
         uint8_t tensSeconds = currentTime.Seconds / 10U;
-        uint8_t onesSeconds = currentTime.Seconds - tensSeconds;
+        uint8_t onesSeconds = currentTime.Seconds % 10U;
 
         uint8_t tensMinutes = currentTime.Minutes / 10U;
-        uint8_t onesMinutes = currentTime.Minutes - tensMinutes;
+        uint8_t onesMinutes = currentTime.Minutes % 10U;
 
         uint8_t tensHours = currentTime.Hours / 10U;
-        uint8_t onesHours = currentTime.Hours - tensHours;
+        uint8_t onesHours = currentTime.Hours % 10U;
 
-        displayBuffer[0] = seg7NumLut[onesSeconds] & seg7Dot;
+        displayBuffer[0] = seg7NumLut[onesSeconds] | seg7Dot;
         displayBuffer[1] = seg7NumLut[tensSeconds];
 
-        displayBuffer[2] = seg7NumLut[onesMinutes] & seg7Dot;
+        displayBuffer[2] = seg7NumLut[onesMinutes] | seg7Dot;
         displayBuffer[3] = seg7NumLut[tensMinutes];
 
-        displayBuffer[4] = seg7NumLut[onesHours] & seg7Dot;
+        displayBuffer[4] = seg7NumLut[onesHours] | seg7Dot;
         displayBuffer[5] = seg7NumLut[tensHours];
 
         // Setting the load enable high for display data refresh

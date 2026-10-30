@@ -47,6 +47,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
     Application/Src/brightness_task.c
     Application/Src/display_refresh_task.c
+    Application/Src/rtc_time.c
 )
 
 # Add include paths

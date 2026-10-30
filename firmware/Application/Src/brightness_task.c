@@ -14,10 +14,10 @@ void startBrightnessTask(void *argument)
     // Settting the PWM duty cycle
 
     // For now the brightness will be constant 12.5%
-    const uint16_t currentBrightness = maxBrightnessValue / 2U;
+    const uint16_t currentBrightness = 20U;
     const uint16_t buzzerDutyCycle = 1000U / 2U;
 
-    __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, currentBrightness);
+    __HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, maxBrightnessValue - currentBrightness);
     __HAL_TIM_SET_COMPARE(&htim16, TIM_CHANNEL_1, buzzerDutyCycle);
 
     HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
@@ -26,7 +26,7 @@ void startBrightnessTask(void *argument)
 
     for(;;)
     {   
-
+        /*
         if(toggle == 1U)
         {
             HAL_TIM_PWM_Start(&htim16, TIM_CHANNEL_1);
@@ -37,7 +37,7 @@ void startBrightnessTask(void *argument)
             HAL_TIM_PWM_Stop(&htim16, TIM_CHANNEL_1);
             toggle = 1U;
         }
-
+        */
         osDelay(brightnessUpdateRate);
     }
 }

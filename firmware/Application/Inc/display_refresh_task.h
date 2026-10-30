@@ -3,10 +3,16 @@
 #define DISPLAY_REFRESH_TASK_H
 
 #include "cmsis_os.h"
+#include "cmsis_os2.h"
 #include "main.h"
-#include "stm32g0xx_hal_rtc.h"
 #include "stm32g0xx_hal_spi.h"
 #include "stm32g0xx_hal_tim.h"
+#include "stm32g0xx_hal_gpio.h"
+#include "stm32g0xx_hal_rtc.h"
+#include "stm32g0xx_hal_rtc_ex.h"
+#include <stdint.h>
+#include <string.h>
+#include "rtc_time.h"
 
 #define DISPLAY_SIZE            (uint32_t)6U
 
